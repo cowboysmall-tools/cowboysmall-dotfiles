@@ -5,18 +5,17 @@ export PATH=$HOME/.local/bin:$HOME/Bin:$PATH
 export JAVA_HOME=/usr/lib/jvm/java
 
 
+
 #export NLTK_DATA=$HOME/Data/nltk_data
 
 
-#export KUBECONFIG=$KUBECONFIG:$HOME/.kube/config:$HOME/.kube/configs/blite-testing-kubeconfig.yaml:$HOME/.kube/configs/blite-production-kubeconfig.yaml
 
+#export KUBECONFIG=$KUBECONFIG:$HOME/.kube/config:$HOME/.kube/configs/petit-prod-kubeconfig.yaml
 
 
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/jerry/.oh-my-zsh"
-ZITSTATUS_LOG_LEVEL=DEBUG
-
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -89,7 +88,7 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-
+GITSTATUS_LOG_LEVEL=DEBUG
 
 
 
@@ -119,13 +118,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias zshconfig="subl ~/.zshrc"
+alias ohmyzsh="subl ~/.oh-my-zsh"
+
+
 
 source ~/.zshrc.pre-oh-my-zsh
 
 
-#echo
-#figlet Gargantua
-#echo
 
 echo
 hostname | sed 's/.*/\u&/' | figlet
@@ -139,6 +139,8 @@ echo
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
