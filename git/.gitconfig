@@ -1,0 +1,13 @@
+[user]
+	name = Jerry Kiely
+	email = jerry@cowboysmall.com
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	unstage = reset HEAD --
+[core]
+	editor = nano
+[pull]
+	rebase = false
