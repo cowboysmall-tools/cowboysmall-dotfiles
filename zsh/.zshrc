@@ -1,27 +1,16 @@
-
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/Bin:/usr/local/bin:$PATH
-export PATH=$HOME/.local/bin:$HOME/Bin:$PATH
-export JAVA_HOME=/usr/lib/jvm/java
-
-
-
-#export NLTK_DATA=$HOME/Data/nltk_data
-
-
-
-#export KUBECONFIG=$KUBECONFIG:$HOME/.kube/config:$HOME/.kube/configs/petit-prod-kubeconfig.yaml
-
-
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$PATH:$HOME/Bin
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/jerry/.oh-my-zsh"
+export ZSH="/root/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="rootoo"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -76,9 +65,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-
-
-
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -87,10 +73,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-
-GITSTATUS_LOG_LEVEL=DEBUG
-
-
 
 # User configuration
 
@@ -118,30 +100,33 @@ GITSTATUS_LOG_LEVEL=DEBUG
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias zshconfig="subl ~/.zshrc"
-alias ohmyzsh="subl ~/.oh-my-zsh"
-
-
-
 source ~/.zshrc.pre-oh-my-zsh
 
 
+HISTSIZE=10000000
+SAVEHIST=10000000
+
+
+#setopt EXTENDED_HISTORY
+setopt HIST_EXPIRE_DUPS_FIRST
+setopt HIST_IGNORE_DUPS
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_IGNORE_SPACE
+setopt HIST_FIND_NO_DUPS
+setopt HIST_SAVE_NO_DUPS
+#setopt HIST_BEEP
+
+
+# Appends every command to the history file once it is executed
+unsetopt inc_append_history
+# Reloads the history whenever you use it
+unsetopt share_history
+
 
 echo
-hostname | sed 's/.*/\u&/' | figlet
+figlet Root
 echo
 
 echo
 fortune
 echo
-
-
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$SDKMAN_DIR/bin/sdkman-init.sh" ]] && source "$SDKMAN_DIR/bin/sdkman-init.sh"
