@@ -2,15 +2,10 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/Bin:/usr/local/bin:$PATH
 export PATH=$HOME/.local/bin:$HOME/Bin:$PATH
-export JAVA_HOME=/usr/lib/jvm/java
-
-
-
+#export JAVA_HOME=/usr/lib/jvm/java
 #export NLTK_DATA=$HOME/Data/nltk_data
-
-
-
 #export KUBECONFIG=$KUBECONFIG:$HOME/.kube/config:$HOME/.kube/configs/petit-prod-kubeconfig.yaml
+
 
 
 
@@ -92,6 +87,7 @@ GITSTATUS_LOG_LEVEL=DEBUG
 
 
 
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -123,7 +119,9 @@ alias ohmyzsh="subl ~/.oh-my-zsh"
 
 
 
+
 source ~/.zshrc.pre-oh-my-zsh
+
 
 
 
@@ -137,11 +135,20 @@ echo
 
 
 
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
 
 
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$SDKMAN_DIR/bin/sdkman-init.sh" ]] && source "$SDKMAN_DIR/bin/sdkman-init.sh"
+
+
+
+
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
