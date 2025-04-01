@@ -8,7 +8,6 @@ export PATH=$HOME/.local/bin:$HOME/Bin:$PATH
 
 
 
-
 # Path to your oh-my-zsh installation.
 export ZSH="/home/jerry/.oh-my-zsh"
 
@@ -73,7 +72,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 
 
-
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -84,7 +82,6 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 GITSTATUS_LOG_LEVEL=DEBUG
-
 
 
 
@@ -119,9 +116,7 @@ alias ohmyzsh="subl ~/.oh-my-zsh"
 
 
 
-
 source ~/.zshrc.pre-oh-my-zsh
-
 
 
 
@@ -135,20 +130,11 @@ echo
 
 
 
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 
 
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$SDKMAN_DIR/bin/sdkman-init.sh" ]] && source "$SDKMAN_DIR/bin/sdkman-init.sh"
-
-
-
-
-#export NVM_DIR="$HOME/.nvm"
-#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
