@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Minecraft Launcher
+Comment=Official Minecraft Launcher
+Exec=/home/jerry/Apps/minecraft-launcher/minecraft-launcher
+Path=/home/jerry/Apps/minecraft-launcher
+Icon=/home/jerry/Apps/minecraft-launcher/minecraft.png
+Terminal=false
+Categories=Game;Application;
