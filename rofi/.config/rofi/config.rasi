@@ -1,0 +1,36 @@
+
+// @import "./catppuccin/catppuccin-mocha"
+// @theme "./catppuccin/catppuccin-default"
+
+@theme "./themes/dracula"
+// @theme "./themes/murz"
+// @theme "./themes/minimal"
+
+
+configuration {
+    // display-drun: "Launch";
+    // display-window: "Windows";
+
+    font: "JetBrainsMono Nerd Font 12";
+
+    timeout {
+        action: "kb-cancel";
+        delay: 0;
+    }
+
+    filebrowser {
+        directories-first: true;
+        sorting-method: "name";
+    }
+}
+
+
+* {
+}
+
+
+window { 
+    width: 25%;
+    transparency: "real";
+    orientation: vertical;
+}

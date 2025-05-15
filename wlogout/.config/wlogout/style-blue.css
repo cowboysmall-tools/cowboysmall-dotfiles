@@ -1,0 +1,25 @@
+@import url("./themes/mocha/blue.css");
+
+#lock {
+    background-image: url("/home/jerry/.config/wlogout/icons/mocha/blue/lock.svg");
+}
+
+#logout {
+    background-image: url("/home/jerry/.config/wlogout/icons/mocha/blue/logout.svg");
+}
+
+#suspend {
+    background-image: url("/home/jerry/.config/wlogout/icons/mocha/blue/suspend.svg");
+}
+
+#hibernate {
+    background-image: url("/home/jerry/.config/wlogout/icons/mocha/blue/hibernate.svg");
+}
+
+#shutdown {
+    background-image: url("/home/jerry/.config/wlogout/icons/mocha/blue/shutdown.svg");
+}
+
+#reboot {
+    background-image: url("/home/jerry/.config/wlogout/icons/mocha/blue/reboot.svg");
+}

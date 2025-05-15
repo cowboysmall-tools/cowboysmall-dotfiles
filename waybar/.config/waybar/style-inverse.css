@@ -1,0 +1,136 @@
+@import url("./themes/catppuccin/mocha.css");
+
+/*
+background-color: @green;
+background-color: @yellow;
+background-color: @blue;
+background-color: @mauve;
+background-color: @lavender;
+background-color: @sapphire;
+background-color: @maroon;
+*/
+
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 15px;
+  min-height: 0;
+}
+
+#waybar {
+  background: transparent;
+  color: @text;
+  margin: 5px 5px;
+}
+
+
+
+
+
+#workspaces {
+  background-color: @blue;
+  border-radius: 1rem;
+  margin: 5px 0;
+  margin-left: 1rem;
+}
+
+#workspaces button {
+  color: @surface0;
+}
+
+#workspaces button.active {
+  color: @text;
+}
+
+#workspaces button:hover {
+  color: @text;
+}
+
+#workspaces button.urgent {
+  color: @red;
+}
+
+
+
+
+
+#custom-music {
+  background-color: @green;
+  border-radius: 1rem;
+  color: @surface0;
+  margin: 5px 0;
+  padding: 0.5rem 1rem;
+}
+
+
+
+
+
+#pulseaudio,
+#backlight,
+#battery,
+#clock {
+  background-color: @green;
+  color: @surface0;
+  margin: 5px 0;
+  padding: 0.5rem 1rem;
+}
+
+#pulseaudio {
+  border-radius: 1rem 0px 0px 1rem;
+  margin-left: 1rem;
+}
+
+#backlight {
+  border-radius: 0;
+}
+
+#battery {
+  border-radius: 0;
+}
+
+#battery.charging {
+  color: @text;
+}
+
+#battery.warning:not(.charging) {
+  color: @red;
+}
+
+#clock {
+  border-radius: 0px 1rem 1rem 0px;
+  margin-right: 1rem;
+}
+
+
+
+
+
+#tray {
+  background-color: @yellow;
+  border-radius: 1rem;
+  margin: 5px 0;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+
+
+
+
+#custom-lock,
+#custom-power {
+  background-color: @lavender;
+  margin: 5px 0;
+  padding: 0.5rem 1rem;
+}
+
+#custom-lock {
+  border-radius: 1rem 0px 0px 1rem;
+  color: @surface0;
+}
+
+#custom-power {
+  border-radius: 0px 1rem 1rem 0px;
+  color: @surface0;
+  margin-right: 1rem;
+}
