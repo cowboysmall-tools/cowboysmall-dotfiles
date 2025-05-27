@@ -11,15 +11,15 @@ background-color: @maroon;
 */
 
 * {
-  font-family: "JetBrainsMono Nerd Font";
-  font-size: 15px;
+  font-family: "JetBrainsMono Nerd Font Mono";
+  font-size: 10px;
   min-height: 0;
 }
 
 #waybar {
   background: transparent;
   color: @text;
-  margin: 5px 5px;
+  margin: 5px;
 }
 
 
@@ -42,6 +42,7 @@ background-color: @maroon;
 }
 
 #workspaces button:hover {
+  border-radius: 1rem;
   color: @text;
 }
 

@@ -11,7 +11,7 @@ configuration {
     // display-drun: "Launch";
     // display-window: "Windows";
 
-    font: "JetBrainsMono Nerd Font 12";
+    font: "JetBrainsMono Nerd Font Mono 9";
 
     timeout {
         action: "kb-cancel";
