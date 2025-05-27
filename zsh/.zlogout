@@ -1,0 +1,3 @@
+setopt norcs
+
+echo logout
