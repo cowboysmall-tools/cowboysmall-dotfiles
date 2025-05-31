@@ -11,15 +11,15 @@ background-color: @maroon;
 */
 
 * {
-  font-family: "JetBrainsMono Nerd Font";
-  font-size: 15px;
+  font-family: "JetBrainsMono Nerd Font Mono";
+  font-size: 10px;
   min-height: 0;
 }
 
 #waybar {
   background: transparent;
   color: @text;
-  margin: 5px 5px;
+  margin: 5px;
 }
 
 
@@ -29,7 +29,7 @@ background-color: @maroon;
 #workspaces {
   background-color: @surface0;
   border-radius: 1rem;
-  margin: 5px;
+  margin: 5px 0;
   margin-left: 1rem;
 }
 
@@ -71,8 +71,8 @@ background-color: @maroon;
 #battery,
 #clock {
   background-color: @surface0;
-  padding: 0.5rem 1rem;
   margin: 5px 0;
+  padding: 0.5rem 1rem;
 }
 
 #pulseaudio {
