@@ -13,13 +13,13 @@ dnf4 config-manager --set-enabled rpmfusion-nonfree-updates-testing
 dnf group install development-tools
 dnf group install c-development
 
+dnf install rpmconf remove-retired-packages clean-rpm-gpg-pubkey symlinks dracut-config-rescue
+
 # dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda
 # dnf install kmodtool akmods mokutil openssl
 
 # dnf copr enable manciukic/libfprint-tod-goodix
 # dnf install fprintd fprintd-pam libfprint-tod-goodix
-
-# dnf install nm-applet
 
 dnf swap ffmpeg-free ffmpeg --allowerasing
 
@@ -27,8 +27,7 @@ dnf install gnome-tweaks gnome-extensions-app gnome-shell-extension-appindicator
 dnf install figlet fortune-mod fastfetch stow lshw htop btop zsh
 dnf install tmux screen rtorrent neovim
 dnf install mpd mpdris2 ncmpcpp cava
-
-dnf install rpmconf remove-retired-packages clean-rpm-gpg-pubkey symlinks dracut-config-rescue
+dnf install network-manager-applet blueman
 
 dnf config-manager addrepo --from-repofile=https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
 dnf install sublime-text
