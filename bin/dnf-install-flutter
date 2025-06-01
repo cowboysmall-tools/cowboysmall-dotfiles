@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+# Required Packages
+dnf install cmake ninja-build gtk3-devel clang

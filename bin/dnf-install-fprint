@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+# Fingerprint Reader
+dnf copr enable manciukic/libfprint-tod-goodix
+dnf install fprintd fprintd-pam libfprint-tod-goodix

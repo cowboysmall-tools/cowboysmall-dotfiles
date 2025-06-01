@@ -1,12 +1,25 @@
 #!/bin/bash
 
+
+# Repositories
 dnf copr enable solopasha/hyprland
 dnf copr enable pgdev/ghostty
 
+
+# Terminals
 dnf install kitty ghostty
 
+
+# Hyprland
 dnf install hyprland hyprland-devel
 dnf install hypridle hyprlock hyprpaper hyprnome hyprpolkitagent
 dnf install xdg-desktop-portal-hyprland xdg-desktop-portal-gtk
 dnf install rofi waybar wlogout
+
+
+# Browser
 dnf install qutebrowser
+
+
+# Utils
+dnf install network-manager-applet blueman

@@ -1,63 +1,13 @@
 #!/bin/bash
 
-dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
-#dnf config-manager setopt updates-testing.enabled=1
-#dnf config-manager setopt rpmfusion-free-updates-testing.enabled=1
-#dnf config-manager setopt rpmfusion-nonfree-updates-testing.enabled=1
+# Flatpak
+dnf install flatpak
 
-dnf4 config-manager --set-enabled updates-testing
-dnf4 config-manager --set-enabled rpmfusion-free-updates-testing
-dnf4 config-manager --set-enabled rpmfusion-nonfree-updates-testing
 
-dnf copr enable solopasha/hyprland
-dnf copr enable iucar/cran
-dnf copr enable pgdev/ghostty
-#dnf copr enable lihaohong/yazi
-#dnf copr enable atim/lazygit
-#dnf copr enable swayfx/swayfx
-
-dnf install flatpak rpmconf fastfetch htop btop figlet fortune-mod zsh stow
-dnf install kitty ghostty
-dnf install tmux screen rtorrent neovim
-
-dnf install hyprland hyprland-devel
-dnf install hypridle hyprlock hyprpaper hyprnome hyprpolkitagent
-dnf install xdg-desktop-portal-hyprland xdg-desktop-portal-gtk
-dnf install wlogout
-
+# Pipewire
 dnf install pipewire wireplumber
-dnf install mpd ncmpcpp mpdris2 cava
+
+
+# Look and Feel Related
 dnf install papirus-icon-theme nwg-look qt5ct qt6ct
-
-dnf install R R-CoprManager
-dnf install rust cargo clippy rust-src rustfmt
-dnf install golang
-dnf install julia
-
-dnf install texlive-scheme-basic latexmk zathura
-dnf install inkscape gimp
-dnf install qutebrowser
-
-#dnf install /home/jerry/Downloads/Apps/google-chrome-stable_current_x86_64.rpm
-#dnf install /home/jerry/Downloads/Apps/musikcube_3.0.4_linux_x86_64.rpm
-#dnf install /home/jerry/Downloads/Apps/megasync-Fedora_42.x86_64.rpm
-
-#dnf install swayfx
-#dnf install intel-media-driver
-#dnf install qt6-qtquickcontrols2 qt6-qtsvg
-#dnf install ctop
-#dnf install lazydocker
-#dnf install lazygit
-#dnf install atac
-#dnf install gitui
-#dnf install gping
-#dnf install cmus
-#dnf install nnn
-#dnf install yazi
-#dnf install bat
-
-#dnf install texlive-scheme-medium
-#dnf install texlive-scheme-full
-
-#dnf config-manager setopt fedora-cisco-openh264.enabled=1

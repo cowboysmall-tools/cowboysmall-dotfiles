@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+# General Apps
+dnf install obs-studio
+dnf install obs-studio-plugin-vaapi obs-studio-plugin-vkcapture obs-studio-plugin-vlc-video obs-studio-plugin-webkitgtk obs-studio-plugin-x264
+dnf install inkscape gimp
+dnf install vlc
+dnf install mpd mpdris2 ncmpcpp cava
+dnf install rtorrent
+dnf install lollypop

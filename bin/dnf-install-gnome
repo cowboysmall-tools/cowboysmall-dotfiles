@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+# Apps
+dnf install gnome-tweaks gnome-screenshot gnome-extensions-app
+
+
+# Extensions
+dnf install gnome-shell-extension-appindicator gnome-shell-extension-blur-my-shell gnome-shell-extension-just-perfection
+
+
+# Themes
+dnf install adw-gtk3-theme gnome-themes-extra
