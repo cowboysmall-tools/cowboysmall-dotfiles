@@ -1,0 +1,12 @@
+#!/bin/bash
+
+dnf copr enable solopasha/hyprland
+dnf copr enable pgdev/ghostty
+
+dnf install kitty ghostty
+
+dnf install hyprland hyprland-devel
+dnf install hypridle hyprlock hyprpaper hyprnome hyprpolkitagent
+dnf install xdg-desktop-portal-hyprland xdg-desktop-portal-gtk
+dnf install rofi waybar wlogout
+dnf install qutebrowser

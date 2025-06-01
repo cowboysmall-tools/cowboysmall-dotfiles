@@ -1,87 +1,59 @@
-
+!#/bin/bash
 
 dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
+#dnf config-manager setopt updates-testing.enabled=1
+#dnf config-manager setopt rpmfusion-free-updates-testing.enabled=1
+#dnf config-manager setopt rpmfusion-nonfree-updates-testing.enabled=1
+
+dnf4 config-manager --set-enabled updates-testing
+dnf4 config-manager --set-enabled rpmfusion-free-updates-testing
+dnf4 config-manager --set-enabled rpmfusion-nonfree-updates-testing
 
 dnf group install development-tools
 dnf group install c-development
 
-
-
-
 # dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda
 # dnf install kmodtool akmods mokutil openssl
 
-
-
-
-# dnf install 'dnf-command(copr)'
-
-
-
-
-dnf copr enable manciukic/libfprint-tod-goodix
-dnf install fprintd fprintd-pam libfprint-tod-goodix
-
-
-
+# dnf copr enable manciukic/libfprint-tod-goodix
+# dnf install fprintd fprintd-pam libfprint-tod-goodix
 
 # dnf install nm-applet
 
-
-
+dnf swap ffmpeg-free ffmpeg --allowerasing
 
 dnf install gnome-tweaks gnome-extensions-app gnome-shell-extension-appindicator gnome-shell-extension-blur-my-shell gnome-shell-extension-just-perfection
-dnf install figlet fortune-mod neofetch fastfetch stow lshw htop btop util-linux-user zsh
-
+dnf install figlet fortune-mod fastfetch stow lshw htop btop zsh
+dnf install tmux screen rtorrent neovim
+dnf install mpd mpdris2 ncmpcpp cava
 
 dnf install rpmconf remove-retired-packages clean-rpm-gpg-pubkey symlinks dracut-config-rescue
 
-
-
-
-
-
-
-
 dnf config-manager addrepo --from-repofile=https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
 dnf install sublime-text
-
-
-
-
-
-
 
 dnf install obs-studio obs-studio-plugin-vaapi obs-studio-plugin-vkcapture obs-studio-plugin-vlc-video obs-studio-plugin-webkitgtk obs-studio-plugin-x264
 dnf install inkscape gimp vlc lollypop octave megasync gnome-screenshot
 dnf install adw-gtk3-theme gnome-themes-extra
 
-
-
-
-
+# dnf config-manager addrepo --from-repofile=https://download.docker.com/linux/fedora/docker-ce.repo
+# dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 dnf install texlive-scheme-basic
-
-
-dnf config-manager addrepo --from-repofile=https://download.docker.com/linux/fedora/docker-ce.repo
-dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-
+dnf install latexmk zathura
 
 dnf install python3-numpy python3-scipy python3-matplotlib python3-pandas python3-scikit-learn python3-fabric python3-pycodestyle python3-ipython python3-notebook python3-statsmodels
-dnf install python3-seaborn python3-plotly python3-lsp-server python3-yfinance python3-pyasyncore python3-pyasynchat python3-sympy python3-flask+async python3-pyright
-dnf install python3-torch python3-torchvision python3-torchaudio
+dnf install python3-seaborn python3-plotly python3-lsp-server python3-yfinance python3-pyasyncore python3-pyasynchat python3-sympy python3-flask+async 
+# dnf install python3-pyright
+# dnf install python3-torch python3-torchvision python3-torchaudio
 dnf install hatch
 
-
 dnf copr enable iucar/cran
-dnf install R R-CoprManager R-CRAN-plyr R-CRAN-dplyr R-CRAN-readr R-CRAN-data.table R-CRAN-reshape2 R-CRAN-tidyr R-CRAN-car R-CRAN-e1071 R-CRAN-ggplot2 R-CRAN-plotly R-CRAN-languageserver R-CRAN-httpgd
-
+dnf install R R-CoprManager R-CRAN-plyr R-CRAN-dplyr R-CRAN-readr R-CRAN-data.table R-CRAN-reshape2 R-CRAN-tidyr R-CRAN-car R-CRAN-e1071 R-CRAN-ggplot2 R-CRAN-plotly R-CRAN-languageserver 
+# dnf install R-CRAN-httpgd
 
 dnf install golang hugo
 dnf install rust rust-src rustfmt cargo clippy
 dnf install julia
 
-
-dnf install cmake ninja-build gtk3-devel clang
-
+# dnf install cmake ninja-build gtk3-devel clang
