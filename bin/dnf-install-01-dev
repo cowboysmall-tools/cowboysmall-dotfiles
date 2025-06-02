@@ -18,6 +18,7 @@ dnf install hatch
 
 # R
 dnf copr enable iucar/cran
+
 dnf install R
 dnf install R-CoprManager
 dnf install R-CRAN-plyr R-CRAN-dplyr R-CRAN-readr R-CRAN-data.table R-CRAN-reshape2 R-CRAN-tidyr R-CRAN-car R-CRAN-e1071 R-CRAN-ggplot2 R-CRAN-plotly R-CRAN-languageserver

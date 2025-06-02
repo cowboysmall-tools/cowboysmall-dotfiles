@@ -6,13 +6,13 @@ dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(r
 
 
 # Enable Testing Repos
-#dnf config-manager setopt updates-testing.enabled=1
-#dnf config-manager setopt rpmfusion-free-updates-testing.enabled=1
-#dnf config-manager setopt rpmfusion-nonfree-updates-testing.enabled=1
+dnf config-manager setopt updates-testing.enabled=1
+dnf config-manager setopt rpmfusion-free-updates-testing.enabled=1
+dnf config-manager setopt rpmfusion-nonfree-updates-testing.enabled=1
 
-dnf4 config-manager --set-enabled updates-testing
-dnf4 config-manager --set-enabled rpmfusion-free-updates-testing
-dnf4 config-manager --set-enabled rpmfusion-nonfree-updates-testing
+# dnf4 config-manager --set-enabled updates-testing
+# dnf4 config-manager --set-enabled rpmfusion-free-updates-testing
+# dnf4 config-manager --set-enabled rpmfusion-nonfree-updates-testing
 
 
 # FFMPEG
@@ -24,7 +24,7 @@ dnf install zsh
 
 
 # Utils
-dnf install stow lshw htop btop
+dnf install stow lshw btop htop
 
 
 # Terminal Multiplexers
