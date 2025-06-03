@@ -28,6 +28,10 @@ dnf install R-CoprManager
 dnf install R-CRAN-plyr R-CRAN-dplyr R-CRAN-readr R-CRAN-data.table R-CRAN-reshape2 R-CRAN-tidyr R-CRAN-car R-CRAN-e1071 R-CRAN-ggplot2 R-CRAN-plotly R-CRAN-languageserver
 
 
+# Julia
+dnf install julia
+
+
 # Rust
 dnf install rust cargo
 dnf install clippy
@@ -37,10 +41,6 @@ dnf install rust-src rustfmt
 # Go
 dnf install golang
 dnf install hugo
-
-
-# Julia
-dnf install julia
 
 
 # Octave (Scientific Computing)

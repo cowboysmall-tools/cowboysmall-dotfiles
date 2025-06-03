@@ -1,14 +1,40 @@
 # cowboysmall-dotfiles
-Various dotfiles for systems
+
+Various dotfiles for setting up systems - Fedora, Gentoo, NixOS.
 
 
-systemctl --user enable --now hypridle.service
-systemctl --user enable --now waybar.service
-systemctl --user enable --now hyprpaper.service
-systemctl --user enable --now hyprpolkitagent.service
-systemctl --user enable --now mpd.service
-systemctl --user enable --now mpDris2.service
+## Terminal Services
 
+To enable music player daemon, you need to enable the following services: 
+
+
+```
+> systemctl --user enable --now mpd.service
+> systemctl --user enable --now mpDris2.service
+
+```
+
+
+## Hyprland Services
+
+For a functioning Hyprland you will need to enable the following user services: 
+
+
+```
+> systemctl --user enable --now hypridle.service
+> systemctl --user enable --now hyprpaper.service
+> systemctl --user enable --now hyprpolkitagent.service
+> systemctl --user enable --now waybar.service
+
+```
+
+
+## User Services
+
+Example user services:
+
+
+```
 
 > systemctl --user list-units --type=service                                                                           ✔
   UNIT                                                  LOAD   ACTIVE SUB     DESCRIPTION                                          >
@@ -47,3 +73,6 @@ Legend: LOAD   → Reflects whether the unit definition was properly loaded.
 
 28 loaded units listed. Pass --all to see loaded but inactive units, too.
 To show all installed unit files use 'systemctl list-unit-files'.
+
+```
+
