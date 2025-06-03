@@ -5,6 +5,10 @@
 dnf install neovim
 
 
+# Helix
+dnf install helix
+
+
 # Sublime
 dnf config-manager addrepo --from-repofile=https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
 

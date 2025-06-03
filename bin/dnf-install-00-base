@@ -23,7 +23,11 @@ dnf swap ffmpeg-free ffmpeg --allowerasing
 dnf install zsh
 
 
-# Utils
+# User Utils
+dnf install figlet fortune-mod fastfetch
+
+
+# System Utils
 dnf install stow lshw btop htop
 
 
@@ -33,7 +37,3 @@ dnf install tmux screen
 
 # Maintenance
 dnf install rpmconf remove-retired-packages clean-rpm-gpg-pubkey symlinks dracut-config-rescue
-
-
-# User Utils
-dnf install figlet fortune-mod fastfetch

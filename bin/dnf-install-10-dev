@@ -5,6 +5,10 @@ dnf group install development-tools
 dnf group install c-development
 
 
+# LaTex
+dnf install texlive-scheme-basic latexmk zathura
+
+
 # Python
 dnf install python3-numpy python3-pandas python3-matplotlib python3-scipy python3-sympy python3-ipython python3-notebook
 dnf install python3-seaborn python3-plotly
@@ -31,16 +35,13 @@ dnf install rust-src rustfmt
 
 
 # Go
-dnf install golang hugo
+dnf install golang
+dnf install hugo
 
 
 # Julia
 dnf install julia
 
 
-# Octave (Matlab clone)
+# Octave (Scientific Computing)
 dnf install octave
-
-
-# LaTex
-dnf install texlive-scheme-basic latexmk zathura
