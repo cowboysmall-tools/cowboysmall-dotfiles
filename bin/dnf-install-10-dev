@@ -6,7 +6,7 @@ dnf group install c-development
 
 
 # LaTex
-dnf install texlive-scheme-basic latexmk zathura
+dnf install texlive-scheme-basic latexmk zathura zathura-plugins-all
 
 
 # Python
