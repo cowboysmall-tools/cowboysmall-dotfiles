@@ -1,11 +1,12 @@
-# If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.local/bin:$HOME/Bin:$PATH
-# export PATH=$HOME/Bin:/usr/local/bin:$PATH
-
 # export JAVA_HOME=/usr/lib/jvm/java
 # export NLTK_DATA=$HOME/Data/nltk_data
 # export KUBECONFIG=$KUBECONFIG:$HOME/.kube/config:$HOME/.kube/configs/petit-prod-kubeconfig.yaml
+export GOPATH=$HOME/.go
 
+
+# If you come from bash you might have to change your $PATH.
+export PATH=$GOPATH/bin:$HOME/.local/bin:$HOME/Bin:$PATH
+# export PATH=$HOME/Bin:/usr/local/bin:$PATH
 
 
 # Path to your oh-my-zsh installation.
