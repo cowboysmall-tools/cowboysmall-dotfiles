@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+# Flatpak
+dnf install flatpak
+
+
+# Pipewire
+dnf install pipewire wireplumber
+
+
+# Look and Feel Related
+dnf install papirus-icon-theme nwg-look qt5ct qt6ct

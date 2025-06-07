@@ -1,0 +1,31 @@
+#!/bin/bash
+
+
+# Image Editing
+dnf install gimp
+dnf install inkscape
+
+
+# Video
+dnf install vlc
+
+
+# OBS
+dnf install obs-studio
+dnf install obs-studio-plugin-vaapi obs-studio-plugin-vkcapture obs-studio-plugin-vlc-video obs-studio-plugin-webkitgtk obs-studio-plugin-x264
+
+
+# Music Player
+dnf install mpd mpdris2 ncmpcpp cava
+
+
+# Music Player
+dnf install lollypop
+
+
+# Torrent Client
+dnf install rtorrent
+
+
+# Candy
+dnf install cmatrix neo cbonsai asciiquarium

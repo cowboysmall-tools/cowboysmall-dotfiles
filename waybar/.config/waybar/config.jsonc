@@ -47,7 +47,7 @@
 
 
 	"modules-right": [
-		"custom/music",
+		// "custom/music",
 
 		"pulseaudio",
 		"backlight",
