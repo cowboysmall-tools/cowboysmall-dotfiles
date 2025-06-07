@@ -25,3 +25,7 @@ dnf install lollypop
 
 # Torrent Client
 dnf install rtorrent
+
+
+# Candy
+dnf install cmatrix neo cbonsai asciiquarium
