@@ -9,9 +9,7 @@
     "hot_exit": "disabled",
     "ignored_packages":
     [
-        "LSP-pyright",
         "Rust",
-        "SublimeLinter",
         "Vintage",
     ],
     "remember_open_files": false,
