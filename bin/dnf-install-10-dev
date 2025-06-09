@@ -33,9 +33,7 @@ dnf install julia
 
 
 # Rust
-dnf install rust cargo
-dnf install clippy
-dnf install rust-src rustfmt
+dnf install rustup
 
 
 # Go
