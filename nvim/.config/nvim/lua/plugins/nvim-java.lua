@@ -16,7 +16,7 @@ return {
                     runtimes = {
                       {
                         name = "JavaSE-21",
-                        path = "/home/jerry/.sdkman/candidates/java/current",
+                        path = vim.fn.expand("~/.sdkman/candidates/java/current"),
                       },
                     },
                   },
@@ -28,16 +28,16 @@ return {
             jdtls = function()
               -- Your nvim-java configuration goes here
               require("java").setup({
-                -- root_markers = {
-                --   "settings.gradle",
-                --   "settings.gradle.kts",
-                --   "pom.xml",
-                --   "build.gradle",
-                --   "mvnw",
-                --   "gradlew",
-                --   "build.gradle",
-                --   "build.gradle.kts",
-                -- },
+                root_markers = {
+                  "settings.gradle",
+                  "settings.gradle.kts",
+                  "pom.xml",
+                  "build.gradle",
+                  "mvnw",
+                  "gradlew",
+                  "build.gradle",
+                  "build.gradle.kts",
+                },
               })
             end,
           },
