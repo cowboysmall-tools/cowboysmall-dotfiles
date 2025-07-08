@@ -19,7 +19,7 @@
   "nui.nvim": { "branch": "main", "commit": "de740991c12411b663994b2860f1a4fd0937c130" },
   "nvim-autopairs": { "branch": "master", "commit": "23320e75953ac82e559c610bec5a90d9c6dfa743" },
   "nvim-cmp": { "branch": "main", "commit": "b5311ab3ed9c846b585c0c15b7559be131ec4be9" },
-  "nvim-dap": { "branch": "master", "commit": "1c75a797b4017fec6491f509cf196c8c8833f26f" },
+  "nvim-dap": { "branch": "master", "commit": "cc77338e6e34c79f1c638f51ae4160dc9bfb05de" },
   "nvim-java": { "branch": "main", "commit": "7c2e81caa301b0d1bc7992b88981af883b3b5d6b" },
   "nvim-java-core": { "branch": "main", "commit": "401bf7683012a25929a359deec418f36beb876e2" },
   "nvim-java-dap": { "branch": "main", "commit": "55f239532f7a3789d21ea68d1e795abc77484974" },
@@ -33,7 +33,7 @@
   "rustaceanvim": { "branch": "master", "commit": "41d1e845ccbad1670fc32babe7fe7bf512d4ea16" },
   "spring-boot.nvim": { "branch": "main", "commit": "218c0c26c14d99feca778e4d13f5ec3e8b1b60f0" },
   "telescope.nvim": { "branch": "master", "commit": "b4da76be54691e854d3e0e02c36b0245f945c2c7" },
-  "ui": { "branch": "v3.0", "commit": "1d0f035121ae67339c773ec7263dcc5c883cc671" },
+  "ui": { "branch": "v3.0", "commit": "4c632329bf2a745c6e06c2012bcf432eb7af3135" },
   "vimtex": { "branch": "master", "commit": "7f2633027c8f496a85284de0c11aa32f1e07e049" },
   "volt": { "branch": "main", "commit": "7b8c5e790120d9f08c8487dcb80692db6d2087a1" },
   "which-key.nvim": { "branch": "main", "commit": "370ec46f710e058c9c1646273e6b225acf47cbed" }
