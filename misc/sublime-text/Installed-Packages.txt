@@ -12,3 +12,4 @@ Rust Enhanced.sublime-package
 SublimeLinter-flake8.sublime-package
 SublimeLinter.sublime-package
 TOML.sublime-package
+Zig Language.sublime-package
