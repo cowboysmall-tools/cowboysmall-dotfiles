@@ -1,15 +1,30 @@
 Catppuccin color schemes.sublime-package
+Dartlight.sublime-package
+Dockerfile Syntax Highlighting.sublime-package
 FileIcons.sublime-package
 GitGutter.sublime-package
+Gomod.sublime-package
+Julia.sublime-package
+LSP-Dart.sublime-package
+LSP-dockerfile.sublime-package
 LSP-file-watcher-chokidar.sublime-package
+LSP-gopls.sublime-package
+LSP-jdtls.sublime-package
 LSP-json.sublime-package
+LSP-julia.sublime-package
+LSP-lemminx.sublime-package
+LSP-lua.sublime-package
 LSP-pyright.sublime-package
+LSP-R.sublime-package
 LSP-rust-analyzer.sublime-package
 LSP.sublime-package
+LSP-TexLab.sublime-package
 LSP-yaml.sublime-package
 Package Control.sublime-package
 Rust Enhanced.sublime-package
+SublimeLinter-chktex.sublime-package
 SublimeLinter-flake8.sublime-package
 SublimeLinter.sublime-package
+Terminus.sublime-package
 TOML.sublime-package
 Zig Language.sublime-package
