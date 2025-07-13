@@ -1,0 +1,14 @@
+Catppuccin color schemes.sublime-package
+FileIcons.sublime-package
+GitGutter.sublime-package
+LSP-file-watcher-chokidar.sublime-package
+LSP-json.sublime-package
+LSP-pyright.sublime-package
+LSP-rust-analyzer.sublime-package
+LSP.sublime-package
+LSP-yaml.sublime-package
+Package Control.sublime-package
+Rust Enhanced.sublime-package
+SublimeLinter-flake8.sublime-package
+SublimeLinter.sublime-package
+TOML.sublime-package
