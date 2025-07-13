@@ -5,6 +5,7 @@ FileIcons.sublime-package
 GitGutter.sublime-package
 Gomod.sublime-package
 Julia.sublime-package
+LSP-clangd.sublime-package
 LSP-Dart.sublime-package
 LSP-dockerfile.sublime-package
 LSP-file-watcher-chokidar.sublime-package
@@ -23,7 +24,11 @@ LSP-yaml.sublime-package
 Package Control.sublime-package
 Rust Enhanced.sublime-package
 SublimeLinter-chktex.sublime-package
+SublimeLinter-clang.sublime-package
 SublimeLinter-flake8.sublime-package
+SublimeLinter-javac.sublime-package
+SublimeLinter-json.sublime-package
+SublimeLinter-lua.sublime-package
 SublimeLinter.sublime-package
 Terminus.sublime-package
 TOML.sublime-package
