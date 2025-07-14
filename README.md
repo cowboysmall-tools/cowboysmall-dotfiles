@@ -8,7 +8,7 @@ Various dotfiles for setting up systems - Fedora, Gentoo, NixOS.
 To enable music player daemon, you need to enable the following services: 
 
 
-```
+```zsh
 > systemctl --user enable --now mpd.service
 > systemctl --user enable --now mpDris2.service
 
@@ -20,7 +20,7 @@ To enable music player daemon, you need to enable the following services:
 For a functioning Hyprland you will need to enable the following user services: 
 
 
-```
+```zsh
 > systemctl --user enable --now hypridle.service
 > systemctl --user enable --now hyprpaper.service
 > systemctl --user enable --now hyprpolkitagent.service
@@ -34,7 +34,7 @@ For a functioning Hyprland you will need to enable the following user services:
 Example user services:
 
 
-```
+```zsh
 
 > systemctl --user list-units --type=service                                                                           ✔
   UNIT                                                  LOAD   ACTIVE SUB     DESCRIPTION                                          >
