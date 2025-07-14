@@ -5,18 +5,27 @@ dnf group install development-tools
 dnf group install c-development
 
 
+# C / C++
+dnf install clang clang-devel cmake
+
+
 # LaTex
-dnf install texlive-scheme-basic latexmk zathura zathura-plugins-all
+dnf install texlive-scheme-basic texlive-chktex
+dnf install latexmk
+dnf install zathura zathura-plugins-all
 
 
 # Python
 dnf install python3-numpy python3-pandas python3-matplotlib python3-scipy python3-sympy python3-ipython python3-notebook
 dnf install python3-seaborn python3-plotly
-dnf install python3-statsmodels python3-yfinance
+dnf install python3-statsmodels
+dnf install python3-yfinance
 dnf install python3-scikit-learn
 dnf install python3-fabric
 dnf install python3-flask+async
-dnf install python3-lsp-server python3-pycodestyle python3-pyasyncore python3-pyasynchat
+dnf install python3-pyasyncore python3-pyasynchat
+dnf install python3-lsp-server python3-pycodestyle
+dnf install python3-flake8
 dnf install hatch
 
 
@@ -25,7 +34,9 @@ dnf copr enable iucar/cran
 
 dnf install R
 dnf install R-CoprManager
-dnf install R-CRAN-plyr R-CRAN-dplyr R-CRAN-readr R-CRAN-data.table R-CRAN-reshape2 R-CRAN-tidyr R-CRAN-car R-CRAN-e1071 R-CRAN-ggplot2 R-CRAN-plotly R-CRAN-languageserver
+dnf install R-CRAN-plyr R-CRAN-dplyr R-CRAN-readr R-CRAN-data.table R-CRAN-reshape2 R-CRAN-tidyr R-CRAN-car R-CRAN-e1071
+dnf install R-CRAN-ggplot2 R-CRAN-plotly
+dnf install R-CRAN-languageserver
 
 
 # Julia
