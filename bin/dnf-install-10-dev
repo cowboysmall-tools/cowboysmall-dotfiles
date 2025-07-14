@@ -40,10 +40,6 @@ dnf install R-CRAN-ggplot2 R-CRAN-plotly
 dnf install R-CRAN-languageserver
 
 
-# Julia
-dnf install julia
-
-
 # Rust
 dnf install rustup
 
@@ -51,6 +47,18 @@ dnf install rustup
 # Go
 dnf install golang
 dnf install hugo
+
+
+# Zig
+dnf install zig
+
+
+# Lua
+dnf install lua
+
+
+# Julia
+dnf install julia
 
 
 # Octave (Scientific Computing)
