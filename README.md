@@ -48,7 +48,7 @@ Example user services:
   dbus-broker.service                                   loaded active running D-Bus User Message Bus
   dconf.service                                         loaded active running User preferences database
   gvfs-daemon.service                                   loaded active running Virtual filesystem service
-  hypridle.service                                      loaded active running Hyprland's idle daemon
+  hypridle.service                                      loaded active running Hyprland\'s idle daemon
   hyprpaper.service                                     loaded active running Fast, IPC-controlled wallpaper utility for Hyprland.
   hyprpolkitagent.service                               loaded active running Hyprland Polkit Authentication Agent
   mpd.service                                           loaded active running Music Player Daemon
