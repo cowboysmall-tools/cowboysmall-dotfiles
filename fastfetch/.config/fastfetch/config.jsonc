@@ -14,7 +14,7 @@
 
         {
             "type": "custom", // SoftwareStart
-            "format": "────────────── \u001b[1mSoftware\u001b[0m ──────────────" // `\u001b` is `\033`, or `\e`
+            "format": "───────────────────────────── \u001b[1mSoftware\u001b[0m ─────────────────────────────" // `\u001b` is `\033`, or `\e`
         },
         "os",
         "kernel",
@@ -25,11 +25,13 @@
         "wm",
         "theme",
         "icons",
+        "font",
         "terminal",
+        "terminalfont",
 
         {
             "type": "custom", // HardwareStart
-            "format": "────────────── \u001b[1mHardware\u001b[0m ──────────────" // `\u001b` is `\033`, or `\e`
+            "format": "───────────────────────────── \u001b[1mHardware\u001b[0m ─────────────────────────────" // `\u001b` is `\033`, or `\e`
         },
         "host",
         "cpu",
@@ -39,19 +41,19 @@
 
         {
             "type": "custom", // NetworkStart
-            "format": "────────────── \u001b[1mNetwork\u001b[0m ───────────────"
+            "format": "───────────────────────────── \u001b[1mNetwork\u001b[0m ──────────────────────────────"
         },
         "localip",
         "publicip",
 
         {
             "type": "custom", // UptimeStart
-            "format": "────────────── \u001b[1mUptime\u001b[0m ────────────────"
+            "format": "───────────────────────────── \u001b[1mUptime\u001b[0m ───────────────────────────────"
         },
         "uptime",
         {
             "type": "custom", // InformationEnd
-            "format": "──────────────────────────────────────"
+            "format": "────────────────────────────────────────────────────────────────────"
         },
         "break",
 
