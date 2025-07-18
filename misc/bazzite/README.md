@@ -96,6 +96,8 @@ glxinfo | grep "OpenGL renderer"
 
 DRI_PRIME=1 glxinfo | grep "OpenGL renderer" 
 
+__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia glxinfo | grep "OpenGL renderer"
+
 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia __VK_LAYER_NV_optimus=NVIDIA_only __GL_YIELD=USLEEP glxinfo | grep "OpenGL renderer"
 
 
