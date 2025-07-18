@@ -22,7 +22,7 @@ gsettings set org.gnome.desktop.interface accent-color "blue"
 
 ```
 
-hostnamectl set-hostname
+hostnamectl set-hostname <hostname>
 
 ujust toggle-user-motd
 
