@@ -1,0 +1,19 @@
+#!/bin/zsh
+
+echo
+echo
+
+
+## Fedora
+
+
+## Flathub
+
+flatpak install --assumeyes flathub com.gitlab.tipp10.tipp10
+flatpak install --assumeyes flathub io.github.arunsivaramanneo.GPUViewer
+flatpak install --assumeyes flathub org.openrgb.OpenRGB
+flatpak install --assumeyes flathub org.remmina.Remmina
+
+
+echo
+echo

@@ -1,0 +1,37 @@
+#!/bin/zsh
+
+echo
+echo
+
+
+## Fedora
+
+flatpak install --assumeyes fedora com.github.PintaProject.Pinta
+flatpak install --assumeyes fedora org.audacityteam.Audacity
+flatpak install --assumeyes fedora org.musicbrainz.Picard
+
+flatpak install --assumeyes fedora org.gimp.GIMP
+flatpak install --assumeyes fedora org.inkscape.Inkscape
+
+#flatpak install --assumeyes fedora org.blender.Blender
+
+
+## Flathub
+
+flatpak install --assumeyes flathub org.nicotine_plus.Nicotine
+flatpak install --assumeyes flathub org.shotcut.Shotcut
+
+flatpak install --assumeyes flathub com.obsproject.Studio
+flatpak install --assumeyes flathub com.obsproject.Studio.Plugin.Gstreamer
+flatpak install --assumeyes flathub com.obsproject.Studio.Plugin.GStreamerVaapi
+flatpak install --assumeyes flathub com.obsproject.Studio.Plugin.OBSVkCapture
+
+#flatpak install --assumeyes flathub fr.natron.Natron
+#flatpak install --assumeyes flathub io.freetubeapp.FreeTube
+#flatpak install --assumeyes flathub org.freecadweb.FreeCAD
+#flatpak install --assumeyes flathub org.thentrythis.Samplebrain
+#flatpak install --assumeyes flathub re.rizin.cutter
+
+
+echo
+echo
