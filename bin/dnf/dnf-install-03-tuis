@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+# Music Player
+dnf install mpd mpdris2 ncmpcpp cava
+
+
+# Torrent Client
+dnf install rtorrent
+
+
+# Candy
+dnf install cmatrix neo cbonsai asciiquarium

@@ -17,27 +17,16 @@ dnf install zathura zathura-plugins-all
 
 # Python
 dnf install python3-numpy python3-pandas python3-matplotlib python3-scipy python3-sympy python3-ipython python3-notebook
-dnf install python3-seaborn python3-plotly
-dnf install python3-statsmodels
-dnf install python3-yfinance
-dnf install python3-scikit-learn
-dnf install python3-fabric
-dnf install python3-flask+async
-dnf install python3-pyasyncore python3-pyasynchat
-dnf install python3-lsp-server python3-pycodestyle
-dnf install python3-flake8
-dnf install hatch
+dnf install python3-seaborn python3-plotly python3-statsmodels python3-yfinance python3-scikit-learn python3-fabric python3-flask+async
+dnf install python3-pyasyncore python3-pyasynchat python3-lsp-server python3-pycodestyle python3-flake8 hatch
 
 
 # R
 dnf copr enable iucar/cran
 
-dnf install R
-dnf install R-CoprManager
+dnf install R R-CoprManager
 dnf install R-CRAN-plyr R-CRAN-dplyr R-CRAN-readr R-CRAN-data.table R-CRAN-reshape2 R-CRAN-tidyr
-dnf install R-CRAN-car R-CRAN-e1071 R-CRAN-ROCR
-dnf install R-CRAN-ggplot2 R-CRAN-plotly
-dnf install R-CRAN-languageserver
+dnf install R-CRAN-car R-CRAN-e1071 R-CRAN-ROCR R-CRAN-ggplot2 R-CRAN-plotly R-CRAN-languageserver
 
 
 # Rust
@@ -45,8 +34,7 @@ dnf install rustup
 
 
 # Go
-dnf install golang
-dnf install hugo
+dnf install golang hugo
 
 
 # Zig
@@ -59,7 +47,3 @@ dnf install lua
 
 # Julia
 dnf install julia
-
-
-# Octave (Scientific Computing)
-dnf install octave

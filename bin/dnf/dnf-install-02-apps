@@ -16,16 +16,4 @@ dnf install obs-studio-plugin-vaapi obs-studio-plugin-vkcapture obs-studio-plugi
 
 
 # Music Player
-dnf install mpd mpdris2 ncmpcpp cava
-
-
-# Music Player
 dnf install lollypop
-
-
-# Torrent Client
-dnf install rtorrent
-
-
-# Candy
-dnf install cmatrix neo cbonsai asciiquarium

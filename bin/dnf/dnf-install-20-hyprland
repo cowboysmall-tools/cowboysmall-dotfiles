@@ -14,10 +14,7 @@ dnf install ghostty
 # Hyprland
 dnf copr enable solopasha/hyprland
 
-dnf install hyprland hyprland-devel
-dnf install hypridle hyprlock hyprpaper hyprnome hyprpolkitagent
-dnf install xdg-desktop-portal-hyprland xdg-desktop-portal-gtk
-dnf install rofi waybar wlogout
+dnf install hyprland hyprland-devel hypridle hyprlock hyprpaper hyprnome hyprpolkitagent xdg-desktop-portal-hyprland xdg-desktop-portal-gtk rofi waybar wlogout
 
 
 # Browser
