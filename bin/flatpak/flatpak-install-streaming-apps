@@ -1,0 +1,21 @@
+#!/bin/zsh
+
+echo
+echo
+
+
+## Fedora
+
+
+
+
+## Flathub
+
+flatpak install --assumeyes flathub com.obsproject.Studio
+flatpak install --assumeyes flathub com.obsproject.Studio.Plugin.Gstreamer
+flatpak install --assumeyes flathub com.obsproject.Studio.Plugin.GStreamerVaapi
+flatpak install --assumeyes flathub com.obsproject.Studio.Plugin.OBSVkCapture
+
+
+echo
+echo
