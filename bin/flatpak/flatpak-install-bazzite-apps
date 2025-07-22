@@ -1,0 +1,23 @@
+#!/bin/zsh
+
+echo
+echo
+
+
+flatpak install --assumeyes flathub com.belmoussaoui.Authenticator
+flatpak install --assumeyes flathub com.discordapp.Discord
+flatpak install --assumeyes flathub com.heroicgameslauncher.hgl
+flatpak install --assumeyes flathub com.obsproject.Studio
+flatpak install --assumeyes flathub com.spotify.Client
+flatpak install --assumeyes flathub im.riot.Riot
+flatpak install --assumeyes flathub net.retrodeck.retrodeck
+flatpak install --assumeyes flathub org.gnome.Fractal
+flatpak install --assumeyes flathub org.gnome.Podcasts
+flatpak install --assumeyes flathub org.gnome.Lollypop
+flatpak install --assumeyes flathub org.prismlauncher.PrismLauncher
+flatpak install --assumeyes flathub org.telegram.desktop
+flatpak install --assumeyes flathub org.videolan.VLC
+
+
+echo
+echo
