@@ -2,15 +2,15 @@
 
 
 # Image Editing
-dnf install gimp inkscape
+dnf install gimp
+
+
+# Vector Graphics
+dnf install inkscape
 
 
 # Video
 dnf install vlc
-
-
-# OBS
-dnf install obs-studio obs-studio-plugin-vaapi obs-studio-plugin-vkcapture obs-studio-plugin-vlc-video obs-studio-plugin-webkitgtk obs-studio-plugin-x264
 
 
 # Music Player

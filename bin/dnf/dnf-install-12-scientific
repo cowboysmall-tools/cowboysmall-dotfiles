@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+# Octave (MATLAB Clone)
+dnf install octave
