@@ -81,6 +81,7 @@ FileIcons.sublime-package
 GitGutter.sublime-package
 Gomod.sublime-package
 Julia.sublime-package
+LSP.sublime-package
 LSP-clangd.sublime-package
 LSP-Dart.sublime-package
 LSP-dockerfile.sublime-package
@@ -94,17 +95,17 @@ LSP-lua.sublime-package
 LSP-pyright.sublime-package
 LSP-R.sublime-package
 LSP-rust-analyzer.sublime-package
-LSP.sublime-package
 LSP-TexLab.sublime-package
 LSP-yaml.sublime-package
 Package Control.sublime-package
+R-IDE.sublime-package
 Rust Enhanced.sublime-package
+SublimeLinter.sublime-package
 SublimeLinter-chktex.sublime-package
 SublimeLinter-clang.sublime-package
 SublimeLinter-flake8.sublime-package
 SublimeLinter-json.sublime-package
 SublimeLinter-lua.sublime-package
-SublimeLinter.sublime-package
 SyncedSideBar.sublime-package
 Terminus.sublime-package
 TOML.sublime-package
