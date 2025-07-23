@@ -4,26 +4,20 @@ echo
 echo
 
 
-## Fedora
-
-#flatpak install --assumeyes fedora org.octave.Octave
-
-
-## Flatpak
-
 flatpak install --assumeyes flathub com.getpostman.Postman
+# flatpak install --assumeyes flathub com.jetbrains.IntelliJ-IDEA-Community
+# flatpak install --assumeyes flathub com.unity.UnityHub
+
+# flatpak install --assumeyes flathub io.gdevelop.ide
 flatpak install --assumeyes flathub io.podman_desktop.PodmanDesktop
 
+# flatpak install --assumeyes flathub net.blockbench.Blockbench
 
-#flatpak install --assumeyes flathub com.unity.UnityHub
-#flatpak install --assumeyes flathub org.godotengine.Godot
-
-#flatpak install --assumeyes flathub com.jetbrains.IntelliJ-IDEA-Community
-#flatpak install --assumeyes flathub io.gdevelop.ide
-#flatpak install --assumeyes flathub net.blockbench.Blockbench
-#flatpak install --assumeyes flathub org.gnome.Builder
-#flatpak install --assumeyes flathub org.jupyter.JupyterLab
-#flatpak install --assumeyes flathub org.spyder_ide.spyder
+# flatpak install --assumeyes flathub org.gnome.Builder
+# flatpak install --assumeyes flathub org.godotengine.Godot
+# flatpak install --assumeyes flathub org.jupyter.JupyterLab
+# flatpak install --assumeyes flathub org.octave.Octave
+# flatpak install --assumeyes flathub org.spyder_ide.spyder
 
 
 echo

@@ -4,40 +4,32 @@ echo
 echo
 
 
-## Fedora
-
-flatpak install --assumeyes fedora org.gnome.Epiphany
-flatpak install --assumeyes fedora org.gnome.Evolution
-flatpak install --assumeyes fedora org.gnome.Fractal
-flatpak install --assumeyes fedora org.gnome.Lollypop
-
-flatpak install --assumeyes fedora com.github.jeromerobert.pdfarranger
-flatpak install --assumeyes fedora com.github.johnfactotum.Foliate
-flatpak install --assumeyes fedora com.github.rafostar.Clapper
-flatpak install --assumeyes fedora com.github.tchx84.Flatseal
-
-flatpak install --assumeyes fedora org.videolan.VLC
-
-#flatpak install --assumeyes fedora org.mozilla.Thunderbird
-
-
-## Flathub
-
 flatpak install --assumeyes flathub com.belmoussaoui.Authenticator
 flatpak install --assumeyes flathub com.discordapp.Discord
+flatpak install --assumeyes flathub com.github.jeromerobert.pdfarranger
+flatpak install --assumeyes flathub com.github.johnfactotum.Foliate
+flatpak install --assumeyes flathub com.github.rafostar.Clapper
+flatpak install --assumeyes flathub com.github.tchx84.Flatseal
 flatpak install --assumeyes flathub com.slack.Slack
 flatpak install --assumeyes flathub com.spotify.Client
 flatpak install --assumeyes flathub com.wire.WireDesktop
 
 flatpak install --assumeyes flathub im.dino.Dino
 flatpak install --assumeyes flathub im.riot.Riot
+
 flatpak install --assumeyes flathub io.github.realmazharhussain.GdmSettings
 flatpak install --assumeyes flathub io.github.getnf.embellish
 flatpak install --assumeyes flathub io.gitlab.news_flash.NewsFlash
 
+flatpak install --assumeyes flathub org.gnome.Epiphany
+flatpak install --assumeyes flathub org.gnome.Evolution
+flatpak install --assumeyes flathub org.gnome.Fractal
+flatpak install --assumeyes flathub org.gnome.Lollypop
 flatpak install --assumeyes flathub org.gnome.Podcasts
+# flatpak install --assumeyes flathub org.mozilla.Thunderbird
 flatpak install --assumeyes flathub org.signal.Signal
 flatpak install --assumeyes flathub org.telegram.desktop
+flatpak install --assumeyes flathub org.videolan.VLC
 
 flatpak install --assumeyes flathub page.tesk.Refine
 
