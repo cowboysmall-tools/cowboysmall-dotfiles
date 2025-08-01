@@ -57,7 +57,11 @@
         },
         "break",
 
-        "colors",
+        // "colors",
+        {
+            "type": "colors",
+            "symbol": "circle"
+        },
         "break",
         "break"
     ]
