@@ -36,8 +36,8 @@ Example user services:
 
 ```zsh
 
-> systemctl --user list-units --type=service                                                                           ✔
-  UNIT                                                  LOAD   ACTIVE SUB     DESCRIPTION                                          >
+> systemctl --user list-units --type=service
+  UNIT                                                  LOAD   ACTIVE SUB     DESCRIPTION
   app-blueman@autostart.service                         loaded active running Blueman Applet
   app-geoclue\x2ddemo\x2dagent@autostart.service        loaded active running Geoclue Demo agent
   app-nm\x2dapplet@autostart.service                    loaded active running NetworkManager Applet
@@ -56,10 +56,10 @@ Example user services:
   pipewire-pulse.service                                loaded active running PipeWire PulseAudio
   pipewire.service                                      loaded active running PipeWire Multimedia Service
   systemd-tmpfiles-setup.service                        loaded active exited  Create User Files and Directories
-  waybar.service                                        loaded active running Highly customizable Wayland bar for Sway and Wlroots >
+  waybar.service                                        loaded active running Highly customizable Wayland bar for Sway and Wlroots
   wayland-session-bindpid@1206.service                  loaded active running Bind graphical session to PID 1206
-  wayland-wm-env@hyprland.desktop.service               loaded active exited  Environment preloader for Hyprland, An intelligent dy>
-  wayland-wm@hyprland.desktop.service                   loaded active running Main service for Hyprland, An intelligent dynamic til>
+  wayland-wm-env@hyprland.desktop.service               loaded active exited  Environment preloader for Hyprland, An intelligent dy
+  wayland-wm@hyprland.desktop.service                   loaded active running Main service for Hyprland, An intelligent dynamic til
   wireplumber.service                                   loaded active running Multimedia Service Session Manager
   xdg-desktop-portal-gtk.service                        loaded active running Portal service (GTK/GNOME implementation)
   xdg-desktop-portal-hyprland.service                   loaded active running Portal service (Hyprland implementation)
