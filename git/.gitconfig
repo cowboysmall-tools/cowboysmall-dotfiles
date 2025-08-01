@@ -10,4 +10,4 @@
 [core]
 	editor = nano
 [pull]
-	rebase = false
+	rebase = true
