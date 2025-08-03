@@ -20,7 +20,7 @@
   "nvim-autopairs": { "branch": "master", "commit": "23320e75953ac82e559c610bec5a90d9c6dfa743" },
   "nvim-cmp": { "branch": "main", "commit": "b5311ab3ed9c846b585c0c15b7559be131ec4be9" },
   "nvim-dap": { "branch": "master", "commit": "a479e25ed5b5d331fb46ee4b9e160ff02ac64310" },
-  "nvim-lspconfig": { "branch": "master", "commit": "d0dbf489a8810672fa9a61f4a86e5cf89214b772" },
+  "nvim-lspconfig": { "branch": "master", "commit": "63a38440989c58e1f100373ab603fd24665bdc9a" },
   "nvim-tree.lua": { "branch": "master", "commit": "65bae449224b8a3bc149471b96587b23b13a9946" },
   "nvim-treesitter": { "branch": "master", "commit": "42fc28ba918343ebfd5565147a42a26580579482" },
   "nvim-web-devicons": { "branch": "master", "commit": "3362099de3368aa620a8105b19ed04c2053e38c0" },
@@ -28,7 +28,7 @@
   "rustaceanvim": { "branch": "master", "commit": "7f4b28a888340c7658e3f95a965cee67f29f9a23" },
   "telescope.nvim": { "branch": "master", "commit": "b4da76be54691e854d3e0e02c36b0245f945c2c7" },
   "ui": { "branch": "v3.0", "commit": "dc4950f5bd4117e2da108b681506c908b93d4a62" },
-  "vimtex": { "branch": "master", "commit": "7f2633027c8f496a85284de0c11aa32f1e07e049" },
+  "vimtex": { "branch": "master", "commit": "2526ed113a43c1f18346a17e752f9d94265a3445" },
   "volt": { "branch": "main", "commit": "7b8c5e790120d9f08c8487dcb80692db6d2087a1" },
   "which-key.nvim": { "branch": "main", "commit": "370ec46f710e058c9c1646273e6b225acf47cbed" }
 }
