@@ -33,7 +33,17 @@ return {
         "vimdoc",
         "html",
         "css",
+
+        "c",
         "cpp",
+        "dart",
+        "go",
+        "java",
+        "latex",
+        "python",
+        "r",
+        "rust",
+        "zig"
   		},
   	},
   },
