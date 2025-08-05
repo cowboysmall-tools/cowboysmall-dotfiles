@@ -40,11 +40,15 @@ return {
         "go",
         "java",
         "latex",
+        "markdown",
         "python",
         "r",
+        "rnoweb",
         "rust",
+        "toml",
+        "yaml",
         "zig"
   		},
   	},
-  },
+  }
 }
