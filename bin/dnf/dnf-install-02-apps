@@ -1,17 +1,7 @@
 #!/bin/bash
 
 
-# Image Editing
-dnf install gimp
-
-
-# Vector Graphics
-dnf install inkscape
-
-
-# Video
-dnf install vlc
-
-
-# Music Player
-dnf install lollypop
+dnf install gimp \
+    inkscape \
+    vlc \
+    lollypop

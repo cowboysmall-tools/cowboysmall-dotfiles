@@ -10,23 +10,7 @@ dnf install clang clang-devel cmake CUnit CUnit-devel
 
 
 # LaTex
-dnf install texlive-scheme-basic texlive-chktex
-dnf install latexmk
-dnf install zathura zathura-plugins-all
-
-
-# Python
-dnf install python3-numpy python3-pandas python3-matplotlib python3-scipy python3-sympy python3-ipython python3-notebook
-dnf install python3-seaborn python3-plotly python3-statsmodels python3-yfinance python3-scikit-learn python3-fabric python3-flask+async
-dnf install python3-pyasyncore python3-pyasynchat python3-lsp-server python3-pycodestyle python3-flake8 hatch
-
-
-# R
-dnf copr enable iucar/cran
-
-dnf install R R-CoprManager
-dnf install R-CRAN-plyr R-CRAN-dplyr R-CRAN-readr R-CRAN-data.table R-CRAN-reshape2 R-CRAN-tidyr
-dnf install R-CRAN-car R-CRAN-e1071 R-CRAN-ROCR R-CRAN-ggplot2 R-CRAN-plotly R-CRAN-languageserver
+dnf install texlive-scheme-basic texlive-chktex latexmk zathura zathura-plugins-all
 
 
 # Rust
@@ -47,3 +31,11 @@ dnf install lua
 
 # Julia
 dnf install julia
+
+
+# GTK4
+dnf install gtk4 gtk4-devel
+
+
+# Graphene
+dnf install graphene graphene-devel

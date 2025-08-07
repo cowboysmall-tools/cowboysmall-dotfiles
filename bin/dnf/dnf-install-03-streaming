@@ -2,4 +2,7 @@
 
 
 # OBS
-dnf install obs-studio obs-studio-plugin-vaapi obs-studio-plugin-vkcapture obs-studio-plugin-vlc-video obs-studio-plugin-webkitgtk obs-studio-plugin-x264
+dnf install obs-studio \
+    obs-studio-plugin-vaapi obs-studio-plugin-vkcapture \
+    obs-studio-plugin-vlc-video obs-studio-plugin-webkitgtk \
+    obs-studio-plugin-x264
