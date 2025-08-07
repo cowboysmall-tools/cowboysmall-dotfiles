@@ -28,7 +28,9 @@
         ".Trash",
         ".Trash-*",
         ".settings",
-        ".vscode"
+        ".idea",
+        ".vscode",
+        ".mvn"
     ],
     "file_exclude_patterns":
     [
