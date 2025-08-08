@@ -8,7 +8,12 @@ return {
     dependencies = {
       {
         "mason-org/mason.nvim",
-        opts = {}
+        opts = {
+          registries = {
+            "github:nvim-java/mason-registry",
+            "github:mason-org/mason-registry",
+          },
+        }
       },
       "neovim/nvim-lspconfig",
     },
