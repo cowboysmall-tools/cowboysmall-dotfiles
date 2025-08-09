@@ -9,14 +9,14 @@ return {
         -- Your custom jdtls settings goes here
 
         root_markers = {
-          -- "build.gradle",
-          -- "build.gradle.kts",
-          -- "gradlew",
+          ".git",
+          -- "mvnw",
           -- "pom.xml",
+          -- "gradlew",
           -- "settings.gradle",
           -- "settings.gradle.kts",
-          "mvnw",
-          ".git",
+          -- "build.gradle",
+          -- "build.gradle.kts",
         },
 
         -- jdtls = {
