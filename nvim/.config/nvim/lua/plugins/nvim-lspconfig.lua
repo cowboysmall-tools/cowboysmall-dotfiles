@@ -8,17 +8,16 @@ return {
 
         -- Your custom jdtls settings goes here
 
-        -- root_markers = {
-        --   "settings.gradle",
-        --   "settings.gradle.kts",
-        --   "pom.xml",
-        --   "build.gradle",
-        --   "mvnw",
-        --   "gradlew",
-        --   "build.gradle",
-        --   "build.gradle.kts",
-        --   ".git",
-        -- },
+        root_markers = {
+          -- "build.gradle",
+          -- "build.gradle.kts",
+          -- "gradlew",
+          -- "pom.xml",
+          -- "settings.gradle",
+          -- "settings.gradle.kts",
+          "mvnw",
+          ".git",
+        },
 
         -- jdtls = {
         --   enable = false,
