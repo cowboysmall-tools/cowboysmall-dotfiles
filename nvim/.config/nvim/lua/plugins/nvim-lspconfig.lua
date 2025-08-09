@@ -2,7 +2,6 @@ return {
 
   {
     "neovim/nvim-lspconfig",
-
     config = function()
 
       require('java').setup({
@@ -22,7 +21,7 @@ return {
         -- },
 
         -- jdtls = {
-        --   enable = true,
+        --   enable = false,
         -- },
 
         -- lombok = {
@@ -37,9 +36,9 @@ return {
         --   enable = false,
         -- },
 
-        spring_boot_tools = {
-          enable = false,
-        },
+        -- spring_boot_tools = {
+        --   enable = false,
+        -- },
 
         -- jdk = {
         --   auto_install = false,
