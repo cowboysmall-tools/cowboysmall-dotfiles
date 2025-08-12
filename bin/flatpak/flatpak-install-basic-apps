@@ -25,7 +25,7 @@ flatpak install --assumeyes flathub io.gitlab.news_flash.NewsFlash
 flatpak install --assumeyes flathub org.gnome.Epiphany
 flatpak install --assumeyes flathub org.gnome.Evolution
 flatpak install --assumeyes flathub org.gnome.Fractal
-flatpak install --assumeyes flathub org.gnome.Lollypop
+#flatpak install --assumeyes flathub org.gnome.Lollypop
 flatpak install --assumeyes flathub org.gnome.Podcasts
 # flatpak install --assumeyes flathub org.mozilla.Thunderbird
 flatpak install --assumeyes flathub org.signal.Signal
