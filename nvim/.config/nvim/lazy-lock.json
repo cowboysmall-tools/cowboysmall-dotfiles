@@ -45,5 +45,6 @@
   "vimtex": { "branch": "master", "commit": "2b1ca6635dd419d485162c9debd4866fab662cad" },
   "volt": { "branch": "main", "commit": "7b8c5e790120d9f08c8487dcb80692db6d2087a1" },
   "which-key.nvim": { "branch": "main", "commit": "370ec46f710e058c9c1646273e6b225acf47cbed" },
-  "zig-lamp": { "branch": "main", "commit": "ee697fdde03228607a210a910204b1e3ea07fd74" }
+  "zig-lamp": { "branch": "main", "commit": "ee697fdde03228607a210a910204b1e3ea07fd74" },
+  "zig.vim": { "branch": "master", "commit": "f65ae7a570b71d7a7aa4978ff9ac327e04a36e1e" }
 }
