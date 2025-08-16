@@ -38,9 +38,29 @@ autocmd("BufDelete", {
 })
 
 
+
+  -- Format on save using Black
+
+  -- local py_format = vim.api.nvim_create_augroup("PyFormat", {})
+
+  -- autocmd("BufWritePre", {
+
+  --   pattern = "*.py",
+
+  --   callback = function()
+  --     -- vim.lsp.buf.formatting_sync()
+  --     -- vim.lsp.buf.format({ bufnr = bufnr })
+  --     -- vim.lsp.buf.format({})
+  --     vim.cmd("!black --quiet %")
+  --   end,
+
+  --   group = py_format,
+  -- })
+
+
 -- Go Auto Commands
 
-local format_sync_grp = vim.api.nvim_create_augroup("GoFormat", {})
+local go_format = vim.api.nvim_create_augroup("GoFormat", {})
 
 autocmd("BufWritePre", {
 
@@ -50,6 +70,6 @@ autocmd("BufWritePre", {
     require('go.format').goimports()
   end,
 
-  group = format_sync_grp,
+  group = go_format,
 
 })
