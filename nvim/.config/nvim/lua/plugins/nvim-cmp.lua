@@ -2,6 +2,7 @@ return {
 
   {
     "hrsh7th/nvim-cmp",
+
     config = function(_, opts)
       local cmp = require("cmp")
 
@@ -18,4 +19,5 @@ return {
       cmp.setup(opts)
     end,
   }
+
 }

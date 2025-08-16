@@ -9,17 +9,17 @@ require("lspconfig").jdtls.setup({
 
   -- Your custom nvim-java configuration goes here
 
-  settings = {
-    java = {
-      configuration = {
-        runtimes = {
-          {
-            name = "JavaSE-21",
-            path = "/home/jerry/.sdkman/candidates/java/current",
-            default = true,
-          },
-        },
-      },
-    },
-  },
+  -- settings = {
+  --   java = {
+  --     configuration = {
+  --       runtimes = {
+  --         {
+  --           name = "JavaSE-21",
+  --           path = "/home/jerry/.sdkman/candidates/java/current",
+  --           default = true,
+  --         },
+  --       },
+  --     },
+  --   },
+  -- },
 })

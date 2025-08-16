@@ -2,6 +2,7 @@ return {
 
   {
     "neovim/nvim-lspconfig",
+
     config = function()
 
       require('java').setup({
@@ -17,5 +18,6 @@ return {
       require "configs.lspconfig"
 
     end,
-  },
+  }
+
 }

@@ -3,11 +3,13 @@ return {
   {
     "p00f/clangd_extensions.nvim",
     lazy = false,
-    config = function() end,
+
     opts = {
+
       inlay_hints = {
         inline = false,
       },
+
       ast = {
         --These require codicons (https://github.com/microsoft/vscode-codicons)
         role_icons = {
@@ -18,6 +20,7 @@ return {
           statement = "",
           ["template argument"] = "",
         },
+
         kind_icons = {
           Compound = "",
           Recovery = "",
@@ -29,6 +32,10 @@ return {
         },
       },
     },
+
+    config = function()
+      --
+    end,
   }
 
 }
