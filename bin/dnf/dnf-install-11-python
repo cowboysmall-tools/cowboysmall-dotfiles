@@ -4,11 +4,10 @@
 dnf install \
     python3-numpy python3-pandas python3-matplotlib python3-scipy python3-sympy python3-ipython python3-notebook \
     python3-seaborn python3-plotly \
-    python3-statsmodels \
+    python3-scikit-learn python3-statsmodels \
     python3-yfinance \
-    python3-scikit-learn \
     python3-fabric \
     python3-flask+async \
-    python3-lsp-server python3-pycodestyle python3-flake8 \
+    python3-lsp-server python3-pycodestyle python3-flake8 python3-mypy \
     python3-pyasyncore python3-pyasynchat \
-    hatch
+    hatch uv ruff
