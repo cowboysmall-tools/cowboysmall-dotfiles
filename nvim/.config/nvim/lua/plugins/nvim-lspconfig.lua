@@ -3,9 +3,16 @@ return {
   {
     "neovim/nvim-lspconfig",
 
+    -- opts = {
+    --   inlay_hints = {
+    --     -- enabled = true,
+    --     exclude = { "java" }, -- filetypes for which you don't want to enable inlay hints
+    --   },
+    -- },
+
     config = function()
 
-      require('java').setup({
+      require("java").setup({
 
         -- Your custom jdtls settings goes here
         root_markers = { "mvnw", "gradlew", ".git" },
@@ -15,7 +22,7 @@ return {
         -- root_dir = vim.fn.getcwd(),
       })
 
-      require "configs.lspconfig"
+      require("configs.lspconfig")
 
     end,
   }
