@@ -22,15 +22,19 @@ require("lspconfig").jdtls.setup({
         },
       },
 
+      format = { enabled = false },
+
       -- format = {
-      --   settings = { url = "/home/jerry/.config/nvim/java-formatter-settings.xml" }
+      --   enabled = true,
+      --   settings = {
+      --     profile = "IntelliJ",
+      --     url = "/home/jerry/.config/nvim/java-formatter-settings.xml",
+      --   },
       -- },
 
-      -- inlay_hints = {
-      --   enabled = false,
-      --   -- exclude = { "java" }, -- filetypes for which you don't want to enable inlay hints
-      -- },
-
+      -- signatureHelp = { enabled = true },
+      -- inlayHints = { parameterNames = { enabled = "all" } },
+      -- inlayHints = { parameterNames = { enabled = "all" } },
     }
   }
 

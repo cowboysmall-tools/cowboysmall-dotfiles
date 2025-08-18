@@ -3,13 +3,6 @@ return {
   {
     "neovim/nvim-lspconfig",
 
-    -- opts = {
-    --   inlay_hints = {
-    --     -- enabled = true,
-    --     exclude = { "java" }, -- filetypes for which you don't want to enable inlay hints
-    --   },
-    -- },
-
     config = function()
 
       require("java").setup({
