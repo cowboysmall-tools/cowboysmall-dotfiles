@@ -6,8 +6,8 @@ return {
     opts = {
       view = {
         width = 50
-      },
-    },
+      }
+    }
   }
 
 }

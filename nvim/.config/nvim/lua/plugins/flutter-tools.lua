@@ -6,12 +6,12 @@ return {
 
     dependencies = {
         "nvim-lua/plenary.nvim",
-        "stevearc/dressing.nvim", -- optional for vim.ui.select
+        "stevearc/dressing.nvim" -- optional for vim.ui.select
     },
 
     config = function()
       require("flutter-tools").setup({})
-    end,
+    end
   }
 
 }

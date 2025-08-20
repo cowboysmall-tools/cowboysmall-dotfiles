@@ -3,7 +3,7 @@ return {
   {
     "stevearc/conform.nvim",
     event = 'BufWritePre', -- uncomment for format on save
-    opts = require("configs.conform"),
+    opts = require("configs.conform")
   },
 
 
@@ -11,7 +11,7 @@ return {
   -- { import = "nvchad.blink.lazyspec" },
 
   {
-    "mfussenegger/nvim-dap",
+    "mfussenegger/nvim-dap"
   },
 
 
@@ -39,8 +39,8 @@ return {
         "toml",
         "yaml",
         "zig"
-  		},
-  	},
+  		}
+  	}
   }
 
 }

@@ -19,7 +19,7 @@ return {
           expression = "",
           specifier = "",
           statement = "",
-          ["template argument"] = "",
+          ["template argument"] = ""
         },
 
         kind_icons = {
@@ -29,14 +29,14 @@ return {
           PackExpansion = "",
           TemplateTypeParm = "",
           TemplateTemplateParm = "",
-          TemplateParamObject = "",
-        },
-      },
+          TemplateParamObject = ""
+        }
+      }
     },
 
     config = function()
       --
-    end,
+    end
   }
 
 }

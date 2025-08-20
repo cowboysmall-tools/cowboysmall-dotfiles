@@ -9,7 +9,7 @@ return {
     dependencies = {  -- optional packages
       "ray-x/guihua.lua",
       "neovim/nvim-lspconfig",
-      "nvim-treesitter/nvim-treesitter",
+      "nvim-treesitter/nvim-treesitter"
     },
 
     opts = {
@@ -29,10 +29,9 @@ return {
         callback = function()
           require('go.format').goimports()
         end,
-        group = format_sync_grp,
+        group = format_sync_grp
       })
-
-    end,
+    end
   }
 
 }

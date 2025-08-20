@@ -7,11 +7,10 @@ return {
 
     dependencies = {
       "neovim/nvim-lspconfig",
-      "nvim-lua/plenary.nvim",
+      "nvim-lua/plenary.nvim"
     },
 
     init = function()
-
       -- Configuration options (all optional)
 
       -- Timeout in milliseconds for automatic ZLS installation
@@ -28,7 +27,7 @@ return {
       -- UI customization
       vim.g.zig_lamp_pkg_help_fg = "#CF5C00"
       vim.g.zig_lamp_zig_fetch_timeout = 5000
-    end,
+    end
   }
 
 }

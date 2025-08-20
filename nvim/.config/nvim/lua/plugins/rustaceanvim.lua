@@ -8,10 +8,12 @@ return {
     ["rust-analyzer"] = {
       cargo = {
         allFeatures = true,
-      },
+      }
     },
-    -- config = function()
-    -- end
+
+    config = function()
+      --
+    end
   }
 
 }

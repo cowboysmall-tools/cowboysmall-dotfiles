@@ -7,7 +7,7 @@ return {
 
       registries = {
         "github:nvim-java/mason-registry",
-        "github:mason-org/mason-registry",
+        "github:mason-org/mason-registry"
       },
 
       ensure_installed = {
@@ -23,8 +23,8 @@ return {
         "prettier",
         "pyright",
         "rust-analyzer",
-        "spring-boot-tools",
-      },
+        "spring-boot-tools"
+      }
     }
   }
 

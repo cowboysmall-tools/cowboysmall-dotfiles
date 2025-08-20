@@ -2,7 +2,7 @@ return {
 
   {
     "ziglang/zig.vim",
-    lazy = false,
+    lazy = false
   }
 
 }
