@@ -40,7 +40,7 @@ require("lspconfig").jdtls.setup({
       },
 
       inlayHints = {
-        enabled = false
+        enable = false
       }
 
     }
