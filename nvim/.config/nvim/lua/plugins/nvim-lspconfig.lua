@@ -10,9 +10,6 @@ return {
         -- Your custom jdtls settings goes here
         root_markers = { "mvnw", "gradlew", ".git" },
 
-        -- this approach does not seem to work
-        -- root_dir = vim.loop.cwd(),
-        -- root_dir = vim.fn.getcwd(),
       })
 
       require("configs.lspconfig")

@@ -8,7 +8,6 @@ vim.lsp.enable(servers)
 require("lspconfig").jdtls.setup({
 
   -- Your custom nvim-java configuration goes here
-
   settings = {
     java = {
 
@@ -22,7 +21,7 @@ require("lspconfig").jdtls.setup({
         },
       },
 
-      format = { enabled = false },
+      -- The formatting file is read, but the contents are ignored...
 
       -- format = {
       --   enabled = true,
@@ -32,9 +31,18 @@ require("lspconfig").jdtls.setup({
       --   },
       -- },
 
-      -- signatureHelp = { enabled = true },
-      -- inlayHints = { parameterNames = { enabled = "all" } },
-      -- inlayHints = { parameterNames = { enabled = "all" } },
+      format = {
+        enabled = false
+      },
+
+      signatureHelp = {
+        enabled = false
+      },
+
+      inlayHints = {
+        enabled = false
+      }
+
     }
   }
 
