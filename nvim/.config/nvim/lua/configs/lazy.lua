@@ -40,8 +40,8 @@ return {
         "optwin",
         "compiler",
         "bugreport",
-        "ftplugin",
-      },
-    },
-  },
+        "ftplugin"
+      }
+    }
+  }
 }

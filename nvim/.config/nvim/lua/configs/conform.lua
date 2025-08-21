@@ -1,4 +1,4 @@
-local options = {
+return {
   formatters_by_ft = {
     lua = { "stylua" },
     css = { "prettier" },
@@ -14,7 +14,7 @@ local options = {
     c = { "clang-format" },
     cpp = { "clang-format" },
     python = { "isort", "black" },
-    rust = { "rustfmt" },
+    rust = { "rustfmt" }
 
     -- go = { "goimports", "gofmt" },
     -- java = { "google-java-format" },
@@ -24,8 +24,6 @@ local options = {
     -- These options will be passed to conform.format()
     timeout_ms = 500,
     lsp_fallback = true,
-    async = false,
-  },
+    async = false
+  }
 }
-
-return options

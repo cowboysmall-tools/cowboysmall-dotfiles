@@ -9,7 +9,7 @@
   "cmp-nvim-lsp": { "branch": "main", "commit": "bd5a7d6db125d4654b50eeae9f5217f24bb22fd3" },
   "cmp-nvim-lua": { "branch": "main", "commit": "f12408bdb54c39c23e67cab726264c10db33ada8" },
   "cmp_luasnip": { "branch": "master", "commit": "98d9cb5c2c38532bd9bdb481067b20fea8f32e90" },
-  "conform.nvim": { "branch": "master", "commit": "f64236f801e4df514cdf22c3c57fe5c3f3bc9ed8" },
+  "conform.nvim": { "branch": "master", "commit": "9ddab4e14c44196d393a72b958b4da6dab99ecef" },
   "dressing.nvim": { "branch": "master", "commit": "2d7c2db2507fa3c4956142ee607431ddb2828639" },
   "flutter-tools.nvim": { "branch": "main", "commit": "65b7399804315a1160933b64292d3c5330aa4e9f" },
   "friendly-snippets": { "branch": "main", "commit": "572f5660cf05f8cd8834e096d7b4c921ba18e175" },

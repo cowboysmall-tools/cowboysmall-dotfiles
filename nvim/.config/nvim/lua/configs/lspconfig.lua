@@ -6,7 +6,6 @@ vim.lsp.enable(servers)
 -- read :h vim.lsp.config for changing options of lsp servers 
 
 require("lspconfig").jdtls.setup({
-
   -- Your custom nvim-java configuration goes here
   settings = {
     java = {
@@ -42,7 +41,6 @@ require("lspconfig").jdtls.setup({
       inlayHints = {
         enable = false
       }
-
     }
   }
 
