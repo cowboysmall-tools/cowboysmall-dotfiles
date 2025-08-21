@@ -34,14 +34,15 @@ require("lspconfig").jdtls.setup({
         enabled = false
       },
 
-      signatureHelp = {
+      inlay_hint = {
         enabled = false
-      },
-
-      inlayHints = {
-        enable = false
       }
     }
   }
 
 })
+
+-- vim.lsp.config("jdtls", {
+--   inlay_hint = { enabled = false },
+--   format = { enabled = false }
+-- })
