@@ -15,15 +15,11 @@ return {
     cpp = { "clang-format" },
     python = { "isort", "black" },
     rust = { "rustfmt" }
-
-    -- go = { "goimports", "gofmt" },
-    -- java = { "google-java-format" },
   },
 
-  format_on_save = {
-    -- These options will be passed to conform.format()
-    timeout_ms = 500,
-    lsp_fallback = true,
-    async = false
-  }
+  -- format_on_save = {
+  --   timeout_ms = 500,
+  --   lsp_fallback = true,
+  --   async = false
+  -- }
 }

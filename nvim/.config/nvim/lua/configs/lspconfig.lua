@@ -20,18 +20,13 @@ require("lspconfig").jdtls.setup({
         },
       },
 
-      -- The formatting file is read, but the contents are ignored...
-
-      -- format = {
-      --   enabled = true,
-      --   settings = {
-      --     profile = "IntelliJ",
-      --     url = "/home/jerry/.config/nvim/java-formatter-settings.xml",
-      --   },
-      -- },
-
+      -- The file is read, but the contents seem to be ignored...
       format = {
-        enabled = false
+        enabled = true,
+        settings = {
+          profile = "IntelliJ",
+          url = "/home/jerry/.config/nvim/java-formatter-settings.xml",
+        },
       },
 
       inlay_hint = {
@@ -41,8 +36,3 @@ require("lspconfig").jdtls.setup({
   }
 
 })
-
--- vim.lsp.config("jdtls", {
---   inlay_hint = { enabled = false },
---   format = { enabled = false }
--- })
