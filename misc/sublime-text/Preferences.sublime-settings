@@ -60,4 +60,5 @@
         ".factorypath",
         ".project"
     ],
+    "hardware_acceleration": "opengl",
 }

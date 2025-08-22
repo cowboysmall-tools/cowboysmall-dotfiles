@@ -1,0 +1,10 @@
+[
+    {
+        "keys": ["ctrl+b"],
+        "command": "lsp_symbol_definition"
+    },
+    {
+        "keys": ["shift+b"],
+        "command": "lsp_symbol_references"
+    },
+]
