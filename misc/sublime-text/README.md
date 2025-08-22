@@ -4,7 +4,25 @@
 
 
 
+
+## Configs
+
+Copy settings files to the sublime text config directory:
+
+```
+
+> cp misc/sublime-text/Preferences.sublime-settings     ~/.config/sublime-text/Packages/User
+> cp misc/sublime-text/Default (Linux).sublime-keymap   ~/.config/sublime-text/Packages/User
+> cp misc/sublime-text/Default (Linux).sublime-mousemap ~/.config/sublime-text/Packages/User
+
+```
+
+
+
+
 ## Working Packages
+
+These packages work well and are essential:
 
 ```
 
@@ -51,6 +69,8 @@ Zig Language.sublime-package
 
 
 ## Problem Packages
+
+This package does not play nicely with the LSP-jdtls package:
 
 ```
 
