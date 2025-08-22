@@ -5,21 +5,18 @@ echo
 
 
 flatpak install --assumeyes flathub com.github.PintaProject.Pinta
-
-# flatpak install --assumeyes flathub fr.natron.Natron
-
-# flatpak install --assumeyes flathub io.freetubeapp.FreeTube
-
 flatpak install --assumeyes flathub org.audacityteam.Audacity
-# flatpak install --assumeyes flathub org.blender.Blender
-# flatpak install --assumeyes flathub org.freecadweb.FreeCAD
 flatpak install --assumeyes flathub org.gimp.GIMP
 flatpak install --assumeyes flathub org.inkscape.Inkscape
 flatpak install --assumeyes flathub org.musicbrainz.Picard
 flatpak install --assumeyes flathub org.nicotine_plus.Nicotine
 flatpak install --assumeyes flathub org.shotcut.Shotcut
-# flatpak install --assumeyes flathub org.thentrythis.Samplebrain
 
+# flatpak install --assumeyes flathub fr.natron.Natron
+# flatpak install --assumeyes flathub io.freetubeapp.FreeTube
+# flatpak install --assumeyes flathub org.blender.Blender
+# flatpak install --assumeyes flathub org.freecadweb.FreeCAD
+# flatpak install --assumeyes flathub org.thentrythis.Samplebrain
 # flatpak install --assumeyes flathub re.rizin.cutter
 
 

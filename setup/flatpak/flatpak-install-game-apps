@@ -4,22 +4,20 @@ echo
 echo
 
 
-# flatpak install --assumeyes flathub com.atlauncher.ATLauncher
 flatpak install --assumeyes flathub com.heroicgameslauncher.hgl
+flatpak install --assumeyes flathub com.valvesoftware.Steam
+flatpak install --assumeyes flathub com.vysp3r.ProtonPlus
+flatpak install --assumeyes flathub net.lutris.Lutris
+flatpak install --assumeyes flathub org.prismlauncher.PrismLauncher
+
+# flatpak install --assumeyes flathub com.atlauncher.ATLauncher
 # flatpak install --assumeyes flathub com.modrinth.ModrinthApp
 # flatpak install --assumeyes flathub com.mojang.Minecraft
 # flatpak install --assumeyes flathub com.usebottles.bottles
-flatpak install --assumeyes flathub com.valvesoftware.Steam
-flatpak install --assumeyes flathub com.vysp3r.ProtonPlus
-
 # flatpak install --assumeyes flathub dev.mrquantumoff.mcmodpackmanager
-
 # flatpak install --assumeyes flathub net.brinkervii.grapejuice
-flatpak install --assumeyes flathub net.lutris.Lutris
-
 # flatpak install --assumeyes flathub org.gnome.Sudoku
 # flatpak install --assumeyes flathub org.libretro.RetroArch
-flatpak install --assumeyes flathub org.prismlauncher.PrismLauncher
 
 
 echo

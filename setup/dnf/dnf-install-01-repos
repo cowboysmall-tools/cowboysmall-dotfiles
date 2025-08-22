@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+# Enable Testing Repos (optionally)
+dnf config-manager setopt updates-testing.enabled=1
+dnf config-manager setopt rpmfusion-free-updates-testing.enabled=1
+dnf config-manager setopt rpmfusion-nonfree-updates-testing.enabled=1
+
+dnf4 config-manager --set-enabled updates-testing
+dnf4 config-manager --set-enabled rpmfusion-free-updates-testing
+dnf4 config-manager --set-enabled rpmfusion-nonfree-updates-testing
