@@ -12,8 +12,13 @@ map("i", "jk", "<ESC>")
 -- map("n", "<S-s>", "<cmd>w<cr>")
 map("n", "<S-q>", "<cmd>q<cr>")
 map("n", "<S-f>", "<cmd>Telescope find_files<cr>")
+
+
+
+local inlay_hint = vim.lsp.inlay_hint
+
 map("n", "<S-h>", function()
-    vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
+    inlay_hint.enable(not inlay_hint.is_enabled())
 end)
 
 
