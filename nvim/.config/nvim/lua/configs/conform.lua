@@ -14,8 +14,16 @@ return {
     c = { "clang-format" },
     cpp = { "clang-format" },
     python = { "isort", "black" },
-    rust = { "rustfmt" }
+    rust = { "rustfmt" },
+
+    java = { "google-java-format" }
   },
+
+  formatters = {
+    ["google-java-format"] = {
+      prepend_args = { "--aosp" }, -- Ensure 4-space indentation
+    }
+  }
 
   -- format_on_save = {
   --   timeout_ms = 500,

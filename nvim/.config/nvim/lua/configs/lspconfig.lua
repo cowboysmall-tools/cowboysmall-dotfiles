@@ -21,17 +21,17 @@ require("lspconfig").jdtls.setup({
       },
 
       -- The file is read, but the contents seem to be ignored...
-      format = {
-        enabled = true,
-        settings = {
-          profile = "IntelliJ",
-          url = "/home/jerry/.config/nvim/java-formatter-settings.xml",
-        },
-      },
+      -- format = {
+      --   enabled = true,
+      --   settings = {
+      --     profile = "IntelliJ",
+      --     url = "/home/jerry/.config/nvim/formatter-settings.xml",
+      --   },
+      -- },
 
-      inlay_hint = {
-        enabled = false
-      }
+      -- inlay_hint = {
+      --   enabled = false
+      -- }
     }
   }
 
