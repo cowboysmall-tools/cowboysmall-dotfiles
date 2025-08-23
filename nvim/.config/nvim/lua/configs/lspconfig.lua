@@ -1,7 +1,19 @@
+
+require("java").setup({
+  -- Your custom jdtls settings goes here
+  root_markers = { "mvnw", "gradlew", ".git" }
+})
+
+
+
+
 require("nvchad.configs.lspconfig").defaults()
 
 local servers = { "html", "cssls", "clangd", "gopls", "pyright" }
 vim.lsp.enable(servers)
+
+
+
 
 -- read :h vim.lsp.config for changing options of lsp servers 
 
