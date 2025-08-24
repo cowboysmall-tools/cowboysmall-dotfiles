@@ -16,7 +16,6 @@ map("n", "<S-f>", "<cmd>Telescope find_files<cr>")
 
 
 local inlay_hint = vim.lsp.inlay_hint
-
 map("n", "<S-h>", function()
     inlay_hint.enable(not inlay_hint.is_enabled())
 end)
@@ -32,3 +31,8 @@ end)
 map("n", "<S-w>", function()
   require("nvchad.tabufline").close_buffer()
 end)
+
+
+
+map("n", "<S-n>", "<cmd>NewFile<cr>")
+map("n", "<S-m>", "<cmd>NewFileHere<cr>")

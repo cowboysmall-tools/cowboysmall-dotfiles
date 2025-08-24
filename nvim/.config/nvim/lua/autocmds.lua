@@ -1,14 +1,16 @@
 require "nvchad.autocmds"
 
+
 local autocmd = vim.api.nvim_create_autocmd
 
 
 autocmd("LspAttach", {
-
   callback = function(event)
     local bufmap = function(mode, rhs, lhs)
       vim.keymap.set(mode, rhs, lhs, {buffer = event.buf})
     end
+
+    -- bufmap("n", "<C-M-k>", "<cmd>lua vim.lsp.buf.format({async = true})<cr>")
 
     bufmap("n", "<C-M-t>", "<cmd>lua vim.lsp.buf.type_definition()<cr>")
     bufmap("n", "<C-M-y>", "<cmd>lua vim.lsp.buf.definition()<cr>")
@@ -19,15 +21,11 @@ autocmd("LspAttach", {
     bufmap({"i", "s"}, "<C-M-s>", "<cmd>lua vim.lsp.buf.signature_help()<cr>")
     bufmap("n", "<C-M-d>", "<cmd>lua vim.lsp.buf.document_symbol()<cr>")
     bufmap("n", "<C-M-j>", "<cmd>lua vim.lsp.buf.hover()<cr>")
-    -- bufmap("n", "<C-M-k>", "<cmd>lua vim.lsp.buf.format({async = true})<cr>")
-    bufmap("n", "<C-M-k>", function()
-        require("conform").format({async = true, lsp_format = "fallback"})
-    end)
+    bufmap("n", "<C-M-k>", function() require("conform").format({async = true}) end)
     bufmap("n", "<C-M-l>", "<cmd>lua vim.lsp.buf.code_action()<cr>")
 
     bufmap("n", "<C-M-n>", "<cmd>lua vim.lsp.buf.rename()<cr>")
   end
-
 })
 
 
@@ -44,7 +42,7 @@ autocmd("BufReadPost", {
     then
       vim.cmd 'normal! g`"'
     end
-  end,
+  end
 })
 
 
@@ -55,5 +53,5 @@ autocmd("BufDelete", {
     if #bufs == 1 and vim.api.nvim_buf_get_name(bufs[1]) == "" then
       vim.cmd "Nvdash"
     end
-  end,
+  end
 })
