@@ -2,7 +2,7 @@ return {
 
   {
     "stevearc/conform.nvim",
-    event = 'BufWritePre', -- uncomment for format on save
+    event = 'BufWritePre',     -- uncomment for format on save
     opts = {
 
       formatters_by_ft = {
@@ -32,7 +32,7 @@ return {
 
       formatters = {
         ["google-java-format"] = {
-          prepend_args = { "--aosp" }, -- Ensure 4-space indentation
+          prepend_args = { "--aosp" },           -- Ensure 4-space indentation
         }
       }
 
@@ -44,7 +44,6 @@ return {
   {
     "neovim/nvim-lspconfig",
     config = function()
-
       require("java").setup({
         root_markers = { "mvnw", "gradlew", ".git" }
       })
@@ -69,7 +68,6 @@ return {
           }
         }
       })
-
     end
   },
 
@@ -129,6 +127,21 @@ return {
 
       view = {
         width = 50
+      }
+
+    }
+  },
+
+
+
+  {
+    "nvim-telescope/telescope.nvim",
+    opts = {
+
+      defaults = {
+        file_ignore_patterns = {
+          "__pycache__"
+        }
       }
 
     }
