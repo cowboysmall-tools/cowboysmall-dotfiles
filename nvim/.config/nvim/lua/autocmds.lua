@@ -11,18 +11,22 @@ autocmd("LspAttach", {
     end
 
     -- bufmap("n", "<C-M-k>", "<cmd>lua vim.lsp.buf.format({async = true})<cr>")
+    -- bufmap({"i", "s"}, "<C-M-s>", "<cmd>lua vim.lsp.buf.signature_help()<cr>")
 
+    bufmap("n", "<C-M-r>", "<cmd>lua vim.lsp.buf.references()<cr>")
     bufmap("n", "<C-M-t>", "<cmd>lua vim.lsp.buf.type_definition()<cr>")
     bufmap("n", "<C-M-y>", "<cmd>lua vim.lsp.buf.definition()<cr>")
     bufmap("n", "<C-M-u>", "<cmd>lua vim.lsp.buf.declaration()<cr>")
     bufmap("n", "<C-M-i>", "<cmd>lua vim.lsp.buf.implementation()<cr>")
-    bufmap("n", "<C-M-o>", "<cmd>lua vim.lsp.buf.references()<cr>")
 
-    bufmap({"i", "s"}, "<C-M-s>", "<cmd>lua vim.lsp.buf.signature_help()<cr>")
-    bufmap("n", "<C-M-d>", "<cmd>lua vim.lsp.buf.document_symbol()<cr>")
-    bufmap("n", "<C-M-j>", "<cmd>lua vim.lsp.buf.hover()<cr>")
+    bufmap("n", "<C-M-g>", "<cmd>lua vim.lsp.buf.document_symbol()<cr>")
+    bufmap("n", "<C-M-h>", "<cmd>lua vim.lsp.buf.hover()<cr>")
     bufmap("n", "<C-M-k>", function() require("conform").format({async = true}) end)
     bufmap("n", "<C-M-l>", "<cmd>lua vim.lsp.buf.code_action()<cr>")
+
+    bufmap("n", "<C-M-j>", "<cmd>lua vim.lsp.buf.signature_help()<cr>")
+    bufmap("i", "<C-M-j>", "<cmd>lua vim.lsp.buf.signature_help()<cr>")
+    bufmap("s", "<C-M-j>", "<cmd>lua vim.lsp.buf.signature_help()<cr>")
 
     bufmap("n", "<C-M-n>", "<cmd>lua vim.lsp.buf.rename()<cr>")
   end
