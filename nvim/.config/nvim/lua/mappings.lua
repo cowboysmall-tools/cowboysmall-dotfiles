@@ -6,44 +6,33 @@ local map = vim.keymap.set
 map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
 
+-- basic editor commands
+local tabufline = require("nvchad.tabufline")
+local next_tab  = function() tabufline.next() end
+local prev_tab  = function() tabufline.prev() end
+local close_tab = function() tabufline.close_buffer() end
 
--- basic commands
-map("n", "<S-s>", "<cmd>w<cr>", { desc = "write buffer", remap = true })
-map("n", "<S-q>", "<cmd>q<cr>", { desc = "quit neovim", remap = true })
-
-
--- open telescope
-map("n", "<S-f>", "<cmd>Telescope find_files<cr>", { desc = "telescope", remap = true })
-
-
--- toggle inlay hints
-local hint = vim.lsp.inlay_hint
-
-map("n", "<S-i>", function() hint.enable(not hint.is_enabled()) end, { desc = "toggle hints", remap = true })
-
-
--- tab navigation
-local tabs = require("nvchad.tabufline")
-
-map("n", "<S-PageDown>", function() tabs.next() end,  { desc = "next tab", remap = true })
-map("n", "<S-PageUp>", function() tabs.prev() end,    { desc = "previous tab", remap = true })
-map("n", "<S-w>", function() tabs.close_buffer() end, { desc = "close tab", remap = true })
-
-
--- close quickfix window
-map("n", "<S-c>", "<cmd>ccl<cr>", { desc = "close quickfix window", remap = true })
-
+map("n", "<M-q>",        "<cmd>q<CR>",   { desc = "quit neovim",    remap = true })
+map("n", "<M-w>",        "<cmd>w<CR>",   { desc = "write buffer",   remap = true })
+map("n", "<M-c>",        "<cmd>ccl<CR>", { desc = "close quickfix", remap = true })
+map("n", "<M-Left>",     "<C-h>",        { desc = "left panel",     remap = true })
+map("n", "<M-Right>",    "<C-l>",        { desc = "right panel",    remap = true })
+map("n", "<M-PageDown>", next_tab,       { desc = "next tab",       remap = true })
+map("n", "<M-PageUp>",   prev_tab,       { desc = "previous tab",   remap = true })
+map("n", "<M-x>",        close_tab,      { desc = "close tab",      remap = true })
 
 -- new file
-map("n", "<S-n>", "<cmd>NewFile<cr>",     { desc = "create new file", remap = true })
-map("n", "<S-h>", "<cmd>NewFileHere<cr>", { desc = "create new file here", remap = true })
+local inlay_hint        = vim.lsp.inlay_hint
+local toggle_inlay_hint = function() inlay_hint.enable(not inlay_hint.is_enabled()) end
 
+map("n", "<S-n>", "<cmd>NewFile<CR>",              { desc = "new file",      remap = true })
+map("n", "<S-h>", "<cmd>NewFileHere<CR>",          { desc = "new file here", remap = true })
+map("n", "<S-f>", "<cmd>Telescope find_files<CR>", { desc = "telescope",     remap = true })
+map("n", "<S-i>", toggle_inlay_hint,               { desc = "toggle hints",  remap = true })
 
--- copy and paste
-map("v", "<C-y>", "\"+y", { desc = "copy", remap = true })
-map("n", "<C-p>", "\"+p", { desc = "paste", remap = true })
-
-
--- comment
-map("v", "<C-_>", "gc",  { desc = "toggle comment", remap = true })
-map("n", "<C-_>", "gcc", { desc = "toggle comment", remap = true })
+-- cut, copy, and paste
+map("v", "<C-d>", "\"+d", { desc = "cut",     remap = true })
+map("v", "<C-y>", "\"+y", { desc = "copy",    remap = true })
+map("n", "<C-p>", "\"+p", { desc = "paste",   remap = true })
+map("v", "<C-_>", "gc",   { desc = "comment", remap = true })
+map("n", "<C-_>", "gcc",  { desc = "comment", remap = true })
