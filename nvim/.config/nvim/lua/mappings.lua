@@ -34,16 +34,16 @@ map("n", "<S-w>", function() tabs.close_buffer() end, { desc = "close tab", rema
 map("n", "<S-c>", "<cmd>ccl<cr>", { desc = "close quickfix window", remap = true })
 
 
--- new file commands
+-- new file
 map("n", "<S-n>", "<cmd>NewFile<cr>",     { desc = "create new file", remap = true })
 map("n", "<S-h>", "<cmd>NewFileHere<cr>", { desc = "create new file here", remap = true })
 
 
--- copy and paste commands
+-- copy and paste
 map("v", "<C-y>", "\"+y", { desc = "copy", remap = true })
 map("n", "<C-p>", "\"+p", { desc = "paste", remap = true })
 
 
--- Comment
+-- comment
 map("v", "<C-_>", "gc",  { desc = "toggle comment", remap = true })
 map("n", "<C-_>", "gcc", { desc = "toggle comment", remap = true })
