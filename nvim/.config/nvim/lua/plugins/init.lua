@@ -2,41 +2,8 @@ return {
 
   {
     "stevearc/conform.nvim",
-    event = 'BufWritePre',     -- uncomment for format on save
-    opts = {
-
-      formatters_by_ft = {
-        lua = { "stylua" },
-        css = { "prettier" },
-        html = { "prettier" },
-        javascript = { "prettier" },
-        typescript = { "prettier" },
-        json = { "prettier" },
-        yaml = { "prettier" },
-        markdown = { "prettier" },
-        c = { "clang-format" },
-        cpp = { "clang-format" },
-        python = { "isort", "black" },
-        rust = { "rustfmt" },
-        java = { "google-java-format" }
-      },
-
-      default_format_opts = {
-        lsp_format = "fallback",
-      },
-
-      format_on_save = {
-        -- These options will be passed to conform.format()
-        timeout_ms = 500,
-      },
-
-      formatters = {
-        ["google-java-format"] = {
-          prepend_args = { "--aosp" },           -- Ensure 4-space indentation
-        }
-      }
-
-    }
+    event = 'BufWritePre', -- uncomment for format on save
+    opts = require "configs.conform"
   },
 
 
@@ -48,26 +15,7 @@ return {
         root_markers = { "mvnw", "gradlew", ".git" }
       })
 
-      require("nvchad.configs.lspconfig").defaults()
-
-      local servers = { "html", "cssls", "clangd", "gopls", "pyright" }
-      vim.lsp.enable(servers)
-
-      require("lspconfig").jdtls.setup({
-        settings = {
-          java = {
-            configuration = {
-              runtimes = {
-                {
-                  name = "JavaSE-21",
-                  path = "/home/jerry/.sdkman/candidates/java/current",
-                  default = true,
-                }
-              }
-            }
-          }
-        }
-      })
+      require "configs.lspconfig"
     end
   },
 
