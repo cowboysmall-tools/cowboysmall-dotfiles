@@ -12,6 +12,12 @@ map("n", "<S-Left>",  "<C-h>",        { desc = "left panel",     remap = true })
 map("n", "<S-Right>", "<C-l>",        { desc = "right panel",    remap = true })
 map("n", "<S-c>",     "<cmd>ccl<CR>", { desc = "close quickfix", remap = true })
 map("n", "<S-q>",     "<cmd>q<CR>",   { desc = "quit neovim",    remap = true })
+map("n", "<S-t>",     "<leader>h",    { desc = "new terminal",   remap = true })
+
+-- file operations
+map("n", "<S-n>", "<cmd>NewFile<CR>",              { desc = "new file",      remap = true })
+map("n", "<S-h>", "<cmd>NewFileHere<CR>",          { desc = "new file here", remap = true })
+map("n", "<S-f>", "<cmd>Telescope find_files<CR>", { desc = "telescope",     remap = true })
 
 -- tab operations
 local tabufline = require("nvchad.tabufline")
@@ -29,11 +35,6 @@ map("v", "<C-y>", "\"+y", { desc = "copy",    remap = true })
 map("n", "<C-p>", "\"+p", { desc = "paste",   remap = true })
 map("v", "<C-_>", "gc",   { desc = "comment", remap = true })
 map("n", "<C-_>", "gcc",  { desc = "comment", remap = true })
-
--- file operations
-map("n", "<M-n>", "<cmd>NewFile<CR>",              { desc = "new file",      remap = true })
-map("n", "<M-h>", "<cmd>NewFileHere<CR>",          { desc = "new file here", remap = true })
-map("n", "<M-f>", "<cmd>Telescope find_files<CR>", { desc = "telescope",     remap = true })
 
 -- toggle inlay hints
 local inlay_hint        = vim.lsp.inlay_hint
