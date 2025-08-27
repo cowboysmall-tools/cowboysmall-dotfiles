@@ -8,19 +8,15 @@
         "command": "lsp_symbol_type_definition"
     },
     {
-        "keys": ["ctrl+alt+y"],
-        "command": "lsp_symbol_definition"
-    },
-    {
-        "keys": ["ctrl+alt+u"],
-        "command": "lsp_symbol_declaration"
-    },
-    {
         "keys": ["ctrl+alt+i"],
         "command": "lsp_symbol_implementation"
     },
 
 
+    {
+        "keys": ["ctrl+alt+d"],
+        "command": "lsp_symbol_declaration"
+    },
     {
         "keys": ["ctrl+alt+g"],
         "command": "lsp_document_symbols"
@@ -36,13 +32,17 @@
 
 
     {
+        "keys": ["ctrl+alt+b"],
+        "command": "lsp_symbol_definition"
+    },
+    {
         "keys": ["ctrl+alt+n"],
         "command": "lsp_symbol_rename"
     },
 
 
     {
-        "keys": ["shift+i"],
+        "keys": ["alt+i"],
         "command": "lsp_toggle_inlay_hints"
     }
 ]
