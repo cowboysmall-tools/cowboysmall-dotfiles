@@ -19,7 +19,7 @@ require("lspconfig").jdtls.setup({
           {
             name = "JavaSE-21",
             path = "/home/jerry/.sdkman/candidates/java/current",
-            default = true,
+            default = true
           }
         }
       }

@@ -17,14 +17,14 @@ return {
             enabled = true,
             package_format = "// Module: %s",
             use_directory_name = true,
-            file_extensions = { "rs" },
+            file_extensions = { "rs" }
           },
           python = {
             enabled = true,
             package_format = '"""Package: %s"""',
             use_directory_name = false,
-            file_extensions = { "py" },
-          },
+            file_extensions = { "py" }
+          }
         },
 
         project_root_patterns = {

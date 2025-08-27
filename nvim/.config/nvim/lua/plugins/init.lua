@@ -3,6 +3,7 @@ return {
   {
     "stevearc/conform.nvim",
     event = 'BufWritePre', -- uncomment for format on save
+
     opts = require "configs.conform"
   },
 
@@ -10,6 +11,7 @@ return {
 
   {
     "neovim/nvim-lspconfig",
+
     config = function()
       require("java").setup({
         root_markers = { "mvnw", "gradlew", ".git" }
@@ -28,6 +30,7 @@ return {
 
   {
     "nvim-treesitter/nvim-treesitter",
+
     opts = {
 
       ensure_installed = {
@@ -43,6 +46,7 @@ return {
 
   {
     "mason-org/mason.nvim",
+
     opts = {
 
       registries = {
@@ -71,6 +75,7 @@ return {
 
   {
     "nvim-tree/nvim-tree.lua",
+
     opts = {
 
       view = {
@@ -84,6 +89,7 @@ return {
 
   {
     "nvim-telescope/telescope.nvim",
+
     opts = {
 
       defaults = {
@@ -99,6 +105,7 @@ return {
 
   {
     "hrsh7th/nvim-cmp",
+
     config = function(_, opts)
       local cmp = require("cmp")
 

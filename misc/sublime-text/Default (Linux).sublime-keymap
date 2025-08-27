@@ -27,11 +27,11 @@
     },
     {
         "keys": ["ctrl+alt+k"],
-        "command": "lsp_format_document"
+        "command": "lsp_code_actions"
     },
     {
         "keys": ["ctrl+alt+l"],
-        "command": "lsp_code_actions"
+        "command": "lsp_format_document"
     },
 
 
