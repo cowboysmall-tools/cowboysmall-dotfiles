@@ -2,6 +2,9 @@ require "nvchad.autocmds"
 
 local autocmd = vim.api.nvim_create_autocmd
 
+
+
+
 autocmd("LspAttach", {
   callback = function(event)
     local bufmap = function(mode, rhs, lhs)
@@ -19,16 +22,20 @@ autocmd("LspAttach", {
     bufmap("n", "<C-M-s>", "<cmd>lua vim.lsp.buf.signature_help()<CR>")
     bufmap("i", "<C-M-s>", "<cmd>lua vim.lsp.buf.signature_help()<CR>")
     bufmap("s", "<C-M-s>", "<cmd>lua vim.lsp.buf.signature_help()<CR>")
-    bufmap("n", "<C-M-d>", "<cmd>lua vim.lsp.buf.definition()<CR>")
+
+    bufmap("n", "<C-M-d>", "<cmd>lua vim.lsp.buf.declaration()<CR>")
     bufmap("n", "<C-M-g>", "<cmd>lua vim.lsp.buf.document_symbol()<CR>")
     bufmap("n", "<C-M-h>", "<cmd>lua vim.lsp.buf.hover()<CR>")
     bufmap("n", "<C-M-k>", "<cmd>lua vim.lsp.buf.code_action()<CR>")
     bufmap("n", "<C-M-l>", "<leader>fm")
 
-    bufmap("n", "<C-M-b>", "<cmd>lua vim.lsp.buf.declaration()<CR>")
+    bufmap("n", "<C-M-b>", "<cmd>lua vim.lsp.buf.definition()<CR>")
     bufmap("n", "<C-M-n>", "<cmd>lua vim.lsp.buf.rename()<CR>")
   end
 })
+
+
+
 
 autocmd({ "BufEnter", "QuitPre" }, {
   nested = false,
@@ -59,6 +66,9 @@ autocmd({ "BufEnter", "QuitPre" }, {
   end
 })
 
+
+
+
 autocmd("BufReadPost", {
   pattern = "*",
   callback = function()
@@ -73,6 +83,9 @@ autocmd("BufReadPost", {
     end
   end
 })
+
+
+
 
 autocmd("BufDelete", {
   callback = function()

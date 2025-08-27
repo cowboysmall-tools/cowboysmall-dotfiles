@@ -8,6 +8,7 @@ map("i", "jk", "<ESC>")
 
 
 
+
 -- basic nvim commands
 map("n", "<S-w>", "<cmd>w<CR>", { desc = "write buffer", remap = true })
 map("n", "<S-Left>", "<C-h>", { desc = "left panel", remap = true })
@@ -40,6 +41,7 @@ local inlay_hint        = vim.lsp.inlay_hint
 local toggle_inlay_hint = function() inlay_hint.enable(not inlay_hint.is_enabled()) end
 
 map("n", "<M-i>", toggle_inlay_hint, { desc = "toggle hints", remap = true })
+
 
 
 
