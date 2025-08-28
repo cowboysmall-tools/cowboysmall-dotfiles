@@ -2,7 +2,6 @@ return {
 
   {
     "adibhanna/nvim-newfile.nvim",
-    lazy = false,
 
     dependencies = {
       "MunifTanjim/nui.nvim"
@@ -35,7 +34,6 @@ return {
           "go.mod",
           ".git"
         }
-
       })
     end
   }

@@ -1,8 +1,7 @@
 return {
 
   {
-    "MunifTanjim/nui.nvim",
-    lazy = false
+    "MunifTanjim/nui.nvim"
   }
 
 }

@@ -1,8 +1,7 @@
 return {
 
   {
-    "nvim-java/nvim-java",
-    lazy = false
+    "nvim-java/nvim-java"
   }
 
 }
