@@ -38,7 +38,6 @@ return {
         "c", "cpp", "dart", "go", "java", "latex", "markdown",
         "python", "r", "rnoweb", "rust", "toml", "yaml", "zig"
       }
-
     }
   },
 
@@ -73,19 +72,6 @@ return {
   },
 
 
-  {
-    "nvim-tree/nvim-tree.lua",
-
-    opts = {
-
-      view = {
-        width = 50
-      }
-
-    }
-  },
-
-
 
   {
     "nvim-telescope/telescope.nvim",
@@ -97,7 +83,6 @@ return {
           "__pycache__"
         }
       }
-
     }
   },
 
