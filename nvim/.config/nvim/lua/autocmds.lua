@@ -3,16 +3,12 @@ require "nvchad.autocmds"
 local autocmd = vim.api.nvim_create_autocmd
 
 
-
-
 autocmd("LspAttach", {
-  callback = function(event)
+  callback = function(e)
     local bufmap = function(mode, rhs, lhs)
-      vim.keymap.set(mode, rhs, lhs, { buffer = event.buf })
+      vim.keymap.set(mode, rhs, lhs, { buffer = e.buf })
     end
 
-    -- local conform_format = function() require("conform").format({ async = true }) end
-    -- bufmap("n", "<C-M-k>", conform_format)
     -- bufmap("n", "<C-M-k>", "<cmd>lua vim.lsp.buf.format({async = true})<CR>")
 
     bufmap("n", "<C-M-r>", "<cmd>lua vim.lsp.buf.references()<CR>")
@@ -33,8 +29,6 @@ autocmd("LspAttach", {
     bufmap("n", "<C-M-n>", "<cmd>lua vim.lsp.buf.rename()<CR>")
   end
 })
-
-
 
 
 autocmd({ "BufEnter", "QuitPre" }, {
@@ -67,8 +61,6 @@ autocmd({ "BufEnter", "QuitPre" }, {
 })
 
 
-
-
 autocmd("BufReadPost", {
   pattern = "*",
   callback = function()
@@ -83,8 +75,6 @@ autocmd("BufReadPost", {
     end
   end
 })
-
-
 
 
 autocmd("BufDelete", {

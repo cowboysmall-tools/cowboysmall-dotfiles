@@ -7,8 +7,6 @@ map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
 
 
-
-
 -- basic nvim commands
 map("n", "<S-w>", "<cmd>w<CR>", { desc = "write buffer", remap = true })
 map("n", "<S-Left>", "<C-h>", { desc = "left panel", remap = true })
@@ -26,18 +24,15 @@ map("n", "<S-PageUp>", "<S-tab>", { desc = "previous tab", remap = true })
 map("n", "<S-x>", "<leader>x", { desc = "close tab", remap = true })
 
 
+-- toggle inlay hints
+map("n", "<S-i>", function()
+  vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
+end, { desc = "toggle hints", remap = true })
+
+
 -- editor operations (cut, copy, paste, and comment)
 map("v", "<C-d>", "\"+d", { desc = "cut", remap = true })
 map("v", "<C-y>", "\"+y", { desc = "copy", remap = true })
 map("n", "<C-p>", "\"+p", { desc = "paste", remap = true })
 map("v", "<C-_>", "gc", { desc = "comment", remap = true })
 map("n", "<C-_>", "gcc", { desc = "comment", remap = true })
-
-
-
-
--- toggle inlay hints
-local inlay_hint        = vim.lsp.inlay_hint
-local toggle_inlay_hint = function() inlay_hint.enable(not inlay_hint.is_enabled()) end
-
-map("n", "<M-i>", toggle_inlay_hint, { desc = "toggle hints", remap = true })
