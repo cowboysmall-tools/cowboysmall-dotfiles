@@ -18,7 +18,7 @@ return {
         api.config.mappings.default_on_attach(bufnr)
 
 
-        -- custom mappings - Meta / Alt is the main modifier for nvim-tree
+        -- custom mappings
         local map = vim.keymap.set
 
 
