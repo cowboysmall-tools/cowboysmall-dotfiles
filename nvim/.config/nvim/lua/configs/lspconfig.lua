@@ -5,10 +5,10 @@ require("nvchad.configs.lspconfig").defaults()
 
 -- read :h vim.lsp.config for changing options of lsp servers
 
-require("lspconfig").html.setup({})
-require("lspconfig").cssls.setup({})
 require("lspconfig").clangd.setup({})
+require("lspconfig").cssls.setup({})
 require("lspconfig").gopls.setup({})
+require("lspconfig").html.setup({})
 require("lspconfig").pyright.setup({})
 
 require("lspconfig").jdtls.setup({

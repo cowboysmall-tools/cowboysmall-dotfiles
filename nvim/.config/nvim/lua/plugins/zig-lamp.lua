@@ -4,6 +4,7 @@ return {
     "jinzhongjia/zig-lamp",
     event = "VeryLazy",
     build = ":ZigLamp build sync",
+    lazy = false,
 
     dependencies = {
       "neovim/nvim-lspconfig",

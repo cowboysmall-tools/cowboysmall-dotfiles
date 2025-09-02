@@ -12,11 +12,11 @@ return {
   {
     "neovim/nvim-lspconfig",
 
-    config = function()
-      require("java").setup({
-        root_markers = { "mvnw", "gradlew", ".git" }
-      })
+    dependencies = {
+      "nvim-java/nvim-java"
+    },
 
+    config = function()
       require "configs.lspconfig"
     end
   },
@@ -34,9 +34,25 @@ return {
     opts = {
 
       ensure_installed = {
-        "vim", "lua", "vimdoc", "html", "css",
-        "c", "cpp", "dart", "go", "java", "latex", "markdown",
-        "python", "r", "rnoweb", "rust", "toml", "yaml", "zig"
+        "vim",
+        "lua",
+        "vimdoc",
+        "html",
+        "css",
+        "c",
+        "cpp",
+        "dart",
+        "go",
+        "java",
+        "latex",
+        "markdown",
+        "python",
+        "r",
+        "rnoweb",
+        "rust",
+        "toml",
+        "yaml",
+        "zig"
       }
     }
   },
