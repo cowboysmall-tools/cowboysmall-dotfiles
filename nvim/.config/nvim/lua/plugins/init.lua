@@ -10,6 +10,55 @@ return {
 
 
   {
+    "mason-org/mason-lspconfig.nvim",
+
+    dependencies = {
+      "mason-org/mason.nvim",
+      "neovim/nvim-lspconfig"
+    },
+
+    automatic_enable = false,
+
+    opts = {
+
+      ensure_installed = {
+        "black",
+        "clangd",
+        "gopls",
+        "java-debug-adapter",
+        "java-test",
+        "jdtls",
+        "lombok-nightly",
+        "lua-language-server",
+        "openjdk-17",
+        "prettier",
+        "pyright",
+        "rust-analyzer",
+        "spring-boot-tools"
+      }
+    }
+  },
+
+
+
+  {
+    "mason-org/mason.nvim",
+
+    opts = {
+
+      ui = {
+        icons = {
+          package_installed = "✓",
+          package_pending = "➜",
+          package_uninstalled = "✗"
+        }
+      }
+    }
+  },
+
+
+
+  {
     "neovim/nvim-lspconfig",
 
     dependencies = {
@@ -53,36 +102,6 @@ return {
         "toml",
         "yaml",
         "zig"
-      }
-    }
-  },
-
-
-
-  {
-    "mason-org/mason.nvim",
-
-    opts = {
-
-      registries = {
-        "github:nvim-java/mason-registry",
-        "github:mason-org/mason-registry"
-      },
-
-      ensure_installed = {
-        "black",
-        "clangd",
-        "gopls",
-        "java-debug-adapter",
-        "java-test",
-        "jdtls",
-        "lombok-nightly",
-        "lua-language-server",
-        "openjdk-17",
-        "prettier",
-        "pyright",
-        "rust-analyzer",
-        "spring-boot-tools"
       }
     }
   },
