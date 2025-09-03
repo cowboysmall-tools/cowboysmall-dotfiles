@@ -8,20 +8,20 @@ map("i", "jk", "<ESC>")
 
 
 -- basic nvim commands
-map("n", "<S-w>", "<cmd>w<CR>", { desc = "write buffer", remap = true })
-map("n", "<S-Left>", "<C-h>", { desc = "left panel", remap = true })
-map("n", "<S-Right>", "<C-l>", { desc = "right panel", remap = true })
-map("n", "<S-c>", "<cmd>ccl<CR>", { desc = "close quickfix", remap = true })
 map("n", "<S-q>", "<cmd>q<CR>", { desc = "quit neovim", remap = true })
+map("n", "<S-w>", "<cmd>w<CR>", { desc = "write buffer", remap = true })
 map("n", "<S-t>", "<leader>h", { desc = "new terminal", remap = true })
+map("n", "<S-x>", "<leader>x", { desc = "close tab", remap = true })
+map("n", "<S-c>", "<cmd>ccl<CR>", { desc = "close quickfix", remap = true })
 
-map("n", "<S-n>", "<cmd>NewFile<CR>", { desc = "new file", remap = true })
 map("n", "<S-h>", "<cmd>NewFileHere<CR>", { desc = "new file here", remap = true })
+map("n", "<S-n>", "<cmd>NewFile<CR>", { desc = "new file", remap = true })
 map("n", "<S-f>", "<cmd>Telescope find_files<CR>", { desc = "telescope", remap = true })
 
+map("n", "<S-Left>", "<C-h>", { desc = "left panel", remap = true })
+map("n", "<S-Right>", "<C-l>", { desc = "right panel", remap = true })
 map("n", "<S-PageDown>", "<tab>", { desc = "next tab", remap = true })
 map("n", "<S-PageUp>", "<S-tab>", { desc = "previous tab", remap = true })
-map("n", "<S-x>", "<leader>x", { desc = "close tab", remap = true })
 
 
 -- toggle inlay hints
