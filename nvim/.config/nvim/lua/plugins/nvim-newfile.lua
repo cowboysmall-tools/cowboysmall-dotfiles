@@ -2,6 +2,7 @@ return {
 
   {
     "adibhanna/nvim-newfile.nvim",
+    lazy = false,
 
     dependencies = {
       "MunifTanjim/nui.nvim"
