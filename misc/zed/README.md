@@ -12,6 +12,8 @@ Copy settings file to the zed config directory:
 ```
 
 > cp misc/zed/settings.json ~/.config/zed/
+> cp misc/zed/keymap.json   ~/.config/zed/
+> cp misc/zed/index.json    ~/.local/share/zed/extensions/
 
 ```
 
@@ -52,7 +54,7 @@ zig
 
 ## Problem Extensions
 
-This package do not play nicely with zed extensions:
+These extensions do not play nicely with other extensions:
 
 ```
 

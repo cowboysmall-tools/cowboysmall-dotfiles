@@ -27,42 +27,42 @@ These packages work well and are essential:
 
 ```
 
-Catppuccin color schemes.sublime-package
-Dartlight.sublime-package
-Dockerfile Syntax Highlighting.sublime-package
-FileIcons.sublime-package
-GitGutter.sublime-package
-Gomod.sublime-package
-Julia.sublime-package
-LSP.sublime-package
-LSP-clangd.sublime-package
-LSP-Dart.sublime-package
-LSP-dockerfile.sublime-package
-LSP-file-watcher-chokidar.sublime-package
-LSP-gopls.sublime-package
-LSP-jdtls.sublime-package
-LSP-json.sublime-package
-LSP-julia.sublime-package
-LSP-lemminx.sublime-package
-LSP-lua.sublime-package
-LSP-pyright.sublime-package
-LSP-R.sublime-package
-LSP-rust-analyzer.sublime-package
-LSP-TexLab.sublime-package
-LSP-yaml.sublime-package
-Package Control.sublime-package
-R-IDE.sublime-package
-Rust Enhanced.sublime-package
-SublimeLinter.sublime-package
-SublimeLinter-chktex.sublime-package
-SublimeLinter-clang.sublime-package
-SublimeLinter-flake8.sublime-package
-SublimeLinter-json.sublime-package
-SublimeLinter-lua.sublime-package
-SyncedSideBar.sublime-package
-Terminus.sublime-package
-TOML.sublime-package
-Zig Language.sublime-package
+Catppuccin color schemes
+Dartlight
+Dockerfile Syntax Highlighting
+FileIcons
+GitGutter
+Gomod
+Julia
+LSP
+LSP-clangd
+LSP-Dart
+LSP-dockerfile
+LSP-file-watcher-chokidar
+LSP-gopls
+LSP-jdtls
+LSP-json
+LSP-julia
+LSP-lemminx
+LSP-lua
+LSP-pyright
+LSP-R
+LSP-rust-analyzer
+LSP-TexLab
+LSP-yaml
+Package Control
+R-IDE
+Rust Enhanced
+SublimeLinter
+SublimeLinter-chktex
+SublimeLinter-clang
+SublimeLinter-flake8
+SublimeLinter-json
+SublimeLinter-lua
+SyncedSideBar
+Terminus
+TOML
+Zig Language
 
 ```
 
@@ -72,10 +72,10 @@ Zig Language.sublime-package
 
 ## Problem Packages
 
-This package does not play nicely with the LSP-jdtls package:
+These packages do not play nicely with other packages:
 
 ```
 
-SublimeLinter-javac.sublime-package
+SublimeLinter-javac
 
 ```

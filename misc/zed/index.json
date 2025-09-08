@@ -1,0 +1,829 @@
+{
+  "extensions": {
+    "catppuccin": {
+      "manifest": {
+        "id": "catppuccin",
+        "name": "Catppuccin",
+        "version": "0.2.23",
+        "schema_version": 1,
+        "description": "🦀 Soothing pastel theme for Zed",
+        "repository": "https://github.com/catppuccin/zed",
+        "authors": [
+          "Catppuccin <releases@catppuccin.com>"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [
+          "themes/catppuccin-no-italics-mauve.json",
+          "themes/catppuccin-mauve.json"
+        ],
+        "icon_themes": [],
+        "languages": [],
+        "grammars": {},
+        "language_servers": {},
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "catppuccin-icons": {
+      "manifest": {
+        "id": "catppuccin-icons",
+        "name": "Catppuccin Icons",
+        "version": "1.21.0",
+        "schema_version": 1,
+        "description": "🦊 Soothing pastel icons for Zed",
+        "repository": "https://github.com/catppuccin/zed-icons",
+        "authors": [
+          "Catppuccin <releases@catppuccin.com>"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [],
+        "icon_themes": [
+          "icon_themes/catppuccin-icons.json"
+        ],
+        "languages": [],
+        "grammars": {},
+        "language_servers": {},
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "dart": {
+      "manifest": {
+        "id": "dart",
+        "name": "Dart",
+        "version": "0.2.2",
+        "schema_version": 1,
+        "description": "Dart support.",
+        "repository": "https://github.com/zed-extensions/dart",
+        "authors": [
+          "Abdullah Alsigar <abdullah.alsigar@gmail.com>",
+          "Flo <flo80@users.noreply.github.com>",
+          "ybbond <hi@ybbond.id>",
+          "nielsenko <kasper@byolimit.com>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.1.0"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/dart"
+        ],
+        "grammars": {
+          "dart": {
+            "repository": "https://github.com/UserNobody14/tree-sitter-dart",
+            "rev": "80e23c07b64494f7e21090bb3450223ef0b192f4",
+            "path": null
+          }
+        },
+        "language_servers": {
+          "dart": {
+            "language": "Dart",
+            "languages": [
+              "Dart"
+            ],
+            "language_ids": {},
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "docker-compose": {
+      "manifest": {
+        "id": "docker-compose",
+        "name": "Docker Compose",
+        "version": "0.1.0",
+        "schema_version": 1,
+        "description": "Syntax highlighting for Docker Compose files",
+        "repository": "https://github.com/eth0net/zed-docker-compose",
+        "authors": [
+          "eth0net <eth0net@pm.me>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.0.6"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [],
+        "grammars": {},
+        "language_servers": {
+          "docker-compose": {
+            "language": "YAML",
+            "languages": [],
+            "language_ids": {},
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "dockerfile": {
+      "manifest": {
+        "id": "dockerfile",
+        "name": "Dockerfile",
+        "version": "0.0.5",
+        "schema_version": 1,
+        "description": "Dockerfile support.",
+        "repository": "https://github.com/zed-extensions/dockerfile",
+        "authors": [
+          "d1y <chenhonzho@gmail.com>",
+          "joshmeads <github@joshmeads.com>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.0.4"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/dockerfile"
+        ],
+        "grammars": {
+          "dockerfile": {
+            "repository": "https://github.com/camdencheek/tree-sitter-dockerfile",
+            "rev": "868e44ce378deb68aac902a9db68ff82d2299dd0",
+            "path": null
+          }
+        },
+        "language_servers": {
+          "dockerfile-language-server": {
+            "language": "Dockerfile",
+            "languages": [],
+            "language_ids": {},
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "html": {
+      "manifest": {
+        "id": "html",
+        "name": "HTML",
+        "version": "0.2.2",
+        "schema_version": 1,
+        "description": "HTML support.",
+        "repository": "https://github.com/zed-industries/zed",
+        "authors": [
+          "Isaac Clayton <slightknack@gmail.com>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.1.0"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/html"
+        ],
+        "grammars": {
+          "html": {
+            "repository": "https://github.com/tree-sitter/tree-sitter-html",
+            "rev": "bfa075d83c6b97cd48440b3829ab8d24a2319809",
+            "path": null
+          }
+        },
+        "language_servers": {
+          "vscode-html-language-server": {
+            "language": "HTML",
+            "languages": [],
+            "language_ids": {
+              "CSS": "css",
+              "HTML": "html"
+            },
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "java": {
+      "manifest": {
+        "id": "java",
+        "name": "Java",
+        "version": "6.4.0",
+        "schema_version": 1,
+        "description": "Java support.",
+        "repository": "https://github.com/zed-extensions/java",
+        "authors": [
+          "Valentine Briese <valentinegb@icloud.com>",
+          "Samuser107 L.Longheval <samuser107@gmail.com>",
+          "Yury Abykhodau <abehodau@gmail.com>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.6.0"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/properties",
+          "languages/java"
+        ],
+        "grammars": {
+          "java": {
+            "repository": "https://github.com/tree-sitter/tree-sitter-java",
+            "rev": "94703d5a6bed02b98e438d7cad1136c01a60ba2c",
+            "path": null
+          },
+          "properties": {
+            "repository": "https://github.com/tree-sitter-grammars/tree-sitter-properties",
+            "rev": "579b62f5ad8d96c2bb331f07d1408c92767531d9",
+            "path": null
+          }
+        },
+        "language_servers": {
+          "jdtls": {
+            "language": "Java",
+            "languages": [],
+            "language_ids": {},
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": [],
+        "debug_adapters": {
+          "Java": {
+            "schema_path": null
+          }
+        }
+      },
+      "dev": false
+    },
+    "julia": {
+      "manifest": {
+        "id": "julia",
+        "name": "Julia",
+        "version": "0.1.7",
+        "schema_version": 1,
+        "description": "Julia support.",
+        "repository": "https://github.com/JuliaEditorSupport/zed-julia",
+        "authors": [
+          "Paul Berg <paul@plutojl.org>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.0.6"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/julia"
+        ],
+        "grammars": {
+          "julia": {
+            "repository": "https://github.com/tree-sitter/tree-sitter-julia",
+            "rev": "18b739c1563c83fc816170a4241adfa4b69e5c47",
+            "path": null
+          }
+        },
+        "language_servers": {
+          "julia": {
+            "language": null,
+            "languages": [
+              "Julia"
+            ],
+            "language_ids": {},
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "latex": {
+      "manifest": {
+        "id": "latex",
+        "name": "LaTeX",
+        "version": "0.2.3",
+        "schema_version": 1,
+        "description": "LaTeX language server and syntax highlighting for Zed. See wiki on GitHub for help.",
+        "repository": "https://github.com/rzukic/zed-latex",
+        "authors": [
+          "Ruben Zukic <ruben@zukic.net>",
+          "Oli Callaghan <me@olicallaghan.com>",
+          "Luke Naylor <luke.naylr@gmail.com>",
+          "Jan Solanti <jhs@psonet.com>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.1.0"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/bibtex",
+          "languages/latex"
+        ],
+        "grammars": {
+          "bibtex": {
+            "repository": "https://github.com/latex-lsp/tree-sitter-bibtex",
+            "rev": "ccfd77db0ed799b6c22c214fe9d2937f47bc8b34",
+            "path": null
+          },
+          "latex": {
+            "repository": "https://github.com/497e0bdf29873/tree-sitter-latex",
+            "rev": "858af2c24547c8ab9386281ece6ead6936dbc8d1",
+            "path": null
+          }
+        },
+        "language_servers": {
+          "texlab": {
+            "language": "LaTeX",
+            "languages": [],
+            "language_ids": {},
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "lua": {
+      "manifest": {
+        "id": "lua",
+        "name": "Lua",
+        "version": "0.1.5",
+        "schema_version": 1,
+        "description": "Lua support.",
+        "repository": "https://github.com/zed-extensions/lua",
+        "authors": [
+          "Max Brunsfeld <max@zed.dev>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.1.0"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/lua"
+        ],
+        "grammars": {
+          "lua": {
+            "repository": "https://github.com/tree-sitter-grammars/tree-sitter-lua",
+            "rev": "a24dab177e58c9c6832f96b9a73102a0cfbced4a",
+            "path": null
+          }
+        },
+        "language_servers": {
+          "lua-language-server": {
+            "language": "Lua",
+            "languages": [],
+            "language_ids": {},
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "make": {
+      "manifest": {
+        "id": "make",
+        "name": "Make",
+        "version": "1.1.1",
+        "schema_version": 1,
+        "description": "Makefile syntax highlighting",
+        "repository": "https://github.com/caius/zed-make",
+        "authors": [
+          "Caius Durling <dev@caius.name>",
+          "d1y <chenhonzhou@gmail.com>",
+          "Marshall Bowers <elliott.codes@gmail.com>",
+          "Luke Naylor <luke@grahamnaylor.net>",
+          "Igor Támara <igor.tamara@gmail.com>",
+          "Michael Alexander <michael.alexander@karlstorz.com>"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/make"
+        ],
+        "grammars": {
+          "make": {
+            "repository": "https://github.com/tree-sitter-grammars/tree-sitter-make",
+            "rev": "5e9e8f8ff3387b0edcaa90f46ddf3629f4cfeb1d",
+            "path": null
+          }
+        },
+        "language_servers": {},
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "r": {
+      "manifest": {
+        "id": "r",
+        "name": "R",
+        "version": "0.2.4",
+        "schema_version": 1,
+        "description": "R language support.",
+        "repository": "https://github.com/ocsmit/zed-r",
+        "authors": [
+          "Owen Smith <owen8461@protonmail.com>",
+          "Aymen Nasri <aymennasrii@proton.me>",
+          "Changtao Li <60499240+lict99@users.noreply.github.com>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.4.0"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/r"
+        ],
+        "grammars": {
+          "r": {
+            "repository": "https://github.com/r-lib/tree-sitter-r",
+            "rev": "a0d3e3307489c3ca54da8c7b5b4e0c5f5fd6953a",
+            "path": null
+          }
+        },
+        "language_servers": {
+          "r_language_server": {
+            "language": "R",
+            "languages": [],
+            "language_ids": {},
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "toml": {
+      "manifest": {
+        "id": "toml",
+        "name": "TOML",
+        "version": "1.0.0",
+        "schema_version": 1,
+        "description": "TOML support.",
+        "repository": "https://github.com/zed-extensions/toml",
+        "authors": [
+          "Max Brunsfeld <max@zed.dev>",
+          "Ammar Arif <evergreenkary@gmail.com>"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/toml"
+        ],
+        "grammars": {
+          "toml": {
+            "repository": "https://github.com/tree-sitter/tree-sitter-toml",
+            "rev": "342d9be207c2dba869b9967124c679b5e6fd0ebe",
+            "path": null
+          }
+        },
+        "language_servers": {},
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "zig": {
+      "manifest": {
+        "id": "zig",
+        "name": "Zig",
+        "version": "0.3.5",
+        "schema_version": 1,
+        "description": "Zig support.",
+        "repository": "https://github.com/zed-extensions/zig",
+        "authors": [
+          "Allan Calix <contact@acx.dev>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.1.0"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/zig"
+        ],
+        "grammars": {
+          "zig": {
+            "repository": "https://github.com/tree-sitter-grammars/tree-sitter-zig",
+            "rev": "eb7d58c2dc4fbeea4745019dee8df013034ae66b",
+            "path": null
+          }
+        },
+        "language_servers": {
+          "zls": {
+            "language": "Zig",
+            "languages": [],
+            "language_ids": {},
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    }
+  },
+  "themes": {
+    "Catppuccin Frappé": {
+      "extension": "catppuccin",
+      "path": "themes/catppuccin-mauve.json"
+    },
+    "Catppuccin Frappé - No Italics": {
+      "extension": "catppuccin",
+      "path": "themes/catppuccin-no-italics-mauve.json"
+    },
+    "Catppuccin Latte": {
+      "extension": "catppuccin",
+      "path": "themes/catppuccin-mauve.json"
+    },
+    "Catppuccin Latte - No Italics": {
+      "extension": "catppuccin",
+      "path": "themes/catppuccin-no-italics-mauve.json"
+    },
+    "Catppuccin Macchiato": {
+      "extension": "catppuccin",
+      "path": "themes/catppuccin-mauve.json"
+    },
+    "Catppuccin Macchiato - No Italics": {
+      "extension": "catppuccin",
+      "path": "themes/catppuccin-no-italics-mauve.json"
+    },
+    "Catppuccin Mocha": {
+      "extension": "catppuccin",
+      "path": "themes/catppuccin-mauve.json"
+    },
+    "Catppuccin Mocha - No Italics": {
+      "extension": "catppuccin",
+      "path": "themes/catppuccin-no-italics-mauve.json"
+    }
+  },
+  "icon_themes": {
+    "Catppuccin Frappé": {
+      "extension": "catppuccin-icons",
+      "path": "icon_themes/catppuccin-icons.json"
+    },
+    "Catppuccin Latte": {
+      "extension": "catppuccin-icons",
+      "path": "icon_themes/catppuccin-icons.json"
+    },
+    "Catppuccin Macchiato": {
+      "extension": "catppuccin-icons",
+      "path": "icon_themes/catppuccin-icons.json"
+    },
+    "Catppuccin Mocha": {
+      "extension": "catppuccin-icons",
+      "path": "icon_themes/catppuccin-icons.json"
+    }
+  },
+  "languages": {
+    "BibTeX": {
+      "extension": "latex",
+      "path": "languages/bibtex",
+      "matcher": {
+        "path_suffixes": [
+          "bib",
+          "bibtex",
+          "biblatex"
+        ],
+        "first_line_pattern": null
+      },
+      "hidden": false,
+      "grammar": "bibtex"
+    },
+    "Dart": {
+      "extension": "dart",
+      "path": "languages/dart",
+      "matcher": {
+        "path_suffixes": [
+          "dart"
+        ],
+        "first_line_pattern": null
+      },
+      "hidden": false,
+      "grammar": "dart"
+    },
+    "Dockerfile": {
+      "extension": "dockerfile",
+      "path": "languages/dockerfile",
+      "matcher": {
+        "path_suffixes": [
+          "Dockerfile",
+          "Containerfile",
+          "dockerfile"
+        ],
+        "first_line_pattern": null
+      },
+      "hidden": false,
+      "grammar": "dockerfile"
+    },
+    "HTML": {
+      "extension": "html",
+      "path": "languages/html",
+      "matcher": {
+        "path_suffixes": [
+          "html",
+          "htm",
+          "shtml"
+        ],
+        "first_line_pattern": null
+      },
+      "hidden": false,
+      "grammar": "html"
+    },
+    "Java": {
+      "extension": "java",
+      "path": "languages/java",
+      "matcher": {
+        "path_suffixes": [
+          "java"
+        ],
+        "first_line_pattern": null
+      },
+      "hidden": false,
+      "grammar": "java"
+    },
+    "Julia": {
+      "extension": "julia",
+      "path": "languages/julia",
+      "matcher": {
+        "path_suffixes": [
+          "jl"
+        ],
+        "first_line_pattern": "^#!.*\\bjulia\\b"
+      },
+      "hidden": false,
+      "grammar": "julia"
+    },
+    "LaTeX": {
+      "extension": "latex",
+      "path": "languages/latex",
+      "matcher": {
+        "path_suffixes": [
+          "tex",
+          "latex",
+          "sty",
+          "cls"
+        ],
+        "first_line_pattern": null
+      },
+      "hidden": false,
+      "grammar": "latex"
+    },
+    "Lua": {
+      "extension": "lua",
+      "path": "languages/lua",
+      "matcher": {
+        "path_suffixes": [
+          "lua"
+        ],
+        "first_line_pattern": null
+      },
+      "hidden": false,
+      "grammar": "lua"
+    },
+    "Make": {
+      "extension": "make",
+      "path": "languages/make",
+      "matcher": {
+        "path_suffixes": [
+          "makefile",
+          "Makefile",
+          "GNUmakefile",
+          "OCamlMakefile",
+          "mk",
+          "mak"
+        ],
+        "first_line_pattern": "^#!.*\\b(?:make -f)\\b"
+      },
+      "hidden": false,
+      "grammar": "make"
+    },
+    "Properties": {
+      "extension": "java",
+      "path": "languages/properties",
+      "matcher": {
+        "path_suffixes": [
+          "properties"
+        ],
+        "first_line_pattern": null
+      },
+      "hidden": false,
+      "grammar": "properties"
+    },
+    "R": {
+      "extension": "r",
+      "path": "languages/r",
+      "matcher": {
+        "path_suffixes": [
+          "r",
+          "R"
+        ],
+        "first_line_pattern": null
+      },
+      "hidden": false,
+      "grammar": "r"
+    },
+    "TOML": {
+      "extension": "toml",
+      "path": "languages/toml",
+      "matcher": {
+        "path_suffixes": [
+          "Cargo.lock",
+          "toml",
+          "Pipfile",
+          "uv.lock"
+        ],
+        "first_line_pattern": null
+      },
+      "hidden": false,
+      "grammar": "toml"
+    },
+    "Zig": {
+      "extension": "zig",
+      "path": "languages/zig",
+      "matcher": {
+        "path_suffixes": [
+          "zig",
+          "zon"
+        ],
+        "first_line_pattern": null
+      },
+      "hidden": false,
+      "grammar": "zig"
+    }
+  }
+}
