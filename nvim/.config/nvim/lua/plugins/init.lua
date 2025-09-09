@@ -28,13 +28,15 @@ return {
         "java-debug-adapter",
         "java-test",
         "jdtls",
+        "jsonls",
         "lombok-nightly",
         "lua-language-server",
         "openjdk-17",
         "prettier",
         "pyright",
         "rust-analyzer",
-        "spring-boot-tools"
+        "spring-boot-tools",
+        "vtsls"
       }
     }
   },
@@ -83,23 +85,26 @@ return {
     opts = {
 
       ensure_installed = {
-        "vim",
-        "lua",
-        "vimdoc",
-        "html",
-        "css",
         "c",
         "cpp",
+        "css",
         "dart",
         "go",
+        "html",
         "java",
+        "javascript",
+        "json",
         "latex",
+        "lua",
         "markdown",
         "python",
         "r",
         "rnoweb",
         "rust",
         "toml",
+        "typescript",
+        "vim",
+        "vimdoc",
         "yaml",
         "zig"
       }

@@ -1,6 +1,6 @@
 require("nvchad.configs.lspconfig").defaults()
 
-local servers = { "clangd", "cssls", "gopls", "html", "pyright" }
+local servers = { "clangd", "cssls", "gopls", "html", "jsonls", "pyright" }
 vim.lsp.enable(servers)
 
 -- read :h vim.lsp.config for changing options of lsp servers
@@ -27,3 +27,6 @@ require("lspconfig").jdtls.setup({
     }
   }
 })
+
+
+require("lspconfig").vtsls.setup({})
