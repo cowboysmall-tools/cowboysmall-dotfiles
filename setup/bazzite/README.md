@@ -50,14 +50,14 @@ usermod --shell /usr/sbin/zsh jerry
 
 ```
 
-ujust toggle-user-motd
-
 gsettings get org.gnome.shell.window-switcher current-workspace-only
 gsettings set org.gnome.shell.window-switcher current-workspace-only false
 
 dconf write /org/gnome/Ptyxis/Profiles/<profile-id>/opacity 0.95
 
 ssh-keygen -t rsa
+
+ujust toggle-user-motd
 
 
 ```
