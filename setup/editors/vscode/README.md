@@ -11,9 +11,9 @@ Copy settings file to the vscode config directory:
 
 ```
 
-> cp misc/vscode/settings.json    ~/.config/Code/User/
-> cp misc/vscode/keybindings.json ~/.config/Code/User/
-> cp misc/vscode/extensions.json  ~/.vscode/extensions/
+> cp setup/editors/vscode/settings.json    ~/.config/Code/User/
+> cp setup/editors/vscode/keybindings.json ~/.config/Code/User/
+> cp setup/editors/vscode/extensions.json  ~/.vscode/extensions/
 
 ```
 

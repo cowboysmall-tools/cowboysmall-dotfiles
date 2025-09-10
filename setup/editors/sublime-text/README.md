@@ -11,9 +11,9 @@ Copy settings files to the sublime text config directory:
 
 ```
 
-> cp misc/sublime-text/Preferences.sublime-settings     ~/.config/sublime-text/Packages/User
-> cp misc/sublime-text/Default (Linux).sublime-keymap   ~/.config/sublime-text/Packages/User
-> cp misc/sublime-text/Default (Linux).sublime-mousemap ~/.config/sublime-text/Packages/User
+> cp setup/editors/sublime-text/Preferences.sublime-settings     ~/.config/sublime-text/Packages/User
+> cp setup/editors/sublime-text/Default (Linux).sublime-keymap   ~/.config/sublime-text/Packages/User
+> cp setup/editors/sublime-text/Default (Linux).sublime-mousemap ~/.config/sublime-text/Packages/User
 
 ```
 
