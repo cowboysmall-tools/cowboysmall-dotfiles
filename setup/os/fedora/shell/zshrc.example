@@ -170,11 +170,12 @@ GITSTATUS_LOG_LEVEL=DEBUG
 # export JAVA_HOME=/usr/lib/jvm/java
 # export NLTK_DATA=$HOME/Data/nltk_data
 # export KUBECONFIG=$KUBECONFIG:$HOME/.kube/config:$HOME/.kube/configs/petit-prod-kubeconfig.yaml
-export GOPATH=$HOME/.go
 
-# export PATH=$PATH:$GOPATH/bin
+export GOPATH=$HOME/.go
 export PATH=$GOPATH/bin:$PATH
-export PATH=~/.npm-global/bin:$PATH
+
+export NPM_PREFIX=$HOME/.npm-global
+export PATH=$NPM_PREFIX/bin:$PATH
 
 echo
 hostname | sed 's/.*/\u&/' | figlet

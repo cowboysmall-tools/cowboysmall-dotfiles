@@ -1,9 +1,4 @@
-// Place your key bindings in this file to override the defaults
 [
-    {
-        "key": "ctrl+alt+d",
-        "command": "editor.action.revealDeclaration"
-    },
     {
         "key": "ctrl+alt+b",
         "command": "editor.action.revealDefinition",
@@ -12,6 +7,10 @@
     {
         "key": "ctrl+alt+t",
         "command": "editor.action.goToTypeDefinition"
+    },
+    {
+        "key": "ctrl+alt+d",
+        "command": "editor.action.revealDeclaration"
     },
     {
         "key": "ctrl+alt+r",
@@ -29,29 +28,19 @@
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
     },
     {
-        "key": "ctrl+shift+i",
-        "command": "-editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-    },
-    {
         "key": "ctrl+alt+k",
         "command": "editor.action.refactor",
         "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+r",
-        "command": "-editor.action.refactor",
-        "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
+        "key": "ctrl+alt+n",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
     },
     {
         "key": "ctrl+alt+o",
         "command": "editor.action.organizeImports",
         "when": "textInputFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
-    },
-    {
-        "key": "ctrl+alt+n",
-        "command": "editor.action.rename",
-        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
     },
     {
         "key": "ctrl+alt+g",

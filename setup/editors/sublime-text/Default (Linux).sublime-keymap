@@ -1,46 +1,40 @@
 [
     {
-        "keys": ["ctrl+alt+r"],
-        "command": "lsp_symbol_references"
+        "keys": ["ctrl+alt+b"],
+        "command": "lsp_symbol_definition"
     },
     {
         "keys": ["ctrl+alt+t"],
         "command": "lsp_symbol_type_definition"
     },
     {
-        "keys": ["ctrl+alt+i"],
-        "command": "lsp_symbol_implementation"
-    },
-
-
-    {
         "keys": ["ctrl+alt+d"],
         "command": "lsp_symbol_declaration"
     },
     {
-        "keys": ["ctrl+alt+g"],
-        "command": "lsp_document_symbols"
+        "keys": ["ctrl+alt+r"],
+        "command": "lsp_symbol_references"
+    },
+    {
+        "keys": ["ctrl+alt+i"],
+        "command": "lsp_symbol_implementation"
+    },
+    {
+        "keys": ["ctrl+alt+l"],
+        "command": "lsp_format_document"
     },
     {
         "keys": ["ctrl+alt+k"],
         "command": "lsp_code_actions"
     },
     {
-        "keys": ["ctrl+alt+l"],
-        "command": "lsp_format_document"
-    },
-
-
-    {
-        "keys": ["ctrl+alt+b"],
-        "command": "lsp_symbol_definition"
-    },
-    {
         "keys": ["ctrl+alt+n"],
         "command": "lsp_symbol_rename"
     },
-
-
+    {
+        "keys": ["ctrl+alt+g"],
+        "command": "lsp_document_symbols"
+    },
     {
         "keys": ["alt+i"],
         "command": "lsp_toggle_inlay_hints"
