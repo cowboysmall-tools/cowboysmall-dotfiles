@@ -11,3 +11,5 @@ o.shiftwidth  = 4
 o.softtabstop = 4
 
 o.cursorlineopt ='both' -- to enable cursorline!
+
+-- require("chadrc").base46.transparency = true

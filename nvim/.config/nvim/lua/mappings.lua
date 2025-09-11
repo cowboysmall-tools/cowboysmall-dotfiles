@@ -30,6 +30,11 @@ map("n", "<S-i>", function()
 end, { desc = "toggle hints", remap = true })
 
 
+map("n", "<A-t>", function()
+  require("base46").toggle_transparency()
+end, { desc = "toggle transparency" })
+
+
 -- editor operations (cut, copy, paste, and comment)
 map("v", "<C-d>", "\"+d", { desc = "cut", remap = true })
 map("v", "<C-y>", "\"+y", { desc = "copy", remap = true })
