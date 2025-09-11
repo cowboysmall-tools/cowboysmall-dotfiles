@@ -24,4 +24,13 @@ export PATH=$NPM_PREFIX/bin:$PATH
 
 ```
 
+install extensions:
+
+```
+
+> npm install --global web-ext
+
+
+```
+
 
