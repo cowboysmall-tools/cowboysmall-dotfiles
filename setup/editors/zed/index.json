@@ -294,7 +294,7 @@
       "manifest": {
         "id": "julia",
         "name": "Julia",
-        "version": "0.1.7",
+        "version": "0.1.8",
         "schema_version": 1,
         "description": "Julia support.",
         "repository": "https://github.com/JuliaEditorSupport/zed-julia",
@@ -471,6 +471,43 @@
       },
       "dev": false
     },
+    "pylsp": {
+      "manifest": {
+        "id": "pylsp",
+        "name": "Python LSP",
+        "version": "0.0.1",
+        "schema_version": 1,
+        "description": "python-lsp extension for Zed",
+        "repository": "https://github.com/rgbkrk/python-lsp-zed-extension",
+        "authors": [
+          "Kyle Kelley <rgbkrk@gmail.com>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.0.6"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [],
+        "grammars": {},
+        "language_servers": {
+          "pylsp": {
+            "language": null,
+            "languages": [
+              "Python"
+            ],
+            "language_ids": {},
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
     "r": {
       "manifest": {
         "id": "r",
@@ -508,6 +545,45 @@
             "code_action_kinds": null
           }
         },
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "sql": {
+      "manifest": {
+        "id": "sql",
+        "name": "SQL",
+        "version": "1.1.4",
+        "schema_version": 1,
+        "description": "SQL language support.",
+        "repository": "https://github.com/zed-extensions/sql",
+        "authors": [
+          "nervenes",
+          "notpeter",
+          "phileix",
+          "tammyxiong"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/sql"
+        ],
+        "grammars": {
+          "sql": {
+            "repository": "https://github.com/DerekStride/tree-sitter-sql",
+            "rev": "4a99c73f5384f2be10adc55208c84d95a7eb1137",
+            "path": null
+          }
+        },
+        "language_servers": {},
         "context_servers": {},
         "slash_commands": {},
         "indexed_docs_providers": {},
@@ -796,6 +872,18 @@
       },
       "hidden": false,
       "grammar": "r"
+    },
+    "SQL": {
+      "extension": "sql",
+      "path": "languages/sql",
+      "matcher": {
+        "path_suffixes": [
+          "sql"
+        ],
+        "first_line_pattern": null
+      },
+      "hidden": false,
+      "grammar": "sql"
     },
     "TOML": {
       "extension": "toml",

@@ -435,36 +435,6 @@
     },
     {
         "identifier": {
-            "id": "ms-vscode.cpptools",
-            "uuid": "690b692e-e8a9-493f-b802-8089d50ac1b2"
-        },
-        "version": "1.26.3",
-        "location": {
-            "$mid": 1,
-            "path": "/home/jerry/.vscode/extensions/ms-vscode.cpptools-1.26.3-linux-x64",
-            "scheme": "file"
-        },
-        "relativeLocation": "ms-vscode.cpptools-1.26.3-linux-x64",
-        "metadata": {
-            "isApplicationScoped": false,
-            "isMachineScoped": false,
-            "isBuiltin": false,
-            "installedTimestamp": 1750885750061,
-            "pinned": false,
-            "source": "gallery",
-            "id": "690b692e-e8a9-493f-b802-8089d50ac1b2",
-            "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
-            "publisherDisplayName": "Microsoft",
-            "targetPlatform": "linux-x64",
-            "updated": true,
-            "private": false,
-            "isPreReleaseVersion": false,
-            "hasPreReleaseVersion": false,
-            "preRelease": false
-        }
-    },
-    {
-        "identifier": {
             "id": "julialang.language-julia",
             "uuid": "038dd41f-4a41-48e3-87de-ab2ea4310780"
         },
@@ -660,66 +630,6 @@
             "publisherId": "cefd71b0-991b-4e5d-bcad-e691066ed199",
             "publisherDisplayName": "ziglang",
             "targetPlatform": "undefined",
-            "updated": true,
-            "private": false,
-            "isPreReleaseVersion": false,
-            "hasPreReleaseVersion": false,
-            "preRelease": false
-        }
-    },
-    {
-        "identifier": {
-            "id": "ms-python.vscode-python-envs",
-            "uuid": "b41d8e8a-b6d4-4202-8f07-7189bdda81be"
-        },
-        "version": "1.2.0",
-        "location": {
-            "$mid": 1,
-            "path": "/home/jerry/.vscode/extensions/ms-python.vscode-python-envs-1.2.0-linux-x64",
-            "scheme": "file"
-        },
-        "relativeLocation": "ms-python.vscode-python-envs-1.2.0-linux-x64",
-        "metadata": {
-            "isApplicationScoped": false,
-            "isMachineScoped": false,
-            "isBuiltin": false,
-            "installedTimestamp": 1756326510317,
-            "pinned": false,
-            "source": "gallery",
-            "id": "b41d8e8a-b6d4-4202-8f07-7189bdda81be",
-            "publisherId": "998b010b-e2af-44a5-a6cd-0b5fd3b9b6f8",
-            "publisherDisplayName": "Microsoft",
-            "targetPlatform": "linux-x64",
-            "updated": true,
-            "private": false,
-            "isPreReleaseVersion": false,
-            "hasPreReleaseVersion": false,
-            "preRelease": false
-        }
-    },
-    {
-        "identifier": {
-            "id": "ms-toolsai.jupyter",
-            "uuid": "6c2f1801-1e7f-45b2-9b5c-7782f1e076e8"
-        },
-        "version": "2025.7.0",
-        "location": {
-            "$mid": 1,
-            "path": "/home/jerry/.vscode/extensions/ms-toolsai.jupyter-2025.7.0-linux-x64",
-            "scheme": "file"
-        },
-        "relativeLocation": "ms-toolsai.jupyter-2025.7.0-linux-x64",
-        "metadata": {
-            "isApplicationScoped": false,
-            "isMachineScoped": false,
-            "isBuiltin": false,
-            "installedTimestamp": 1756326510496,
-            "pinned": false,
-            "source": "gallery",
-            "id": "6c2f1801-1e7f-45b2-9b5c-7782f1e076e8",
-            "publisherId": "ac8eb7c9-3e59-4b39-8040-f0484d8170ce",
-            "publisherDisplayName": "Microsoft",
-            "targetPlatform": "linux-x64",
             "updated": true,
             "private": false,
             "isPreReleaseVersion": false,
@@ -1146,13 +1056,12 @@
     },
     {
         "identifier": {
-            "id": "redhat.java"
+            "id": "redhat.java",
+            "uuid": "198a707e-28af-4e84-8610-6e2f628dd12d"
         },
         "version": "1.45.0",
         "location": {
             "$mid": 1,
-            "fsPath": "/home/jerry/.vscode/extensions/redhat.java-1.45.0-linux-x64",
-            "external": "file:///home/jerry/.vscode/extensions/redhat.java-1.45.0-linux-x64",
             "path": "/home/jerry/.vscode/extensions/redhat.java-1.45.0-linux-x64",
             "scheme": "file"
         },
@@ -1167,6 +1076,96 @@
             "id": "198a707e-28af-4e84-8610-6e2f628dd12d",
             "publisherId": "eed56242-9699-4317-8bc7-e9f4b9bdd3ff",
             "publisherDisplayName": "Red Hat",
+            "targetPlatform": "linux-x64",
+            "updated": true,
+            "private": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "preRelease": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-python.vscode-python-envs",
+            "uuid": "b41d8e8a-b6d4-4202-8f07-7189bdda81be"
+        },
+        "version": "1.6.0",
+        "location": {
+            "$mid": 1,
+            "path": "/home/jerry/.vscode/extensions/ms-python.vscode-python-envs-1.6.0-linux-x64",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-python.vscode-python-envs-1.6.0-linux-x64",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1757604691922,
+            "pinned": false,
+            "source": "gallery",
+            "id": "b41d8e8a-b6d4-4202-8f07-7189bdda81be",
+            "publisherId": "998b010b-e2af-44a5-a6cd-0b5fd3b9b6f8",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "linux-x64",
+            "updated": true,
+            "private": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "preRelease": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-vscode.cpptools",
+            "uuid": "690b692e-e8a9-493f-b802-8089d50ac1b2"
+        },
+        "version": "1.26.5",
+        "location": {
+            "$mid": 1,
+            "path": "/home/jerry/.vscode/extensions/ms-vscode.cpptools-1.26.5-linux-x64",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-vscode.cpptools-1.26.5-linux-x64",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1757604691924,
+            "pinned": false,
+            "source": "gallery",
+            "id": "690b692e-e8a9-493f-b802-8089d50ac1b2",
+            "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+            "publisherDisplayName": "Microsoft",
+            "targetPlatform": "linux-x64",
+            "updated": true,
+            "private": false,
+            "isPreReleaseVersion": false,
+            "hasPreReleaseVersion": false,
+            "preRelease": false
+        }
+    },
+    {
+        "identifier": {
+            "id": "ms-toolsai.jupyter"
+        },
+        "version": "2025.8.0",
+        "location": {
+            "$mid": 1,
+            "fsPath": "/home/jerry/.vscode/extensions/ms-toolsai.jupyter-2025.8.0-linux-x64",
+            "path": "/home/jerry/.vscode/extensions/ms-toolsai.jupyter-2025.8.0-linux-x64",
+            "scheme": "file"
+        },
+        "relativeLocation": "ms-toolsai.jupyter-2025.8.0-linux-x64",
+        "metadata": {
+            "isApplicationScoped": false,
+            "isMachineScoped": false,
+            "isBuiltin": false,
+            "installedTimestamp": 1757604692216,
+            "pinned": false,
+            "source": "gallery",
+            "id": "6c2f1801-1e7f-45b2-9b5c-7782f1e076e8",
+            "publisherId": "ac8eb7c9-3e59-4b39-8040-f0484d8170ce",
+            "publisherDisplayName": "Microsoft",
             "targetPlatform": "linux-x64",
             "updated": true,
             "private": false,
