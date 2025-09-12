@@ -42,6 +42,7 @@ map("n", "<S-A-t>", "<localleader>lT", { desc = "vimtex toc toggle", remap = tru
 map("n", "<S-A-v>", "<localleader>lv", { desc = "vimtex view", remap = true })
 map("n", "<S-A-c>", "<localleader>ll", { desc = "vimtex compile", remap = true })
 map("n", "<S-A-s>", "<localleader>lK", { desc = "vimtex stop", remap = true })
+map("n", "<S-A-d>", "<localleader>lC", { desc = "vimtex clean", remap = true })
 
 
 -- editor operations (cut, copy, paste, and comment)
