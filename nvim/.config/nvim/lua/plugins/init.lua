@@ -36,6 +36,7 @@ return {
         "pyright",
         "rust-analyzer",
         "spring-boot-tools",
+        "texlab",
         "vtsls"
       }
     }
