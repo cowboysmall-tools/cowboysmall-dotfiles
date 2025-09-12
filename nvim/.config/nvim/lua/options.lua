@@ -10,6 +10,8 @@ o.tabstop     = 4
 o.shiftwidth  = 4
 o.softtabstop = 4
 
-o.cursorlineopt ='both' -- to enable cursorline!
+o.cursorlineopt = "both" -- to enable cursorline!
+
+-- g.tex_flavor = "latex"
 
 -- require("chadrc").base46.transparency = true

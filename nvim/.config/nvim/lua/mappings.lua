@@ -30,14 +30,24 @@ map("n", "<S-i>", function()
 end, { desc = "toggle hints", remap = true })
 
 
+-- toggle transparency
 map("n", "<A-t>", function()
   require("base46").toggle_transparency()
 end, { desc = "toggle transparency" })
+
+
+-- vimtex commands (add more as needed)
+map("n", "<S-A-i>", "<localleader>lI", { desc = "vimtex info", remap = true })
+map("n", "<S-A-t>", "<localleader>lT", { desc = "vimtex toc toggle", remap = true })
+map("n", "<S-A-v>", "<localleader>lv", { desc = "vimtex view", remap = true })
+map("n", "<S-A-c>", "<localleader>ll", { desc = "vimtex compile", remap = true })
+map("n", "<S-A-s>", "<localleader>lK", { desc = "vimtex stop", remap = true })
 
 
 -- editor operations (cut, copy, paste, and comment)
 map("v", "<C-d>", "\"+d", { desc = "cut", remap = true })
 map("v", "<C-y>", "\"+y", { desc = "copy", remap = true })
 map("n", "<C-p>", "\"+p", { desc = "paste", remap = true })
-map("v", "<C-_>", "gc", { desc = "comment", remap = true })
+
 map("n", "<C-_>", "gcc", { desc = "comment", remap = true })
+map("v", "<C-_>", "gc", { desc = "comment", remap = true })

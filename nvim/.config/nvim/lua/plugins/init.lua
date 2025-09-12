@@ -84,6 +84,11 @@ return {
 
     opts = {
 
+      highlight = {
+        enable = true,
+        disable = { "latex", },
+      },
+
       ensure_installed = {
         "c",
         "cpp",
@@ -94,7 +99,7 @@ return {
         "java",
         "javascript",
         "json",
-        "latex",
+        -- "latex",
         "lua",
         "markdown",
         "python",
