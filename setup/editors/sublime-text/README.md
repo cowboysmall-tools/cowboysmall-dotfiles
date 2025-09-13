@@ -11,9 +11,7 @@ Copy settings files to the sublime text config directory:
 
 ```
 
-> cp setup/editors/sublime-text/Preferences.sublime-settings     ~/.config/sublime-text/Packages/User
-> cp setup/editors/sublime-text/Default (Linux).sublime-keymap   ~/.config/sublime-text/Packages/User
-> cp setup/editors/sublime-text/Default (Linux).sublime-mousemap ~/.config/sublime-text/Packages/User
+> cp setup/editors/sublime-text/* ~/.config/sublime-text/Packages/User
 
 ```
 
@@ -27,6 +25,7 @@ These packages work well and are essential:
 
 ```
 
+BracketHighlighter
 Catppuccin color schemes
 Dartlight
 Dockerfile Syntax Highlighting
@@ -35,11 +34,14 @@ GitGutter
 Gomod
 Julia
 LSP
+LSP-bash
 LSP-clangd
+LSP-css
 LSP-Dart
 LSP-dockerfile
 LSP-file-watcher-chokidar
 LSP-gopls
+LSP-html
 LSP-jdtls
 LSP-json
 LSP-julia
