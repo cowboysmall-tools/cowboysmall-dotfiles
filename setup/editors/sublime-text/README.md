@@ -49,6 +49,7 @@ LSP-pyright
 LSP-R
 LSP-rust-analyzer
 LSP-TexLab
+LSP-typescript
 LSP-yaml
 Package Control
 R-IDE
