@@ -5,7 +5,7 @@ return {
     event = "VeryLazy",
     -- build = ":ZigLamp build sync",
     build = ":ZigLampBuild async",
-    lazy = false,
+    -- lazy = false,
 
     dependencies = {
       "neovim/nvim-lspconfig",
