@@ -45,8 +45,8 @@
   "spring-boot.nvim": { "branch": "main", "commit": "218c0c26c14d99feca778e4d13f5ec3e8b1b60f0" },
   "telescope.nvim": { "branch": "master", "commit": "b4da76be54691e854d3e0e02c36b0245f945c2c7" },
   "ui": { "branch": "v3.0", "commit": "4852e04faefbba3a18cb197b76ac00f4bc2e615f" },
-  "vimtex": { "branch": "master", "commit": "5626f960be1c0fffeb780d48718709d4830b2c62" },
+  "vimtex": { "branch": "master", "commit": "77f31bd02cec678823c8614e6400db97390b5ce7" },
   "volt": { "branch": "main", "commit": "620de1321f275ec9d80028c68d1b88b409c0c8b1" },
   "which-key.nvim": { "branch": "main", "commit": "370ec46f710e058c9c1646273e6b225acf47cbed" },
-  "zig-lamp": { "branch": "main", "commit": "ee697fdde03228607a210a910204b1e3ea07fd74" }
+  "zig-lamp": { "branch": "main", "commit": "826c9cbc44684b659a54d46237f307bdde213a84" }
 }
