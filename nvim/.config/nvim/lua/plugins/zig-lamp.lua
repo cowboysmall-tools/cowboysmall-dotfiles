@@ -3,7 +3,8 @@ return {
   {
     "jinzhongjia/zig-lamp",
     event = "VeryLazy",
-    build = ":ZigLamp build sync",
+    -- build = ":ZigLamp build sync",
+    build = ":ZigLampBuild async",
     lazy = false,
 
     dependencies = {
