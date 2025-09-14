@@ -9,24 +9,24 @@ autocmd("LspAttach", {
       vim.keymap.set(mode, rhs, lhs, { buffer = e.buf })
     end
 
-    -- bufmap("n", "<C-M-k>", "<cmd>lua vim.lsp.buf.format({async = true})<CR>")
+    -- bufmap("n", "<C-A-k>", "<cmd>lua vim.lsp.buf.format({async = true})<CR>")
 
-    bufmap("n", "<C-M-r>", "<cmd>lua vim.lsp.buf.references()<CR>")
-    bufmap("n", "<C-M-t>", "<cmd>lua vim.lsp.buf.type_definition()<CR>")
-    bufmap("n", "<C-M-i>", "<cmd>lua vim.lsp.buf.implementation()<CR>")
+    bufmap("n", "<C-A-r>", "<cmd>lua vim.lsp.buf.references()<CR>")
+    bufmap("n", "<C-A-t>", "<cmd>lua vim.lsp.buf.type_definition()<CR>")
+    bufmap("n", "<C-A-i>", "<cmd>lua vim.lsp.buf.implementation()<CR>")
 
-    bufmap("n", "<C-M-s>", "<cmd>lua vim.lsp.buf.signature_help()<CR>")
-    bufmap("i", "<C-M-s>", "<cmd>lua vim.lsp.buf.signature_help()<CR>")
-    bufmap("s", "<C-M-s>", "<cmd>lua vim.lsp.buf.signature_help()<CR>")
+    bufmap("n", "<C-A-s>", "<cmd>lua vim.lsp.buf.signature_help()<CR>")
+    bufmap("i", "<C-A-s>", "<cmd>lua vim.lsp.buf.signature_help()<CR>")
+    bufmap("s", "<C-A-s>", "<cmd>lua vim.lsp.buf.signature_help()<CR>")
 
-    bufmap("n", "<C-M-d>", "<cmd>lua vim.lsp.buf.declaration()<CR>")
-    bufmap("n", "<C-M-g>", "<cmd>lua vim.lsp.buf.document_symbol()<CR>")
-    bufmap("n", "<C-M-h>", "<cmd>lua vim.lsp.buf.hover()<CR>")
-    bufmap("n", "<C-M-k>", "<cmd>lua vim.lsp.buf.code_action()<CR>")
-    bufmap("n", "<C-M-l>", "<leader>fm")
+    bufmap("n", "<C-A-d>", "<cmd>lua vim.lsp.buf.declaration()<CR>")
+    bufmap("n", "<C-A-g>", "<cmd>lua vim.lsp.buf.document_symbol()<CR>")
+    bufmap("n", "<C-A-h>", "<cmd>lua vim.lsp.buf.hover()<CR>")
+    bufmap("n", "<C-A-k>", "<cmd>lua vim.lsp.buf.code_action()<CR>")
+    bufmap("n", "<C-A-l>", "<leader>fm")
 
-    bufmap("n", "<C-M-b>", "<cmd>lua vim.lsp.buf.definition()<CR>")
-    bufmap("n", "<C-M-n>", "<cmd>lua vim.lsp.buf.rename()<CR>")
+    bufmap("n", "<C-A-b>", "<cmd>lua vim.lsp.buf.definition()<CR>")
+    bufmap("n", "<C-A-n>", "<cmd>lua vim.lsp.buf.rename()<CR>")
   end
 })
 
