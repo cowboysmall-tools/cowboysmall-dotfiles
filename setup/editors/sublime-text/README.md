@@ -11,7 +11,9 @@ Copy settings files to the sublime text config directory:
 
 ```
 
-> cp setup/editors/sublime-text/* ~/.config/sublime-text/Packages/User
+> cp setup/editors/sublime-text/*.sublime-settings ~/.config/sublime-text/Packages/User
+> cp setup/editors/sublime-text/*.sublime-keymap   ~/.config/sublime-text/Packages/User
+> cp setup/editors/sublime-text/*.sublime-mousemap ~/.config/sublime-text/Packages/User
 
 ```
 
@@ -53,7 +55,6 @@ LSP-rust-analyzer
 LSP-TexLab
 LSP-typescript
 LSP-yaml
-Package Control
 R-IDE
 Rust Enhanced
 SublimeLinter
