@@ -17,22 +17,15 @@ return {
         -- default mappings
         api.config.mappings.default_on_attach(bufnr)
 
-
         -- custom mappings
         local map = vim.keymap.set
 
-
-
-        map("n", "<M-n>", api.fs.create, opts("Create File Or Directory"))
-
-
+        map("n", "<A-n>", api.fs.create, opts("Create File Or Directory"))
 
         map("n", "c", function()
           api.fs.clear_clipboard()
           api.fs.copy.node()
         end, opts("Copy File"))
-
-
 
         map("n", "x", function()
           api.fs.clear_clipboard()
@@ -41,7 +34,7 @@ return {
 
 
 
-        map("n", "<M-c>", function()
+        map("n", "<A-c>", function()
           local file_src = api.tree.get_node_under_cursor()["absolute_path"]
           local input_opts = { prompt = "Copy to ", default = file_src, completion = "file" }
 
@@ -58,9 +51,7 @@ return {
           end)
         end, opts("Copy File To"))
 
-
-
-        map("n", "<M-x>", function()
+        map("n", "<A-x>", function()
           local file_src = api.tree.get_node_under_cursor()["absolute_path"]
           local input_opts = { prompt = "Move to ", default = file_src, completion = "file" }
 
