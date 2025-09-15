@@ -23,12 +23,17 @@ return {
 
       ensure_installed = {
         "black",
+        "clang-format",
         "clangd",
+        "css-lsp",
+        "google-java-format",
         "gopls",
+        "html-lsp",
+        "isort",
         "java-debug-adapter",
         "java-test",
         "jdtls",
-        "jsonls",
+        "json-lsp",
         "lombok-nightly",
         "lua-language-server",
         "openjdk-17",
@@ -36,6 +41,7 @@ return {
         "pyright",
         "rust-analyzer",
         "spring-boot-tools",
+        "stylua",
         "texlab",
         "vtsls"
       }
@@ -100,7 +106,7 @@ return {
         "java",
         "javascript",
         "json",
-        -- "latex",
+        "latex",
         "lua",
         "markdown",
         "python",
