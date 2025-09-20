@@ -8,7 +8,27 @@
   "autosave": "on_focus_change",
   "theme": {
     "mode": "system",
-    "light": "One Light",
+    "light": "Catppuccin Latte",
     "dark": "Catppuccin Mocha"
+  },
+  "languages": {
+    "CSS": {
+      "tab_size": 2
+    },
+    "Go": {
+      "hard_tabs": true
+    },
+    "HTML": {
+      "tab_size": 2
+    },
+    "JavaScript": {
+      "tab_size": 2
+    },
+    "JSON": {
+      "tab_size": 2
+    },
+    "Lua": {
+      "tab_size": 2
+    }
   }
 }
