@@ -1,62 +1,57 @@
 [
   {
-    "keys": [
-      "ctrl+alt+b"
-    ],
-    "command": "lsp_symbol_definition"
+    "keys": ["ctrl+alt+b"],
+    "command": "lsp_symbol_definition",
   },
   {
-    "keys": [
-      "ctrl+alt+t"
-    ],
-    "command": "lsp_symbol_type_definition"
+    "keys": ["ctrl+alt+t"],
+    "command": "lsp_symbol_type_definition",
   },
   {
-    "keys": [
-      "ctrl+alt+d"
-    ],
-    "command": "lsp_symbol_declaration"
+    "keys": ["ctrl+alt+d"],
+    "command": "lsp_symbol_declaration",
   },
   {
-    "keys": [
-      "ctrl+alt+r"
-    ],
-    "command": "lsp_symbol_references"
+    "keys": ["ctrl+alt+r"],
+    "command": "lsp_symbol_references",
   },
   {
-    "keys": [
-      "ctrl+alt+i"
-    ],
-    "command": "lsp_symbol_implementation"
+    "keys": ["ctrl+alt+i"],
+    "command": "lsp_symbol_implementation",
   },
   {
-    "keys": [
-      "ctrl+alt+l"
-    ],
-    "command": "lsp_format_document"
+    "keys": ["ctrl+alt+l"],
+    "command": "lsp_format_document",
   },
   {
-    "keys": [
-      "ctrl+alt+k"
+    "keys": ["ctrl+alt+l"],
+    "command": "js_prettier",
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "text.html, source.css, source.scss, source.js, source.jsx, source.ts, source.tsx, source.json, source.yml, source.yaml",
+      },
     ],
-    "command": "lsp_code_actions"
   },
   {
-    "keys": [
-      "ctrl+alt+n"
-    ],
-    "command": "lsp_symbol_rename"
+    "keys": ["ctrl+alt+k"],
+    "command": "lsp_code_actions",
   },
   {
-    "keys": [
-      "ctrl+alt+g"
-    ],
-    "command": "lsp_document_symbols"
+    "keys": ["ctrl+alt+n"],
+    "command": "lsp_symbol_rename",
   },
   {
-    "keys": [
-      "alt+i"
-    ],
-    "command": "lsp_toggle_inlay_hints"
-  }
+    "keys": ["ctrl+alt+g"],
+    "command": "lsp_document_symbols",
+  },
+  {
+    "keys": ["alt+i"],
+    "command": "lsp_toggle_inlay_hints",
+  },
+  {
+    "keys": ["<"],
+    "command": "focus_side_bar",
+  },
 ]
