@@ -47,11 +47,52 @@
     "command": "lsp_document_symbols",
   },
   {
-    "keys": ["alt+i"],
+    "keys": ["shift+i"],
     "command": "lsp_toggle_inlay_hints",
   },
   {
     "keys": ["<"],
     "command": "focus_side_bar",
+  },
+
+  {
+    "keys": ["alt+shift+t"],
+    "command": "toggle_terminus_panel",
+  },
+  {
+    "keys": ["alt+t"],
+    "command": "terminus_open",
+    "args": {
+      "show_in_panel": true
+    },
+  },
+  {
+    "keys": ["alt+t"],
+    "command": "terminus_open",
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "source.r",
+      },
+    ],
+    "args": {
+      "cmd": "R",
+      "title": "R",
+      "show_in_panel": true
+    },
+  },
+  {
+    "keys": ["alt+h"],
+    "command": "terminus_open",
+    "args": {
+      "cwd": "${file_path:${folder}}",
+      "show_in_panel": true
+    },
+  },
+  {
+    "keys": ["ctrl+w"],
+    "command": "terminus_close",
+    "context": [{ "key": "terminus_view" }],
   },
 ]
