@@ -50,10 +50,13 @@
     "keys": ["shift+i"],
     "command": "lsp_toggle_inlay_hints",
   },
+
+
   {
     "keys": ["<"],
     "command": "focus_side_bar",
   },
+
 
   {
     "keys": ["alt+shift+t"],
@@ -63,6 +66,22 @@
     "keys": ["alt+t"],
     "command": "terminus_open",
     "args": {
+      "show_in_panel": true
+    },
+  },
+  {
+    "keys": ["alt+t"],
+    "command": "terminus_open",
+    "context": [
+      {
+        "key": "selector",
+        "operator": "equal",
+        "operand": "source.python",
+      },
+    ],
+    "args": {
+      "cmd": "ipython",
+      "title": "IPython",
       "show_in_panel": true
     },
   },

@@ -1,8 +1,11 @@
 {
-	"prog": "terminus",
-	"r":
-	{
-		"bracketed_paste_mode": false,
-		"prog": "terminus"
-	}
+  "prog": "terminus",
+  "r": {
+    "bracketed_paste_mode": true,
+    "prog": "terminus",
+  },
+  "python": {
+    "bracketed_paste_mode": true,
+    "prog": "terminus",
+  },
 }
