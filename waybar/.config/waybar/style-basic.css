@@ -11,8 +11,8 @@ background-color: @maroon;
 */
 
 * {
-  /*font-family: "JetBrainsMono Nerd Font Mono";*/
-  font-family: "JetBrainsMono Nerd Font";
+  /*font-family: "JetBrainsMono Nerd Font";*/
+  font-family: "JetBrainsMono Nerd Font Mono";
   font-size: 10px;
   min-height: 0;
 }
