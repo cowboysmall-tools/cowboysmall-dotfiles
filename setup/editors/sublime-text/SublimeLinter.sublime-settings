@@ -1,0 +1,13 @@
+// SublimeLinter Settings - User
+{
+    // "debug": true,
+
+    "linters": {
+        "pycodestyle": {
+            "filter_errors": [
+                "E221", "E251", "E272", "E302", "E305", "E303", "E501",
+                "W291", "W391"
+            ]
+        }
+    }
+}
