@@ -9,7 +9,7 @@ autocmd("LspAttach", {
       vim.keymap.set(mode, rhs, lhs, { buffer = e.buf })
     end
 
-    -- bufmap("n", "<C-A-k>", "<cmd>lua vim.lsp.buf.format({async = true})<CR>")
+    -- bufmap("n", "<C-A-l>", "<cmd>lua vim.lsp.buf.format({async = true})<CR>")
 
     bufmap("n", "<C-A-r>", "<cmd>lua vim.lsp.buf.references()<CR>")
     bufmap("n", "<C-A-t>", "<cmd>lua vim.lsp.buf.type_definition()<CR>")
