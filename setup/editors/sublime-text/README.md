@@ -1,9 +1,4 @@
-
 # Sublime Text Configs and Packages
-
-
-
-
 
 ## Configs
 
@@ -16,10 +11,6 @@ Copy settings files to the sublime text config directory:
 > cp setup/editors/sublime-text/*.sublime-mousemap ~/.config/sublime-text/Packages/User
 
 ```
-
-
-
-
 
 ## Working Packages
 
@@ -34,6 +25,7 @@ Dockerfile Syntax Highlighting
 FileIcons
 GitGutter
 Gomod
+JsPrettier
 Julia
 LSP
 LSP-bash
@@ -55,8 +47,10 @@ LSP-rust-analyzer
 LSP-TexLab
 LSP-typescript
 LSP-yaml
+MarkdownEditing
 R-IDE
 Rust Enhanced
+SendCode
 SublimeLinter
 SublimeLinter-chktex
 SublimeLinter-clang
@@ -69,10 +63,6 @@ TOML
 Zig Language
 
 ```
-
-
-
-
 
 ## Problem Packages
 
