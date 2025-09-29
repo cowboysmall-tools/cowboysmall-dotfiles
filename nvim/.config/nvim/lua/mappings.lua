@@ -31,7 +31,7 @@ end, { desc = "toggle hints", remap = true })
 
 
 -- toggle transparency
-map("n", "<A-t>", function()
+map("n", "<M-t>", function()
   require("base46").toggle_transparency()
 end, { desc = "toggle transparency" })
 
@@ -46,9 +46,9 @@ map("v", "<C-_>", "gc", { desc = "comment", remap = true })
 
 
 -- vimtex commands (add more as needed)
-map("n", "<S-A-i>", "<localleader>lI", { desc = "vimtex info", remap = true })
-map("n", "<S-A-t>", "<localleader>lT", { desc = "vimtex toc toggle", remap = true })
-map("n", "<S-A-v>", "<localleader>lv", { desc = "vimtex view", remap = true })
-map("n", "<S-A-c>", "<localleader>ll", { desc = "vimtex compile", remap = true })
-map("n", "<S-A-s>", "<localleader>lK", { desc = "vimtex stop", remap = true })
-map("n", "<S-A-d>", "<localleader>lC", { desc = "vimtex clean", remap = true })
+map("n", "<S-M-i>", "<localleader>lI", { desc = "vimtex info", remap = true })
+map("n", "<S-M-t>", "<localleader>lT", { desc = "vimtex toc toggle", remap = true })
+map("n", "<S-M-v>", "<localleader>lv", { desc = "vimtex view", remap = true })
+map("n", "<S-M-c>", "<localleader>ll", { desc = "vimtex compile", remap = true })
+map("n", "<S-M-s>", "<localleader>lK", { desc = "vimtex stop", remap = true })
+map("n", "<S-M-d>", "<localleader>lC", { desc = "vimtex clean", remap = true })
