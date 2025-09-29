@@ -25,6 +25,7 @@ Dockerfile Syntax Highlighting
 FileIcons
 GitGutter
 Gomod
+Helium
 JsPrettier
 Julia
 LSP
