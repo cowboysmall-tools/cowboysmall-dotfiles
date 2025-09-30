@@ -47,13 +47,20 @@
     "command": "lsp_document_symbols",
   },
   {
-    "keys": ["shift+i"],
+    "keys": ["ctrl+alt+h"],
     "command": "lsp_toggle_inlay_hints",
   },
 
 
   {
-    "keys": ["<"],
+    "keys": ["alt+shift+l"],
+    "command": "focus_group",
+    "args": {
+      "group": 0,
+    },
+  },
+  {
+    "keys": ["alt+shift+h"],
     "command": "focus_side_bar",
   },
 
