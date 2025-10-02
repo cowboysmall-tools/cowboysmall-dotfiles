@@ -19,6 +19,8 @@
     "keys": ["ctrl+alt+i"],
     "command": "lsp_symbol_implementation",
   },
+
+
   {
     "keys": ["ctrl+alt+l"],
     "command": "lsp_format_document",
@@ -42,6 +44,8 @@
     "keys": ["ctrl+alt+n"],
     "command": "lsp_symbol_rename",
   },
+
+
   {
     "keys": ["ctrl+alt+g"],
     "command": "lsp_document_symbols",
@@ -73,7 +77,7 @@
     "keys": ["alt+t"],
     "command": "terminus_open",
     "args": {
-      "show_in_panel": true
+      "show_in_panel": true,
     },
   },
   {
@@ -89,7 +93,7 @@
     "args": {
       "cmd": "ipython",
       "title": "IPython",
-      "show_in_panel": true
+      "show_in_panel": true,
     },
   },
   {
@@ -105,7 +109,7 @@
     "args": {
       "cmd": "R",
       "title": "R",
-      "show_in_panel": true
+      "show_in_panel": true,
     },
   },
   {
@@ -113,12 +117,16 @@
     "command": "terminus_open",
     "args": {
       "cwd": "${file_path:${folder}}",
-      "show_in_panel": true
+      "show_in_panel": true,
     },
   },
   {
     "keys": ["ctrl+w"],
     "command": "terminus_close",
-    "context": [{ "key": "terminus_view" }],
+    "context": [
+      {
+        "key": "terminus_view",
+      },
+    ],
   },
 ]
