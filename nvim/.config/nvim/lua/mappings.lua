@@ -50,4 +50,3 @@ map("n", "<S-M-d>", "<localleader>lC", { desc = "vimtex clean", remap = true })
 -- map("n", "<C-M-h>", function()
 --   vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
 -- end, { desc = "toggle hints", remap = true })
-
