@@ -16,8 +16,9 @@ flatpak install --assumeyes flathub com.spotify.Client
 flatpak install --assumeyes flathub com.wire.WireDesktop
 flatpak install --assumeyes flathub im.dino.Dino
 flatpak install --assumeyes flathub im.riot.Riot
-flatpak install --assumeyes flathub io.github.realmazharhussain.GdmSettings
 flatpak install --assumeyes flathub io.github.getnf.embellish
+flatpak install --assumeyes flathub io.github.htkhiem.Euphonica
+flatpak install --assumeyes flathub io.github.realmazharhussain.GdmSettings
 flatpak install --assumeyes flathub io.gitlab.news_flash.NewsFlash
 flatpak install --assumeyes flathub org.gnome.Epiphany
 flatpak install --assumeyes flathub org.gnome.Evolution
