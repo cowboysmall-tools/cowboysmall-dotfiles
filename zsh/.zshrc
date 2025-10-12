@@ -18,6 +18,10 @@ GITSTATUS_LOG_LEVEL=DEBUG
 # export NLTK_DATA=$HOME/Data/nltk_data
 # export KUBECONFIG=$KUBECONFIG:$HOME/.kube/config:$HOME/.kube/configs/petit-prod-kubeconfig.yaml
 
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
 export GOPATH=$HOME/.go
 export PATH=$GOPATH/bin:$PATH
 # export PATH=$PATH:$GOPATH/bin
