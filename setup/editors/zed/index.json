@@ -25,7 +25,6 @@
         "language_servers": {},
         "context_servers": {},
         "slash_commands": {},
-        "indexed_docs_providers": {},
         "snippets": null,
         "capabilities": []
       },
@@ -35,7 +34,7 @@
       "manifest": {
         "id": "catppuccin-icons",
         "name": "Catppuccin Icons",
-        "version": "1.21.0",
+        "version": "1.22.0",
         "schema_version": 1,
         "description": "🦊 Soothing pastel icons for Zed",
         "repository": "https://github.com/catppuccin/zed-icons",
@@ -55,7 +54,6 @@
         "language_servers": {},
         "context_servers": {},
         "slash_commands": {},
-        "indexed_docs_providers": {},
         "snippets": null,
         "capabilities": []
       },
@@ -103,7 +101,6 @@
         },
         "context_servers": {},
         "slash_commands": {},
-        "indexed_docs_providers": {},
         "snippets": null,
         "capabilities": []
       },
@@ -138,7 +135,6 @@
         },
         "context_servers": {},
         "slash_commands": {},
-        "indexed_docs_providers": {},
         "snippets": null,
         "capabilities": []
       },
@@ -148,7 +144,7 @@
       "manifest": {
         "id": "dockerfile",
         "name": "Dockerfile",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "schema_version": 1,
         "description": "Dockerfile support.",
         "repository": "https://github.com/zed-extensions/dockerfile",
@@ -158,7 +154,7 @@
         ],
         "lib": {
           "kind": "Rust",
-          "version": "0.0.4"
+          "version": "0.7.0"
         },
         "themes": [],
         "icon_themes": [],
@@ -182,7 +178,6 @@
         },
         "context_servers": {},
         "slash_commands": {},
-        "indexed_docs_providers": {},
         "snippets": null,
         "capabilities": []
       },
@@ -192,7 +187,7 @@
       "manifest": {
         "id": "html",
         "name": "HTML",
-        "version": "0.2.2",
+        "version": "0.2.3",
         "schema_version": 1,
         "description": "HTML support.",
         "repository": "https://github.com/zed-industries/zed",
@@ -201,7 +196,7 @@
         ],
         "lib": {
           "kind": "Rust",
-          "version": "0.1.0"
+          "version": "0.7.0"
         },
         "themes": [],
         "icon_themes": [],
@@ -228,7 +223,6 @@
         },
         "context_servers": {},
         "slash_commands": {},
-        "indexed_docs_providers": {},
         "snippets": null,
         "capabilities": []
       },
@@ -238,7 +232,7 @@
       "manifest": {
         "id": "java",
         "name": "Java",
-        "version": "6.4.0",
+        "version": "6.5.0",
         "schema_version": 1,
         "description": "Java support.",
         "repository": "https://github.com/zed-extensions/java",
@@ -249,13 +243,13 @@
         ],
         "lib": {
           "kind": "Rust",
-          "version": "0.6.0"
+          "version": "0.7.0"
         },
         "themes": [],
         "icon_themes": [],
         "languages": [
-          "languages/properties",
-          "languages/java"
+          "languages/java",
+          "languages/properties"
         ],
         "grammars": {
           "java": {
@@ -279,7 +273,6 @@
         },
         "context_servers": {},
         "slash_commands": {},
-        "indexed_docs_providers": {},
         "snippets": null,
         "capabilities": [],
         "debug_adapters": {
@@ -329,7 +322,6 @@
         },
         "context_servers": {},
         "slash_commands": {},
-        "indexed_docs_providers": {},
         "snippets": null,
         "capabilities": []
       },
@@ -381,7 +373,6 @@
         },
         "context_servers": {},
         "slash_commands": {},
-        "indexed_docs_providers": {},
         "snippets": null,
         "capabilities": []
       },
@@ -424,7 +415,6 @@
         },
         "context_servers": {},
         "slash_commands": {},
-        "indexed_docs_providers": {},
         "snippets": null,
         "capabilities": []
       },
@@ -465,7 +455,6 @@
         "language_servers": {},
         "context_servers": {},
         "slash_commands": {},
-        "indexed_docs_providers": {},
         "snippets": null,
         "capabilities": []
       },
@@ -502,7 +491,6 @@
         },
         "context_servers": {},
         "slash_commands": {},
-        "indexed_docs_providers": {},
         "snippets": null,
         "capabilities": []
       },
@@ -547,7 +535,6 @@
         },
         "context_servers": {},
         "slash_commands": {},
-        "indexed_docs_providers": {},
         "snippets": null,
         "capabilities": []
       },
@@ -586,7 +573,6 @@
         "language_servers": {},
         "context_servers": {},
         "slash_commands": {},
-        "indexed_docs_providers": {},
         "snippets": null,
         "capabilities": []
       },
@@ -623,7 +609,6 @@
         "language_servers": {},
         "context_servers": {},
         "slash_commands": {},
-        "indexed_docs_providers": {},
         "snippets": null,
         "capabilities": []
       },
@@ -633,7 +618,7 @@
       "manifest": {
         "id": "zig",
         "name": "Zig",
-        "version": "0.3.5",
+        "version": "0.4.0",
         "schema_version": 1,
         "description": "Zig support.",
         "repository": "https://github.com/zed-extensions/zig",
@@ -642,7 +627,7 @@
         ],
         "lib": {
           "kind": "Rust",
-          "version": "0.1.0"
+          "version": "0.7.0"
         },
         "themes": [],
         "icon_themes": [],
@@ -652,7 +637,7 @@
         "grammars": {
           "zig": {
             "repository": "https://github.com/tree-sitter-grammars/tree-sitter-zig",
-            "rev": "eb7d58c2dc4fbeea4745019dee8df013034ae66b",
+            "rev": "6479aa13f32f701c383083d8b28360ebd682fb7d",
             "path": null
           }
         },
@@ -666,9 +651,11 @@
         },
         "context_servers": {},
         "slash_commands": {},
-        "indexed_docs_providers": {},
         "snippets": null,
-        "capabilities": []
+        "capabilities": [],
+        "debug_locators": {
+          "zig-locator": {}
+        }
       },
       "dev": false
     }
