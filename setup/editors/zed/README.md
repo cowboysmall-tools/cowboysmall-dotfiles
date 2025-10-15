@@ -1,9 +1,4 @@
-
 # Zed Configs and Extensions
-
-
-
-
 
 ## Configs
 
@@ -17,52 +12,56 @@ Copy settings file to the zed config directory:
 
 ```
 
-
-
-
-
 ## Working Extensions
 
 These extensions work well and are essential:
 
 ```
 
-adwaita-pastel
-catppuccin
-catppuccin-icons
 dart
 docker-compose
 dockerfile
 html
 java
+julia
 latex
 lua
-new-darcula
+make
+pylsp
 r
 ruby
 sql
-sublime-mariana-theme
 toml
-vscode-classic-theme
-vscode-dark-modern
-vscode-dark-plus
 zig
 
 
 ```
 
+## Theme Extensions
+
+These extensions work well and are optional:
+
+```
+
+adwaita-pastel
+catppuccin
+catppuccin-icons
+new-darcula
+sublime-mariana-theme
+vscode-classic-theme
+vscode-dark-modern
+vscode-dark-plus
+
+```
 
 ## Problem Extensions
 
 These extensions do not play nicely with other extensions:
 
 ```
-
+...
 
 ```
-
-
-
 
 ## Example Keymap Config
 

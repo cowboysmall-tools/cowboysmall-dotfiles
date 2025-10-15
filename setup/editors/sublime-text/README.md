@@ -45,6 +45,7 @@ LSP-lua
 LSP-pyright
 LSP-R
 LSP-rust-analyzer
+LSP-tailwindcss
 LSP-TexLab
 LSP-typescript
 LSP-yaml
