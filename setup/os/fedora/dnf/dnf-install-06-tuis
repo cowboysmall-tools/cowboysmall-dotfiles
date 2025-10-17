@@ -2,7 +2,7 @@
 
 
 # Music Player
-dnf install mpd mpdris2 ncmpcpp cava
+dnf install mpd mpc mpdris2 ncmpcpp cava
 
 
 # Torrent Client
