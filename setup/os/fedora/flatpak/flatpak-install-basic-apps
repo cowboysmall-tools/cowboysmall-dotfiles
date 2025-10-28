@@ -9,11 +9,9 @@ flatpak install --assumeyes flathub com.discordapp.Discord
 flatpak install --assumeyes flathub com.github.jeromerobert.pdfarranger
 flatpak install --assumeyes flathub com.github.johnfactotum.Foliate
 flatpak install --assumeyes flathub com.github.tchx84.Flatseal
-flatpak install --assumeyes flathub com.simplenote.Simplenote
 flatpak install --assumeyes flathub com.slack.Slack
 flatpak install --assumeyes flathub com.spotify.Client
 flatpak install --assumeyes flathub com.wire.WireDesktop
-flatpak install --assumeyes flathub im.dino.Dino
 flatpak install --assumeyes flathub im.riot.Riot
 flatpak install --assumeyes flathub io.github.getnf.embellish
 flatpak install --assumeyes flathub io.github.htkhiem.Euphonica
@@ -22,16 +20,18 @@ flatpak install --assumeyes flathub io.gitlab.news_flash.NewsFlash
 flatpak install --assumeyes flathub org.gnome.Epiphany
 flatpak install --assumeyes flathub org.gnome.Evolution
 flatpak install --assumeyes flathub org.gnome.Fractal
-flatpak install --assumeyes flathub org.gnome.Podcasts
 flatpak install --assumeyes flathub org.signal.Signal
 flatpak install --assumeyes flathub org.telegram.desktop
 flatpak install --assumeyes flathub org.videolan.VLC
-flatpak install --assumeyes flathub page.tesk.Refine
 flatpak install --assumeyes flathub us.zoom.Zoom
 
 # flatpak install --assumeyes flathub com.github.rafostar.Clapper
+# flatpak install --assumeyes flathub com.simplenote.Simplenote
+# flatpak install --assumeyes flathub im.dino.Dino
 # flatpak install --assumeyes flathub org.gnome.Lollypop
+# flatpak install --assumeyes flathub org.gnome.Podcasts
 # flatpak install --assumeyes flathub org.mozilla.Thunderbird
+# flatpak install --assumeyes flathub page.tesk.Refine
 
 
 echo
