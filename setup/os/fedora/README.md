@@ -3,14 +3,11 @@
 ## Remove Dropped Packages
 
 After upgrading you may want to remove these
-old Gnome apps that have been dropped by Fedora:
+old Gnome apps that have been dropped / replaced:
 
 ```
 
-> dnf remove totem
-> dnf remove evince
-> dnf remove rhythmbox
-> dnf remove gnome-screenshot
+> dnf remove totem evince eog devhelp rhythmbox gnome-screenshot
 
 
 ```
