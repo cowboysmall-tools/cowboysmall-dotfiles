@@ -1,8 +1,23 @@
+# Update / Upgrade Notes
+
+## Remove Dropped Packages
+
+After upgrading you may want to remove these
+old Gnome apps that have been dropped by Fedora:
+
+```
+
+> dnf remove totem
+> dnf remove evince
+> dnf remove rhythmbox
+> dnf remove gnome-screenshot
+
+
+```
+
 # Installation Notes
 
-
 ## NPM Global Prefix
-
 
 Create global prefix directory:
 
@@ -32,5 +47,3 @@ install extensions:
 
 
 ```
-
-
