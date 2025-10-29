@@ -1,7 +1,4 @@
-
-
 # Setup
-
 
 ## GDM (Root)
 
@@ -17,7 +14,6 @@ gsettings set org.gnome.desktop.interface accent-color "blue"
 
 ```
 
-
 ## Config (Root)
 
 ```
@@ -30,23 +26,7 @@ ujust toggle-user-motd
 
 ```
 
-
-## ZSH (Root)
-
-
-```
-
-rpm-ostree install zsh figlet fortume-mod stow
-
-usermod --shell /usr/sbin/zsh root
-usermod --shell /usr/sbin/zsh jerry
-
-
-```
-
-
 ## Config (User)
-
 
 ```
 
@@ -62,9 +42,7 @@ ujust toggle-user-motd
 
 ```
 
-
 ## Apps (User)
-
 
 ```
 
@@ -86,12 +64,9 @@ tar -xzvf /run/media/jerry/Storage/Backups/Laptops/Common/User/Hidden/SSH.tar.gz
 
 ```
 
-
 ## GPU
 
-
 ### Integrated
-
 
 ```
 
@@ -101,7 +76,6 @@ glxinfo | grep "OpenGL renderer"
 
 ### NVIDIA
 
-
 ```
 
 __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia glxinfo | grep "OpenGL renderer"
@@ -110,22 +84,17 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia __VK_LAYER_NV_optim
 
 ```
 
-
 ### AMD
 
-
 ```
 
-DRI_PRIME=1 glxinfo | grep "OpenGL renderer" 
+DRI_PRIME=1 glxinfo | grep "OpenGL renderer"
 
 ```
-
 
 ## Steam
 
-
 ### NVIDIA
-
 
 ```
 
@@ -133,13 +102,10 @@ __NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia %command%
 
 ```
 
-
 ### AMD
-
 
 ```
 
 DRI_PRIME=1 %command%
 
 ```
-
