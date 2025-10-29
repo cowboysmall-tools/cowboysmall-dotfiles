@@ -9,9 +9,7 @@
   "editor.scrollBeyondLastLine": false,
   "editor.bracketPairColorization.enabled": false,
   "redhat.telemetry.enabled": true,
-  "terminal.integrated.commandsToSkipShell": [
-    "language-julia.interrupt"
-  ],
+  "terminal.integrated.commandsToSkipShell": ["language-julia.interrupt"],
   "julia.symbolCacheDownload": true,
   "workbench.startupEditor": "none",
   "jupyter.notebookFileRoot": "${workspaceFolder}",
@@ -26,9 +24,7 @@
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [
-      80
-    ],
+    "editor.rulers": [80],
     "editor.selectionHighlight": false,
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off"

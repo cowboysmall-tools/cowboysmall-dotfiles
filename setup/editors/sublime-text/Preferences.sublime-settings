@@ -7,9 +7,7 @@
   "font_face": "Consolas",
   "font_size": 10,
   "hot_exit": "disabled",
-  "ignored_packages": [
-    "Vintage",
-  ],
+  "ignored_packages": ["Vintage"],
   "remember_open_files": false,
   "save_on_focus_lost": true,
   "scroll_past_end": false,
@@ -28,7 +26,7 @@
     ".settings",
     ".idea",
     ".vscode",
-    ".mvn"
+    ".mvn",
   ],
   "file_exclude_patterns": [
     "*.pyc",
@@ -55,7 +53,7 @@
     "*.sublime-workspace",
     ".classpath",
     ".factorypath",
-    ".project"
+    ".project",
   ],
   "hardware_acceleration": "opengl",
 }

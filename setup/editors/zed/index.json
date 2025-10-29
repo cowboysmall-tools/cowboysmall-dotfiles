@@ -8,9 +8,7 @@
         "schema_version": 1,
         "description": "🦀 Soothing pastel theme for Zed",
         "repository": "https://github.com/catppuccin/zed",
-        "authors": [
-          "Catppuccin <releases@catppuccin.com>"
-        ],
+        "authors": ["Catppuccin <releases@catppuccin.com>"],
         "lib": {
           "kind": null,
           "version": null
@@ -38,17 +36,13 @@
         "schema_version": 1,
         "description": "🦊 Soothing pastel icons for Zed",
         "repository": "https://github.com/catppuccin/zed-icons",
-        "authors": [
-          "Catppuccin <releases@catppuccin.com>"
-        ],
+        "authors": ["Catppuccin <releases@catppuccin.com>"],
         "lib": {
           "kind": null,
           "version": null
         },
         "themes": [],
-        "icon_themes": [
-          "icon_themes/catppuccin-icons.json"
-        ],
+        "icon_themes": ["icon_themes/catppuccin-icons.json"],
         "languages": [],
         "grammars": {},
         "language_servers": {},
@@ -79,9 +73,7 @@
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/dart"
-        ],
+        "languages": ["languages/dart"],
         "grammars": {
           "dart": {
             "repository": "https://github.com/UserNobody14/tree-sitter-dart",
@@ -92,9 +84,7 @@
         "language_servers": {
           "dart": {
             "language": "Dart",
-            "languages": [
-              "Dart"
-            ],
+            "languages": ["Dart"],
             "language_ids": {},
             "code_action_kinds": null
           }
@@ -114,9 +104,7 @@
         "schema_version": 1,
         "description": "Syntax highlighting for Docker Compose files",
         "repository": "https://github.com/eth0net/zed-docker-compose",
-        "authors": [
-          "eth0net <eth0net@pm.me>"
-        ],
+        "authors": ["eth0net <eth0net@pm.me>"],
         "lib": {
           "kind": "Rust",
           "version": "0.0.6"
@@ -158,9 +146,7 @@
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/dockerfile"
-        ],
+        "languages": ["languages/dockerfile"],
         "grammars": {
           "dockerfile": {
             "repository": "https://github.com/camdencheek/tree-sitter-dockerfile",
@@ -191,18 +177,14 @@
         "schema_version": 1,
         "description": "HTML support.",
         "repository": "https://github.com/zed-industries/zed",
-        "authors": [
-          "Isaac Clayton <slightknack@gmail.com>"
-        ],
+        "authors": ["Isaac Clayton <slightknack@gmail.com>"],
         "lib": {
           "kind": "Rust",
           "version": "0.7.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/html"
-        ],
+        "languages": ["languages/html"],
         "grammars": {
           "html": {
             "repository": "https://github.com/tree-sitter/tree-sitter-html",
@@ -247,10 +229,7 @@
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/java",
-          "languages/properties"
-        ],
+        "languages": ["languages/java", "languages/properties"],
         "grammars": {
           "java": {
             "repository": "https://github.com/tree-sitter/tree-sitter-java",
@@ -291,18 +270,14 @@
         "schema_version": 1,
         "description": "Julia support.",
         "repository": "https://github.com/JuliaEditorSupport/zed-julia",
-        "authors": [
-          "Paul Berg <paul@plutojl.org>"
-        ],
+        "authors": ["Paul Berg <paul@plutojl.org>"],
         "lib": {
           "kind": "Rust",
           "version": "0.0.6"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/julia"
-        ],
+        "languages": ["languages/julia"],
         "grammars": {
           "julia": {
             "repository": "https://github.com/tree-sitter/tree-sitter-julia",
@@ -313,9 +288,7 @@
         "language_servers": {
           "julia": {
             "language": null,
-            "languages": [
-              "Julia"
-            ],
+            "languages": ["Julia"],
             "language_ids": {},
             "code_action_kinds": null
           }
@@ -347,10 +320,7 @@
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/bibtex",
-          "languages/latex"
-        ],
+        "languages": ["languages/bibtex", "languages/latex"],
         "grammars": {
           "bibtex": {
             "repository": "https://github.com/latex-lsp/tree-sitter-bibtex",
@@ -386,18 +356,14 @@
         "schema_version": 1,
         "description": "Lua support.",
         "repository": "https://github.com/zed-extensions/lua",
-        "authors": [
-          "Max Brunsfeld <max@zed.dev>"
-        ],
+        "authors": ["Max Brunsfeld <max@zed.dev>"],
         "lib": {
           "kind": "Rust",
           "version": "0.1.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/lua"
-        ],
+        "languages": ["languages/lua"],
         "grammars": {
           "lua": {
             "repository": "https://github.com/tree-sitter-grammars/tree-sitter-lua",
@@ -442,9 +408,7 @@
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/make"
-        ],
+        "languages": ["languages/make"],
         "grammars": {
           "make": {
             "repository": "https://github.com/tree-sitter-grammars/tree-sitter-make",
@@ -468,9 +432,7 @@
         "schema_version": 1,
         "description": "python-lsp extension for Zed",
         "repository": "https://github.com/rgbkrk/python-lsp-zed-extension",
-        "authors": [
-          "Kyle Kelley <rgbkrk@gmail.com>"
-        ],
+        "authors": ["Kyle Kelley <rgbkrk@gmail.com>"],
         "lib": {
           "kind": "Rust",
           "version": "0.0.6"
@@ -482,9 +444,7 @@
         "language_servers": {
           "pylsp": {
             "language": null,
-            "languages": [
-              "Python"
-            ],
+            "languages": ["Python"],
             "language_ids": {},
             "code_action_kinds": null
           }
@@ -515,9 +475,7 @@
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/r"
-        ],
+        "languages": ["languages/r"],
         "grammars": {
           "r": {
             "repository": "https://github.com/r-lib/tree-sitter-r",
@@ -548,21 +506,14 @@
         "schema_version": 1,
         "description": "SQL language support.",
         "repository": "https://github.com/zed-extensions/sql",
-        "authors": [
-          "nervenes",
-          "notpeter",
-          "phileix",
-          "tammyxiong"
-        ],
+        "authors": ["nervenes", "notpeter", "phileix", "tammyxiong"],
         "lib": {
           "kind": null,
           "version": null
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/sql"
-        ],
+        "languages": ["languages/sql"],
         "grammars": {
           "sql": {
             "repository": "https://github.com/DerekStride/tree-sitter-sql",
@@ -596,9 +547,7 @@
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/toml"
-        ],
+        "languages": ["languages/toml"],
         "grammars": {
           "toml": {
             "repository": "https://github.com/tree-sitter/tree-sitter-toml",
@@ -622,18 +571,14 @@
         "schema_version": 1,
         "description": "Zig support.",
         "repository": "https://github.com/zed-extensions/zig",
-        "authors": [
-          "Allan Calix <contact@acx.dev>"
-        ],
+        "authors": ["Allan Calix <contact@acx.dev>"],
         "lib": {
           "kind": "Rust",
           "version": "0.7.0"
         },
         "themes": [],
         "icon_themes": [],
-        "languages": [
-          "languages/zig"
-        ],
+        "languages": ["languages/zig"],
         "grammars": {
           "zig": {
             "repository": "https://github.com/tree-sitter-grammars/tree-sitter-zig",
@@ -717,11 +662,7 @@
       "extension": "latex",
       "path": "languages/bibtex",
       "matcher": {
-        "path_suffixes": [
-          "bib",
-          "bibtex",
-          "biblatex"
-        ],
+        "path_suffixes": ["bib", "bibtex", "biblatex"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -731,9 +672,7 @@
       "extension": "dart",
       "path": "languages/dart",
       "matcher": {
-        "path_suffixes": [
-          "dart"
-        ],
+        "path_suffixes": ["dart"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -743,11 +682,7 @@
       "extension": "dockerfile",
       "path": "languages/dockerfile",
       "matcher": {
-        "path_suffixes": [
-          "Dockerfile",
-          "Containerfile",
-          "dockerfile"
-        ],
+        "path_suffixes": ["Dockerfile", "Containerfile", "dockerfile"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -757,11 +692,7 @@
       "extension": "html",
       "path": "languages/html",
       "matcher": {
-        "path_suffixes": [
-          "html",
-          "htm",
-          "shtml"
-        ],
+        "path_suffixes": ["html", "htm", "shtml"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -771,9 +702,7 @@
       "extension": "java",
       "path": "languages/java",
       "matcher": {
-        "path_suffixes": [
-          "java"
-        ],
+        "path_suffixes": ["java"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -783,9 +712,7 @@
       "extension": "julia",
       "path": "languages/julia",
       "matcher": {
-        "path_suffixes": [
-          "jl"
-        ],
+        "path_suffixes": ["jl"],
         "first_line_pattern": "^#!.*\\bjulia\\b"
       },
       "hidden": false,
@@ -795,12 +722,7 @@
       "extension": "latex",
       "path": "languages/latex",
       "matcher": {
-        "path_suffixes": [
-          "tex",
-          "latex",
-          "sty",
-          "cls"
-        ],
+        "path_suffixes": ["tex", "latex", "sty", "cls"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -810,9 +732,7 @@
       "extension": "lua",
       "path": "languages/lua",
       "matcher": {
-        "path_suffixes": [
-          "lua"
-        ],
+        "path_suffixes": ["lua"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -839,9 +759,7 @@
       "extension": "java",
       "path": "languages/properties",
       "matcher": {
-        "path_suffixes": [
-          "properties"
-        ],
+        "path_suffixes": ["properties"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -851,10 +769,7 @@
       "extension": "r",
       "path": "languages/r",
       "matcher": {
-        "path_suffixes": [
-          "r",
-          "R"
-        ],
+        "path_suffixes": ["r", "R"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -864,9 +779,7 @@
       "extension": "sql",
       "path": "languages/sql",
       "matcher": {
-        "path_suffixes": [
-          "sql"
-        ],
+        "path_suffixes": ["sql"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -876,12 +789,7 @@
       "extension": "toml",
       "path": "languages/toml",
       "matcher": {
-        "path_suffixes": [
-          "Cargo.lock",
-          "toml",
-          "Pipfile",
-          "uv.lock"
-        ],
+        "path_suffixes": ["Cargo.lock", "toml", "Pipfile", "uv.lock"],
         "first_line_pattern": null
       },
       "hidden": false,
@@ -891,10 +799,7 @@
       "extension": "zig",
       "path": "languages/zig",
       "matcher": {
-        "path_suffixes": [
-          "zig",
-          "zon"
-        ],
+        "path_suffixes": ["zig", "zon"],
         "first_line_pattern": null
       },
       "hidden": false,

@@ -49,6 +49,7 @@ LSP-tailwindcss
 LSP-TexLab
 LSP-typescript
 LSP-yaml
+Markdown
 MarkdownEditing
 R-IDE
 Rust Enhanced

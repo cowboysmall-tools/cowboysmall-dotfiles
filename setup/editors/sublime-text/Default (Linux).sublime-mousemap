@@ -2,19 +2,15 @@
   {
     "button": "button1",
     "count": 1,
-    "modifiers": [
-      "ctrl"
-    ],
+    "modifiers": ["ctrl"],
     "press_command": "drag_select",
-    "command": "lsp_symbol_definition"
+    "command": "lsp_symbol_definition",
   },
   {
     "button": "button1",
     "count": 1,
-    "modifiers": [
-      "shift"
-    ],
+    "modifiers": ["shift"],
     "press_command": "drag_select",
-    "command": "lsp_symbol_references"
+    "command": "lsp_symbol_references",
   },
 ]
