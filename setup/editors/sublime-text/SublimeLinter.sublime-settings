@@ -1,7 +1,15 @@
 // SublimeLinter Settings - User
 {
   // "debug": true,
+
   "linters": {
+    "clang": {
+      "I": [
+        "${folder}/include",
+        "${folder}/src",
+        "${folder}/tests"
+      ],
+    },
     "pycodestyle": {
       "filter_errors": [
         "E221",
