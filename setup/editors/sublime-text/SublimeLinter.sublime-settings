@@ -6,6 +6,7 @@
     "clang": {
       "I": [
         "${folder}/include",
+        "${folder}/lib",
         "${folder}/src",
         "${folder}/tests"
       ],
