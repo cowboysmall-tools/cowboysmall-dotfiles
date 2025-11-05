@@ -5,10 +5,20 @@
   "linters": {
     "clang": {
       "I": [
+        "${folder}/src",
         "${folder}/include",
         "${folder}/lib",
+        "${folder}/tests",
+        "${file_path}"
+      ],
+    },
+    "clang++": {
+      "I": [
         "${folder}/src",
-        "${folder}/tests"
+        "${folder}/include",
+        "${folder}/lib",
+        "${folder}/tests",
+        "${file_path}"
       ],
     },
     "pycodestyle": {

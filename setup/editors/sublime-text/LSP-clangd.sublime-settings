@@ -3,7 +3,9 @@
 {
   "initializationOptions": {
     "fallbackFlags": [
-      "-I${folder}/include"
+      "-I${folder}/include",
+      "-I${folder}/lib",
+      "-I${folder}/tests"
     ]
   }
 }
