@@ -6,7 +6,7 @@ dnf group install c-development
 
 
 # C / C++
-dnf install clang clang-devel cmake CUnit CUnit-devel check check-devel
+dnf install clang clang-devel cmake CUnit CUnit-devel check check-devel ncurses ncurses-devel notcurses notcurses-devel bear
 
 
 # LaTex
