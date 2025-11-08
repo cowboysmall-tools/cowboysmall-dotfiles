@@ -9,5 +9,7 @@ dnf install \
     python3-fabric \
     python3-flask+async \
     python3-lsp-server python3-pycodestyle python3-flake8 python3-mypy \
-    python3-pyasyncore python3-pyasynchat \
-    hatch uv ruff
+    python3-pyasyncore python3-pyasynchat
+
+
+dnf install uv hatch ruff

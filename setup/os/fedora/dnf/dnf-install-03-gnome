@@ -2,7 +2,7 @@
 
 
 # Apps
-dnf install gnome-tweaks gnome-screenshot gnome-extensions-app
+dnf install gnome-tweaks gnome-extensions-app
 
 
 # Extensions
@@ -10,4 +10,4 @@ dnf install gnome-shell-extension-appindicator gnome-shell-extension-blur-my-she
 
 
 # Themes
-dnf install adw-gtk3-theme gnome-themes-extra
+dnf install gnome-themes-extra

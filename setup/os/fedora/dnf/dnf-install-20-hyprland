@@ -14,7 +14,7 @@ dnf install ghostty
 # Hyprland
 dnf copr enable solopasha/hyprland
 
-dnf install hyprland hyprland-devel hypridle hyprlock hyprpaper hyprnome hyprpolkitagent xdg-desktop-portal-hyprland xdg-desktop-portal-gtk rofi waybar wlogout
+dnf install hyprland hyprland-devel hypridle hyprlock hyprpaper hyprnome hyprpolkitagent xdg-desktop-portal-hyprland rofi waybar wlogout
 
 
 # Browser
@@ -23,3 +23,15 @@ dnf install qutebrowser
 
 # Utils
 dnf install network-manager-applet blueman
+
+
+
+# dnf remove kitty
+
+# dnf remove ghostty
+
+# dnf remove hyprland hyprland-devel hypridle hyprlock hyprpaper hyprnome hyprpolkitagent xdg-desktop-portal-hyprland rofi waybar wlogout
+
+# dnf remove qutebrowser
+
+# dnf remove network-manager-applet blueman
