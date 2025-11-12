@@ -5,7 +5,7 @@
 Check the remote, and change if appropriate:
 
 ```
-> git remote -v                                                                                                                                                                                 ✔
+> git remote -v
 origin  gitolite3@cowboysmall.com:repo-name.git (fetch)
 origin  gitolite3@cowboysmall.com:repo-name.git (push)
 
