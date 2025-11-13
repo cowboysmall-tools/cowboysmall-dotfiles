@@ -6,12 +6,31 @@ Check the remote, and change if appropriate:
 
 ```
 > git remote -v
-origin  gitolite3@cowboysmall.com:repo-name.git (fetch)
-origin  gitolite3@cowboysmall.com:repo-name.git (push)
+origin  git@cowboysmall.com:some-repo-name.git (fetch)
+origin  git@cowboysmall.com:some-repo-name.git (push)
 
 ...
 
-> git remote set-url origin gitolite3@cowboysmall.com:repo-name.git
+> git remote set-url origin gitolite3@cowboysmall.com:other-repo-name.git
+
+...
+
+> git remote -v
+origin  gitolite3@cowboysmall.com:other-repo-name.git (fetch)
+origin  gitolite3@cowboysmall.com:other-repo-name.git (push)
+
+```
+
+Create main branch ( for example, to migrate from master to main):
+
+```
+
+> git branch --move master main
+
+...
+
+> git push --set-upstream origin main
+
 
 ```
 
