@@ -42,10 +42,9 @@ Change from master to main:
 
 ...
 
-> get branch --all
+> git branch --all
 
-* main
-  master
+* master
   remotes/origin/HEAD -> origin/master
   remotes/origin/main
   remotes/origin/master
