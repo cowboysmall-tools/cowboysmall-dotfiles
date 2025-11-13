@@ -9,6 +9,8 @@ Check the remote, and change if appropriate:
 origin  gitolite3@cowboysmall.com:repo-name.git (fetch)
 origin  gitolite3@cowboysmall.com:repo-name.git (push)
 
+...
+
 > git remote set-url origin gitolite3@cowboysmall.com:repo-name.git
 
 ```
