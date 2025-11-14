@@ -21,7 +21,7 @@ origin  gitolite3@cowboysmall.com:other-repo-name.git (push)
 
 ```
 
-Create main branch ( for example, to migrate from master to main):
+Create main branch (for example, to migrate from master to main):
 
 ```
 
@@ -53,6 +53,14 @@ Change from master to main:
 
 > git checkout main
 
+
+```
+
+Delete master branch:
+
+```
+
+> git push origin --delete master
 
 ```
 
