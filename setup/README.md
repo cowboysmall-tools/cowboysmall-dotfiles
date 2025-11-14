@@ -55,3 +55,23 @@ Change from master to main:
 
 
 ```
+
+## Submodules
+
+To update submodules after initial clone of repository:
+
+```
+
+> git submodule update --recursive --init
+
+
+```
+
+To update submodules:
+
+```
+
+> git submodule update --recursive --remote
+
+
+```
