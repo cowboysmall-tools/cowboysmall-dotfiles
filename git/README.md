@@ -91,6 +91,15 @@ Delete remote master branch:
 
 ```
 
+Clean up tracking branch that refers to master:
+
+```
+
+> git remote prune origin
+
+
+```
+
 ## Submodules
 
 To update submodules after initial clone of repository:
