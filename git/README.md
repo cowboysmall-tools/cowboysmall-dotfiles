@@ -24,6 +24,13 @@ Create main branch:
 ```
 
 > git branch --move master main
+
+```
+
+Push newly created main branch to remote:
+
+```
+
 > git push --set-upstream origin main
 
 ```
@@ -33,28 +40,7 @@ Change from master to main:
 ```
 
 > git fetch --all
-> git branch --all
-
-* master
-  remotes/origin/HEAD -> origin/master
-  remotes/origin/main
-  remotes/origin/master
-
 > git checkout main
-
-```
-
-Push newly created main branch to remote:
-
-```
-
-> git branch --all
-
-* main
-  remotes/origin/HEAD -> origin/master
-  remotes/origin/main
-  remotes/origin/master
-
 
 ```
 
@@ -80,7 +66,6 @@ Update local and remote on workstations:
 > git remote set-head origin main
 > git branch -d master
 
-
 ```
 
 Delete remote master branch:
@@ -91,12 +76,11 @@ Delete remote master branch:
 
 ```
 
-Clean up tracking branch that refers to master:
+Clean up remote tracking branch on workstations:
 
 ```
 
 > git remote prune origin
-
 
 ```
 
