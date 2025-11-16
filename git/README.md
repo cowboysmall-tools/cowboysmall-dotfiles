@@ -19,28 +19,13 @@ origin  gitolite3@cowboysmall.com:other-repo-name.git (push)
 
 ## Migrating from Master to Main
 
-Create main branch:
+Create main branch and push to remote:
 
 ```
 
-> git branch --move master main
+> git branch -m master main
+> git push -u origin main
 
-```
-
-Push newly created main branch to remote:
-
-```
-
-> git push --set-upstream origin main
-
-```
-
-Change from master to main:
-
-```
-
-> git fetch --all
-> git checkout main
 
 ```
 
@@ -61,7 +46,7 @@ Update local and remote on workstations:
 
 ```
 
-> git fetch --all
+> git fetch -a
 > git checkout main
 > git remote set-head origin main
 > git branch -d master
@@ -72,7 +57,7 @@ Delete remote master branch:
 
 ```
 
-> git push origin --delete master
+> git push origin -d master
 
 ```
 
