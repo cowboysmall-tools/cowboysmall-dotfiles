@@ -77,6 +77,7 @@ Update local and remote on workstations:
 
 > git fetch --all
 > git checkout main
+> git remote set-head origin main
 > git branch -d master
 
 
