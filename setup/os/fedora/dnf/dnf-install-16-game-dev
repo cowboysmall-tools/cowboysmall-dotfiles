@@ -2,7 +2,7 @@
 
 
 # SDL
-dnf install SDL3 SDL3-devel SDL3_image SDL3_image-devel
+dnf install SDL3 SDL3-devel SDL3_image SDL3_image-devel SDL3_sound SDL3_sound-devel SDL3_ttf SDL3_ttf-devel
 
 
 # GLFW
