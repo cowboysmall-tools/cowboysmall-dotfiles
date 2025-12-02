@@ -13,6 +13,14 @@ dnf install glfw glfw-devel
 dnf install glad glad-devel
 
 
+# mesa libEGL
+dnf install mesa-libEGL mesa-libEGL-devel
+
+
+# mesa libGL
+dnf install mesa-libGL mesa-libGL-devel
+
+
 # libdecor
 dnf install libdecor libdecor-devel
 
