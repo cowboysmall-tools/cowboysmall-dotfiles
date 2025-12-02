@@ -10,7 +10,8 @@ dnf install glfw glfw-devel
 
 
 # GLAD
-dnf install glad glad-devel
+# dnf install glad glad-devel
+dnf install glad
 
 
 # mesa libEGL
