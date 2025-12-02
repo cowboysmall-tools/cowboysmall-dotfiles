@@ -10,9 +10,6 @@ flatpak install --assumeyes flathub com.vysp3r.ProtonPlus
 flatpak install --assumeyes flathub net.lutris.Lutris
 flatpak install --assumeyes flathub org.prismlauncher.PrismLauncher
 
-flatpak install --assumeyes flathub org.vinegarhq.Sober
-flatpak install --assumeyes flathub org.vinegarhq.Vinegar
-
 # flatpak install --assumeyes flathub com.atlauncher.ATLauncher
 # flatpak install --assumeyes flathub com.modrinth.ModrinthApp
 # flatpak install --assumeyes flathub com.mojang.Minecraft

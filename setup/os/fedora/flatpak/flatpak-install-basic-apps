@@ -23,6 +23,7 @@ flatpak install --assumeyes flathub org.gnome.Fractal
 flatpak install --assumeyes flathub org.signal.Signal
 flatpak install --assumeyes flathub org.telegram.desktop
 flatpak install --assumeyes flathub org.videolan.VLC
+flatpak install --assumeyes flathub org.vinegarhq.Sober
 flatpak install --assumeyes flathub us.zoom.Zoom
 
 # flatpak install --assumeyes flathub com.github.rafostar.Clapper
