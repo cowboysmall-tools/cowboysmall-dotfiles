@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+# SDL
+dnf install SDL3 SDL3-devel SDL3_image SDL3_image-devel
+
+
+# GLFW
+dnf install glfw glfw-devel
+
+
+# GLAD
+dnf install glad glad-devel
+
+
+# libdecor
+dnf install libdecor libdecor-devel
+
+
+# freeglut (optional)
+dnf install freeglut freeglut-devel
+
+
+# EGL Wayland Support (optional)
+dnf install egl-wayland egl-wayland-devel
