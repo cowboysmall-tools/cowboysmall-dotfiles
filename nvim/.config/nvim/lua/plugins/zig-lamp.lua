@@ -3,8 +3,7 @@ return {
   {
     "jinzhongjia/zig-lamp",
     event = "VeryLazy",
-    build = ":ZigLamp build sync",
-    -- build = ":ZigLampBuild async",
+    build = ":ZigLampBuild async",
 
     dependencies = {
       "neovim/nvim-lspconfig",
@@ -24,6 +23,9 @@ return {
 
       -- LSP configuration options passed to lspconfig
       vim.g.zig_lamp_zls_lsp_opt = {}
+
+      -- ZLS server settings (overrides built-in recommendations)
+      vim.g.zig_lamp_zls_settings = {}
 
       -- UI customization
       vim.g.zig_lamp_pkg_help_fg = "#CF5C00"
