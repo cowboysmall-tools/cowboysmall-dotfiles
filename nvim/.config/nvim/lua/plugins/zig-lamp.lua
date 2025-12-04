@@ -32,5 +32,4 @@ return {
       vim.g.zig_lamp_zig_fetch_timeout = 5000
     end
   }
-
 }

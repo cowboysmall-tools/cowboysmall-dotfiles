@@ -3,5 +3,4 @@ return {
   {
     "MunifTanjim/nui.nvim"
   }
-
 }
