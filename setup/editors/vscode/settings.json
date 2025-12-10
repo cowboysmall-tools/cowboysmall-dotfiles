@@ -17,6 +17,7 @@
   "workbench.tree.indent": 24,
   "terminal.integrated.env.linux": {},
   "editor.fontSize": 13,
+  "editor.lineHeight": 14,
   "julia.enableTelemetry": false,
   "interactiveWindow.executeWithShiftEnter": true,
   "jupyter.interactiveWindow.textEditor.executeSelection": true,
