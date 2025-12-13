@@ -2,29 +2,30 @@
 
 Various dotfiles for setting up systems - Fedora, Gentoo, NixOS.
 
-
 ## Terminal Fonts
 
- - MesloLGS Nerd Font Mono
- - JetBrainsMono Nerd Font Mono
-
+- MesloLGS Nerd Font Mono
+- JetBrainsMono Nerd Font Mono
 
 ## Terminal Services
 
-To enable music player daemon, you need to enable the following services: 
-
+To enable music player daemon, you need to enable the following service:
 
 ```zsh
 > systemctl --user enable --now mpd.service
+
+```
+
+and optionally to provide a DBus interface to mpd:
+
+```zsh
 > systemctl --user enable --now mpDris2.service
 
 ```
 
-
 ## Hyprland Services
 
-For a functioning Hyprland you will need to enable the following user services: 
-
+For a functioning Hyprland you will need to enable the following user services:
 
 ```zsh
 > systemctl --user enable --now hypridle.service
@@ -34,11 +35,9 @@ For a functioning Hyprland you will need to enable the following user services:
 
 ```
 
-
 ## User Services
 
 Example user services:
-
 
 ```zsh
 
@@ -81,4 +80,3 @@ Legend: LOAD   → Reflects whether the unit definition was properly loaded.
 To show all installed unit files use 'systemctl list-unit-files'.
 
 ```
-
