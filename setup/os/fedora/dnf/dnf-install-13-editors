@@ -1,6 +1,10 @@
 #!/bin/bash
 
 
+# Vim Enhanced
+dnf install vim-enhanced
+
+
 # NeoVim
 dnf install neovim
 
