@@ -1,5 +1,23 @@
 # Setup
 
+## Grub
+
+```
+
+rpm-ostree kargs --editor
+
+```
+
+And add the following arguments:
+
+```
+
+plymouth.force-scale=2
+
+```
+
+WHich will fix scaling on a HiDPI monitor.
+
 ## GDM (Root)
 
 ```
@@ -7,12 +25,15 @@
 machinectl shell gdm@ /bin/bash
 
 gsettings get org.gnome.desktop.interface scaling-factor
-gsettings set org.gnome.desktop.interface scaling-factor 1
+gsettings set org.gnome.desktop.interface scaling-factor 2
 
 gsettings get org.gnome.desktop.interface accent-color
 gsettings set org.gnome.desktop.interface accent-color "blue"
 
 ```
+
+Specify your preferred scaling factor and accent color.
+
 
 ## Config (Root)
 
