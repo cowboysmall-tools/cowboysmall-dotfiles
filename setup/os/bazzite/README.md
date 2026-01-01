@@ -6,17 +6,17 @@
 
 rpm-ostree kargs --editor
 
+
 ```
 
-And add the following arguments:
+Add the following arguments:
 
 ```
 
 plymouth.force-scale=2
 
-```
 
-WHich will fix scaling on a HiDPI monitor.
+```
 
 ## GDM (Root)
 
@@ -24,16 +24,42 @@ WHich will fix scaling on a HiDPI monitor.
 
 machinectl shell gdm@ /bin/bash
 
-gsettings get org.gnome.desktop.interface scaling-factor
 gsettings set org.gnome.desktop.interface scaling-factor 2
+gsettings get org.gnome.desktop.interface scaling-factor
 
-gsettings get org.gnome.desktop.interface accent-color
 gsettings set org.gnome.desktop.interface accent-color "blue"
+gsettings get org.gnome.desktop.interface accent-color
+
 
 ```
 
-Specify your preferred scaling factor and accent color.
+Specify your preferred scaling factor and accent color. Note: The above does not work
+since Gnome 49 - you will need to also perform the following:
 
+```
+
+cp /var/lib/gdm/.config/dconf/user /var/lib/gdm/seat0/config/dconf/user
+
+
+```
+
+If you copied monitor settings to the gdm home directory you will also need to perform
+the following step:
+
+```
+
+cp /var/lib/gdm/.config/monitors.xml /var/lib/gdm/seat0/config/monitors.xml
+
+
+```
+
+You may also need to do the following to restore SELinux security contexts:
+
+```
+
+restorecon -RFv /var/lib/gdm/
+
+```
 
 ## Config (Root)
 
@@ -42,7 +68,6 @@ Specify your preferred scaling factor and accent color.
 hostnamectl set-hostname <hostname>
 
 ujust toggle-user-motd
-
 
 
 ```
