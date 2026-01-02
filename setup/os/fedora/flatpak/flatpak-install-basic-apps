@@ -28,6 +28,7 @@ flatpak install --assumeyes flathub us.zoom.Zoom
 
 # flatpak install --assumeyes flathub com.github.rafostar.Clapper
 # flatpak install --assumeyes flathub com.simplenote.Simplenote
+# flatpak install --assumeyes flathub com.usebottles.bottles
 # flatpak install --assumeyes flathub im.dino.Dino
 # flatpak install --assumeyes flathub org.gnome.Lollypop
 # flatpak install --assumeyes flathub org.gnome.Podcasts
