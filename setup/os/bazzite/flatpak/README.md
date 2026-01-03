@@ -14,13 +14,37 @@ Element                        im.riot.Riot                                     
 GDM Settings                   io.github.realmazharhussain.GdmSettings           5.0                            stable           system
 itch                           io.itch.itch                                      v26.1.9                        stable           system
 RetroArch                      org.libretro.RetroArch                            1.22.2                         stable           system
-Firefox                        org.mozilla.firefox                               146.0.1                        stable           system
 Prism Launcher                 org.prismlauncher.PrismLauncher                   9.4                            stable           system
 VLC                            org.videolan.VLC                                  3.0.21                         stable           system
 Sober                          org.vinegarhq.Sober                               1.6.5                          stable           system
 VacuumTube                     rocks.shy.VacuumTube                              1.5.3                          stable           system
 Plex                           tv.plex.PlexDesktop                               1.112.0                        stable           system
 
+```
+
+```
+
+Discord                        com.discordapp.Discord                            0.0.119                        stable           system
+Google Chrome                  com.google.Chrome                                 143.0.7499.169-1               stable           system
+Heroic                         com.heroicgameslauncher.hgl                       v2.18.1                        stable           system
+Spotify                        com.spotify.Client                                1.2.74.477.g3be53afe           stable           system
+Element                        im.riot.Riot                                      1.12.7                         stable           system
+GDM Settings                   io.github.realmazharhussain.GdmSettings           5.0                            stable           system
+itch                           io.itch.itch                                      v26.1.9                        stable           system
+RetroDECK                      net.retrodeck.retrodeck                           0.9.4b                         stable           system
+RetroArch                      org.libretro.RetroArch                            1.22.2                         stable           system
+Prism Launcher                 org.prismlauncher.PrismLauncher                   9.4                            stable           system
+VLC                            org.videolan.VLC                                  3.0.21                         stable           system
+Sober                          org.vinegarhq.Sober                               1.6.5                          stable           system
+VacuumTube                     rocks.shy.VacuumTube                              1.5.3                          stable           system
+Plex                           tv.plex.PlexDesktop                               1.112.0                        stable           system
+Plex HTPC                      tv.plex.PlexHTPC                                  1.70.1                         stable           system
+
+```
+
+
+
+```
 
 Protontricks                   com.github.Matoking.protontricks                  1.13.1                         stable           system
 Flatseal                       com.github.tchx84.Flatseal                        2.4.0                          stable           system
@@ -43,9 +67,44 @@ Weather                        org.gnome.Weather                                
 Disk Usage Analyzer            org.gnome.baobab                                  49.1                           stable           system
 Clocks                         org.gnome.clocks                                  49.0                           stable           system
 Fonts                          org.gnome.font-viewer                             49.0                           stable           system
+Firefox                        org.mozilla.firefox                               146.0.1                        stable           system
 
 
 ```
+
+
+
+
+```
+
+Protontricks                   com.github.Matoking.protontricks                  1.13.1                         stable           system
+Flatseal                       com.github.tchx84.Flatseal                        2.4.0                          stable           system
+Extension Manager              com.mattjakeman.ExtensionManager                  0.6.5                          stable           system
+DistroShelf                    com.ranfdev.DistroShelf                           1.3.0                          stable           system
+ProtonPlus                     com.vysp3r.ProtonPlus                             0.5.14                         stable           system
+Warehouse                      io.github.flattool.Warehouse                      2.1.0                          stable           system
+Mission Center                 io.missioncenter.MissionCenter                    1.1.0                          stable           system
+Tuner                          org.altlinux.Tuner                                0.5.0                          stable           system
+Calculator                     org.gnome.Calculator                              49.2                           stable           system
+Calendar                       org.gnome.Calendar                                49.0.1                         stable           system
+Characters                     org.gnome.Characters                              49.1                           stable           system
+Contacts                       org.gnome.Contacts                                49.0                           stable           system
+Logs                           org.gnome.Logs                                    49.0                           stable           system
+Image Viewer                   org.gnome.Loupe                                   49.1                           stable           system
+Sushi                          org.gnome.NautilusPreviewer                       46.0                           stable           system
+Document Viewer                org.gnome.Papers                                  49.2                           stable           system
+Text Editor                    org.gnome.TextEditor                              49.0                           stable           system
+Weather                        org.gnome.Weather                                 49.0                           stable           system
+Disk Usage Analyzer            org.gnome.baobab                                  49.1                           stable           system
+Clocks                         org.gnome.clocks                                  49.0                           stable           system
+Fonts                          org.gnome.font-viewer                             49.0                           stable           system
+Firefox                        org.mozilla.firefox                               146.0.1                        stable           system
+
+
+
+
+```
+
 
 ## Runtimes
 
