@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir -p ~/Games/ROMs
+
+sudo mount -t cifs //tristram.local/roms ~/Games/ROMs -o credentials=~/Games/.credentials,uid=1000,gid=1000
