@@ -1,5 +1,5 @@
 #!/bin/bash
 
-mkdir -p ~/Games/ROMs
+mkdir -p ~/Games/RetroDECK
 
-sudo mount -t cifs //tristram.local/roms ~/Games/ROMs -o credentials=~/Games/.credentials,uid=1000,gid=1000
+sudo mount -t cifs //tristram.local/games ~/Games/RetroDECK -o credentials=~/Games/.credentials,uid=1000,gid=1000
