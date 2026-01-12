@@ -70,10 +70,6 @@ return {
   {
     "neovim/nvim-lspconfig",
 
-    dependencies = {
-      "nvim-java/nvim-java"
-    },
-
     config = function()
       require "configs.lspconfig"
     end
