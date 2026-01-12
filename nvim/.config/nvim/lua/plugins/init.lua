@@ -34,13 +34,10 @@ return {
         "java-test",
         "jdtls",
         "json-lsp",
-        "lombok-nightly",
         "lua-language-server",
-        "openjdk-17",
         "prettier",
         "pyright",
         "rust-analyzer",
-        "spring-boot-tools",
         "stylua",
         "texlab",
         "vtsls"
