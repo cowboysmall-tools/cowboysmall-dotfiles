@@ -1,10 +1,12 @@
 [Desktop Entry]
-Type=Application
-Version=1.0
 Name=Minecraft Launcher
 Comment=Official Minecraft Launcher
-Exec=/home/jerry/Apps/minecraft-launcher/minecraft-launcher
+# Exec=/home/jerry/Apps/minecraft-launcher/minecraft-launcher
+Exec=/home/jerry/Apps/minecraft-launcher/minecraft-launcher-mesa
 Path=/home/jerry/Apps/minecraft-launcher
-Icon=/home/jerry/Apps/minecraft-launcher/minecraft.png
+Icon=/home/jerry/Apps/minecraft-launcher/minecraft-launcher.png
 Terminal=false
+Type=Application
 Categories=Game;Application;
+Version=1.0
+StartupWMClass=Minecraft
