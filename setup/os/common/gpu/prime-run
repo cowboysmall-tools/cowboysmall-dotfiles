@@ -1,11 +1,20 @@
 #!/bin/bash
 
+
+# The typical / standard environment variables to set to offload rendering to discrete nvidia GPU:
+#
 # export __NV_PRIME_RENDER_OFFLOAD=1
 # export __VK_LAYER_NV_optimus=NVIDIA_only
 # export __GLX_VENDOR_LIBRARY_NAME=nvidia
-# export __GL_YIELD=USLEEP
+
+# Not sure how necessary this is - I will look into this:
+#
 # export VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json
 
-# exec "$@"
+
+# This value seems to cause issues, so should be used with caution:
+#
+# export __GL_YIELD=USLEEP
+
 
 __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only __GLX_VENDOR_LIBRARY_NAME=nvidia "$@"
