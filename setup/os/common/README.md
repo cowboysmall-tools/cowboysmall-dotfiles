@@ -8,8 +8,8 @@ A temporary fix:
 
 ```
 
-> cp /usr/share/applications/com.google.Chrome.desktop .local/share/applications
-> sed -i "2a\\NotShowIn=GNOME;KDE" .local/share/applications/com.google.Chrome.desktop
+> cp /usr/share/applications/com.google.Chrome.desktop ~/.local/share/applications
+> sed -i "2a\\NotShowIn=GNOME;KDE" ~/.local/share/applications/com.google.Chrome.desktop
 
 
 ```
@@ -20,7 +20,7 @@ A temporary fix:
 
 > mkdir Bak && cd Bak/
 
-> tar -xzvf /run/media/jerry/Storage/Backups/Laptops/Common/Root/Bin.tar.gz
+> tar -xzvf /Path/To/Archives/Root/Bin.tar.gz
 
 
 ```
@@ -31,16 +31,8 @@ A temporary fix:
 
 > mkdir Bak && cd Bak/
 
-> tar -xzvf /run/media/jerry/Storage/Backups/Laptops/Common/User/Apps-Misc.tar.gz
-> tar -xzvf /run/media/jerry/Storage/Backups/Laptops/Common/User/Apps-Dev.tar.gz Apps/zed.app
-> tar -xzvf /run/media/jerry/Storage/Backups/Laptops/Common/User/Bin.tar.gz
-> tar -xzvf /run/media/jerry/Storage/Backups/Laptops/Common/User/Shared.tar.gz
-> tar -xzvf /run/media/jerry/Storage/Backups/Laptops/Common/User/Hidden/Dotfiles.tar.gz
-> tar -xzvf /run/media/jerry/Storage/Backups/Laptops/Common/User/Hidden/Local.tar.gz
-> tar -xzvf /run/media/jerry/Storage/Backups/Laptops/Common/User/Hidden/Minecraft.tar.gz
-> tar -xzvf /run/media/jerry/Storage/Backups/Laptops/Common/User/Hidden/Mozilla.tar.gz
-> tar -xzvf /run/media/jerry/Storage/Backups/Laptops/Common/User/Hidden/OMZ.tar.gz
-> tar -xzvf /run/media/jerry/Storage/Backups/Laptops/Common/User/Hidden/SSH.tar.gz
+> tar -xzvf /Path/To/Archives/User/Bin.tar.gz
+...
 
 
 ```
