@@ -9,6 +9,7 @@ A temporary fix:
 ```
 
 > cp /usr/share/applications/com.google.Chrome.desktop ~/.local/share/applications
+
 > sed -i "2a\\NotShowIn=GNOME;KDE" ~/.local/share/applications/com.google.Chrome.desktop
 
 
