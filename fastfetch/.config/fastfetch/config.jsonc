@@ -10,205 +10,178 @@
   },
   "modules": [
     "break",
-    // "title",
+    "title",
     // {
-    //   "type": "title",
-    //   // "keyColor": "36"
-    //   // "outputColor": "36"
-    //   "color": "36"
+    //   "type": "title"
+    //   // "keyColor": "34"
+    //   // "outputColor": "34"
+    //   // "color": "34"
     // },
-
-    "break",
-    {
-      "type": "custom", // HardwareStart
-      "format": "┌─────── Hardware: ─────────────────────────────────────────────────────────┐",
-      "outputColor": "37"
-    },
-
-    // "break",
-    {
-      "type": "custom", // InformationEnd
-      "format": "│",
-      "outputColor": "37"
-    },
-
-    // "host",
-    {
-      "type": "host",
-      "key": "│            Host",
-      "keyColor": "37"
-    },
-
-    // "cpu",
-    {
-      "type": "cpu",
-      "key": "│             CPU",
-      "keyColor": "37"
-    },
-
-    // "gpu",
-    {
-      "type": "gpu",
-      "key": "│             GPU",
-      "keyColor": "37"
-    },
-
-    // "display",
-    {
-      "type": "display",
-      "key": "│         Display",
-      "keyColor": "37"
-    },
-
-    // "memory",
-    {
-      "type": "memory",
-      "key": "│          Memory",
-      "keyColor": "37"
-    },
-
-    // "disk",
-    {
-      "type": "disk",
-      "key": "│            Disk",
-      "keyColor": "37"
-    },
-
-    // "break",
-    {
-      "type": "custom", // InformationEnd
-      "format": "│",
-      "outputColor": "37"
-    },
-
-    {
-      "type": "custom", // InformationEnd
-      "format": "└───────────────────────────────────────────────────────────────────────────┘",
-      "outputColor": "37"
-    },
 
     "break",
     {
       "type": "custom", // SoftwareStart
       "format": "┌─────── Software: ─────────────────────────────────────────────────────────┐",
-      "outputColor": "36"
+      "outputColor": "34"
     },
 
     // "break",
     {
       "type": "custom", // InformationEnd
       "format": "│",
-      "outputColor": "36"
+      "outputColor": "34"
     },
 
     // "os",
     {
       "type": "os",
       "key": "│              OS",
-      "keyColor": "36"
+      "keyColor": "34"
     },
 
     // "kernel",
     {
       "type": "kernel",
       "key": "│          Kernel",
-      "keyColor": "36"
+      "keyColor": "34"
     },
 
     // "packages",
     {
       "type": "packages",
       "key": "│        Packages",
-      "keyColor": "36"
+      "keyColor": "34"
     },
 
     // "terminal",
     {
       "type": "terminal",
       "key": "│        Terminal",
-      "keyColor": "36"
+      "keyColor": "34"
     },
 
     // "shell",
     {
       "type": "shell",
       "key": "│           Shell",
-      "keyColor": "36"
-    },
-
-    // "break",
-    {
-      "type": "custom", // InformationEnd
-      "format": "│",
-      "outputColor": "36"
-    },
-
-    {
-      "type": "custom", // InformationEnd
-      "format": "└───────────────────────────────────────────────────────────────────────────┘",
-      "outputColor": "36"
-    },
-
-    "break",
-    {
-      "type": "custom", // SoftwareStart
-      "format": "┌──────── Desktop: ─────────────────────────────────────────────────────────┐",
-      "outputColor": "35"
-    },
-
-    // "break",
-    {
-      "type": "custom", // InformationEnd
-      "format": "│",
-      "outputColor": "35"
+      "keyColor": "34"
     },
 
     // "de",
     {
       "type": "de",
       "key": "│              DE",
-      "keyColor": "35"
+      "keyColor": "34"
     },
 
     // "wm",
     {
       "type": "wm",
       "key": "│              WM",
-      "keyColor": "35"
+      "keyColor": "34"
     },
 
     // "break",
     // {
     //   "type": "custom", // InformationEnd
     //   "format": "│",
-    //   "outputColor": "36"
+    //   "outputColor": "34"
     // },
 
     // "theme",
     {
       "type": "theme",
       "key": "│           Theme",
-      "keyColor": "35"
+      "keyColor": "34"
     },
 
     // "icons",
     {
       "type": "icons",
       "key": "│           Icons",
-      "keyColor": "35"
+      "keyColor": "34"
     },
 
     // "font",
     {
       "type": "font",
       "key": "│            Font",
-      "keyColor": "35"
+      "keyColor": "34"
     },
 
     // "terminalfont",
     {
       "type": "terminalfont",
       "key": "│   Terminal Font",
+      "keyColor": "34"
+    },
+
+    // "break",
+    {
+      "type": "custom", // InformationEnd
+      "format": "│",
+      "outputColor": "34"
+    },
+
+    {
+      "type": "custom", // InformationEnd
+      "format": "└───────────────────────────────────────────────────────────────────────────┘",
+      "outputColor": "34"
+    },
+
+    "break",
+    {
+      "type": "custom", // HardwareStart
+      "format": "┌─────── Hardware: ─────────────────────────────────────────────────────────┐",
+      "outputColor": "35"
+    },
+
+    // "break",
+    {
+      "type": "custom", // InformationEnd
+      "format": "│",
+      "outputColor": "35"
+    },
+
+    // "host",
+    {
+      "type": "host",
+      "key": "│            Host",
+      "keyColor": "35"
+    },
+
+    // "cpu",
+    {
+      "type": "cpu",
+      "key": "│             CPU",
+      "keyColor": "35"
+    },
+
+    // "gpu",
+    {
+      "type": "gpu",
+      "key": "│             GPU",
+      "keyColor": "35"
+    },
+
+    // "display",
+    {
+      "type": "display",
+      "key": "│         Display",
+      "keyColor": "35"
+    },
+
+    // "memory",
+    {
+      "type": "memory",
+      "key": "│          Memory",
+      "keyColor": "35"
+    },
+
+    // "disk",
+    {
+      "type": "disk",
+      "key": "│            Disk",
       "keyColor": "35"
     },
 
@@ -229,96 +202,96 @@
     {
       "type": "custom", // NetworkStart
       "format": "┌──────── Network: ─────────────────────────────────────────────────────────┐",
-      "outputColor": "34"
+      "outputColor": "36"
     },
 
     // "break",
     {
       "type": "custom", // InformationEnd
       "format": "│",
-      "outputColor": "34"
+      "outputColor": "36"
     },
 
     // "localip",
     {
       "type": "localip",
       "key": "│        Local IP",
-      "keyColor": "34"
+      "keyColor": "36"
     },
 
     // "publicip",
     {
       "type": "publicip",
       "key": "│       Public IP",
-      "keyColor": "34"
+      "keyColor": "36"
     },
 
     // "break",
     {
       "type": "custom", // InformationEnd
       "format": "│",
-      "outputColor": "34"
+      "outputColor": "36"
     },
 
     {
       "type": "custom", // InformationEnd
       "format": "└───────────────────────────────────────────────────────────────────────────┘",
-      "outputColor": "34"
+      "outputColor": "36"
     },
 
     "break",
     {
       "type": "custom", // UptimeStart
       "format": "┌── Miscellaneous: ─────────────────────────────────────────────────────────┐",
-      "outputColor": "33"
+      "outputColor": "37"
     },
 
     // "break",
     {
       "type": "custom", // InformationEnd
       "format": "│",
-      "outputColor": "33"
+      "outputColor": "37"
     },
 
     // "uptime",
     {
       "type": "uptime",
       "key": "│          Uptime",
-      "keyColor": "33"
+      "keyColor": "37"
     },
 
     {
       "type": "command",
       "key": "│             Age",
       "text": "birth_install=$(stat -c %W /); current=$(date +%s); days_difference=$(( (current - birth_install) / 86400 )); echo $days_difference days",
-      "keyColor": "33"
+      "keyColor": "37"
     },
 
     // "locale",
     {
       "type": "locale",
       "key": "│          Locale",
-      "keyColor": "33"
+      "keyColor": "37"
     },
 
     // "datetime",
     {
       "type": "datetime",
       "key": "│            Date",
-      "keyColor": "33"
+      "keyColor": "37"
     },
 
     // "break",
     {
       "type": "custom", // InformationEnd
       "format": "│",
-      "outputColor": "33"
+      "outputColor": "37"
     },
 
     {
       "type": "custom", // InformationEnd
       "format": "└───────────────────────────────────────────────────────────────────────────┘",
-      "outputColor": "33"
+      "outputColor": "37"
     },
 
     "break",
