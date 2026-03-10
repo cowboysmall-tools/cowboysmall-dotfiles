@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+# Vim Enhanced
+dnf install vim-enhanced
+
+
+# NeoVim
+dnf install neovim
+
+
+# Helix
+dnf install helix

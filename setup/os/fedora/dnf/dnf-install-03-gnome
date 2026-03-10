@@ -6,7 +6,10 @@ dnf install gnome-tweaks gnome-extensions-app
 
 
 # Extensions
-dnf install gnome-shell-extension-appindicator gnome-shell-extension-blur-my-shell gnome-shell-extension-just-perfection
+dnf install \
+    gnome-shell-extension-appindicator \
+    gnome-shell-extension-blur-my-shell \
+    gnome-shell-extension-just-perfection
 
 
 # Themes

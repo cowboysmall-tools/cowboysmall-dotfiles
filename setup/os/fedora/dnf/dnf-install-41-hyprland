@@ -1,0 +1,20 @@
+#!/bin/bash
+
+
+dnf copr enable solopasha/hyprland
+
+dnf install \
+    hyprland \
+    hyprland-devel \
+    hypridle \
+    hyprlock \
+    hyprpaper \
+    hyprnome \
+    hyprpolkitagent \
+    xdg-desktop-portal-hyprland \
+    rofi \
+    waybar \
+    wlogout
+
+
+# dnf remove hyprland hyprland-devel hypridle hyprlock hyprpaper hyprnome hyprpolkitagent xdg-desktop-portal-hyprland rofi waybar wlogout

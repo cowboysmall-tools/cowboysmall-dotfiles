@@ -1,12 +1,25 @@
 #!/bin/bash
 
 
+# Kitty Terminal
+dnf install kitty
+
+
 # Flatpak
 dnf install flatpak
 
 
 # Pipewire
 dnf install pipewire wireplumber
+
+
+# Browser
+dnf install qutebrowser
+
+
+# Utils
+dnf install network-manager-applet blueman
+
 
 
 # Look and Feel Related

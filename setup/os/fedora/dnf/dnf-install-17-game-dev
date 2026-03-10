@@ -2,7 +2,19 @@
 
 
 # SDL
-dnf install SDL3 SDL3-devel SDL3_image SDL3_image-devel SDL3_sound SDL3_sound-devel SDL3_ttf SDL3_ttf-devel
+dnf install \
+    SDL3 \
+    SDL3-devel \
+    SDL3_image \
+    SDL3_image-devel \
+    SDL3_sound \
+    SDL3_sound-devel \
+    SDL3_ttf \
+    SDL3_ttf-devel
+
+
+# Graphene
+dnf install graphene graphene-devel
 
 
 # GLFW
@@ -10,7 +22,6 @@ dnf install glfw glfw-devel
 
 
 # GLAD
-# dnf install glad glad-devel
 dnf install glad
 
 
