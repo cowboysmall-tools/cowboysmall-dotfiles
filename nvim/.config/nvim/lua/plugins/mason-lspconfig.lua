@@ -13,25 +13,35 @@ return {
     opts = {
 
       ensure_installed = {
-        "black",
-        "clang-format",
+
+        -- Language Servers
         "clangd",
         "css-lsp",
-        "google-java-format",
         "gopls",
         "html-lsp",
-        "isort",
-        "java-debug-adapter",
-        "java-test",
         "jdtls",
         "json-lsp",
+        "julia-lsp",
         "lua-language-server",
-        "prettier",
         "pyright",
         "rust-analyzer",
-        "stylua",
         "texlab",
-        "vtsls"
+        "vtsls",
+
+        -- DAPs
+        "java-debug-adapter",
+
+        -- Test Runners
+        "java-test",
+
+        -- Formatters
+        "black",
+        "clang-format",
+        "google-java-format",
+        "isort",
+        "prettier",
+        "stylua"
+
       }
     }
   }
