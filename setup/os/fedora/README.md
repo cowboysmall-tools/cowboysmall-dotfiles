@@ -65,3 +65,15 @@ install extensions:
 
 
 ```
+
+## Go Issues
+
+If modules fail to install due to checksum mismatches try executing the following:
+
+```
+
+> go clean -modcache
+> go mod tidy
+
+
+```
