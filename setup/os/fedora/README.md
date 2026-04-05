@@ -68,6 +68,15 @@ install extensions:
 
 ## Go Issues
 
+Check the health of installed nvim plugin modules by executing the following:
+
+```
+
+> :checkhealth go
+
+
+```
+
 If modules fail to install due to checksum mismatches try executing the following:
 
 ```
