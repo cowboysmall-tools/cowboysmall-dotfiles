@@ -14,7 +14,7 @@
   "flutter-tools.nvim": { "branch": "main", "commit": "677cc07c16e8b89999108d2ebeefcfc5f539b73c" },
   "friendly-snippets": { "branch": "main", "commit": "6cd7280adead7f586db6fccbd15d2cac7e2188b9" },
   "gitsigns.nvim": { "branch": "main", "commit": "0d797daee85366bc242580e352a4f62d67557b84" },
-  "go.nvim": { "branch": "master", "commit": "c97cac0cd9e56b44ae5d4b95034d414cedb20145" },
+  "go.nvim": { "branch": "master", "commit": "5c1c4ed1b8278a750e700e7ce5191b07417756ea" },
   "guihua.lua": { "branch": "master", "commit": "c4f1b5ee1a66dbcef0b2c5ee26e42b9757684f61" },
   "indent-blankline.nvim": { "branch": "master", "commit": "d28a3f70721c79e3c5f6693057ae929f3d9c0a03" },
   "julia-vim": { "branch": "master", "commit": "52b30547346b21bc93acda28d626795667f9e087" },
