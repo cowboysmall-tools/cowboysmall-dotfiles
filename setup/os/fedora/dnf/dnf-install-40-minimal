@@ -21,6 +21,5 @@ dnf install qutebrowser
 dnf install network-manager-applet blueman
 
 
-
 # Look and Feel Related
 dnf install papirus-icon-theme nwg-look qt5ct qt6ct

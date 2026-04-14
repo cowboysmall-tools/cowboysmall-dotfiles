@@ -5,6 +5,10 @@ dnf group install development-tools
 dnf group install c-development
 
 
+# Meson
+dnf install meson
+
+
 # C / C++
 dnf install \
     clang \
@@ -39,3 +43,7 @@ dnf install lua
 
 # GTK4
 dnf install gtk4 gtk4-devel
+
+
+# Liadwaita
+dnf install libadwaita libadwaita-devel
