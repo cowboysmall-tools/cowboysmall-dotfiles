@@ -1,0 +1,5 @@
+evdev:input:b0005v620Ap0407*
+ KEYBOARD_KEY_c0041=enter
+
+evdev:input:b0003v4842p0001*
+ KEYBOARD_KEY_c0041=enter
