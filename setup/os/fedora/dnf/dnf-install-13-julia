@@ -1,6 +1,0 @@
-#!/bin/bash
-
-
-dnf copr enable varlad/juliaup
-
-dnf install juliaup

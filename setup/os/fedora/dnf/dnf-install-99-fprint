@@ -1,7 +1,0 @@
-#!/bin/bash
-
-
-# Fingerprint Reader for Dell XPS 15 9500
-dnf copr enable manciukic/libfprint-tod-goodix
-
-dnf install fprintd fprintd-pam libfprint-tod-goodix
