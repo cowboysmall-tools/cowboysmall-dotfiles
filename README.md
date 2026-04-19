@@ -2,11 +2,6 @@
 
 Various dotfiles for setting up systems - Fedora, Gentoo, NixOS.
 
-## Terminal Fonts
-
-- MesloLGS Nerd Font Mono
-- JetBrainsMono Nerd Font Mono
-
 ## Terminal Services
 
 To enable music player daemon, you need to enable the following service:
