@@ -5,7 +5,7 @@ GITSTATUS_LOG_LEVEL=DEBUG
 
 export NLTK_DATA=$HOME/.local/share/nltk_data
 export GOPATH=$HOME/.go
-export ANDROID_HOME=$HOME/Android/Sdk
+export ANDROID_HOME=$HOME/Apps/Android/Sdk
 export FLUTTER_HOME=$HOME/Apps/flutter
 export NPM_PREFIX=$HOME/.npm-global
 
