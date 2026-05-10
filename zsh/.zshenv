@@ -6,8 +6,8 @@ GITSTATUS_LOG_LEVEL=DEBUG
 
 
 export R_LIBS_USER=$HOME/.local/share/R/%p-library/%v
-export R_PROFILE_USER=$HOME/.config/R/rprofile
-export R_ENVIRON_USER=$HOME/.config/R/renviron
+export R_PROFILE_USER=$HOME/.config/R/profile
+export R_ENVIRON_USER=$HOME/.config/R/environ
 
 
 export NLTK_DATA=$HOME/.local/share/nltk_data
