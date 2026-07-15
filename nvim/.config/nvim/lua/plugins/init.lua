@@ -58,7 +58,8 @@ return {
         "vimdoc",
         "yaml",
         "zig"
-      }
+      },
+      auto_install = true
     }
   }
 
