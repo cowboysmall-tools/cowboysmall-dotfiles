@@ -17,6 +17,7 @@ source $HOME/.zshrc.pre-oh-my-zsh
 alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
 
+alias ls="ls -vG --group-directories-first --color"
 
 
 echo
