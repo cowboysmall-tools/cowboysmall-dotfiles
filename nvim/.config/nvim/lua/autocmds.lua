@@ -88,12 +88,3 @@ autocmd("BufDelete", {
   end
 })
 
-
-
--- Disable markdown treesitter
-autocmd("FileType", {
-  pattern = { "markdown" },
-  callback = function()
-    vim.treesitter.stop()
-  end,
-})
