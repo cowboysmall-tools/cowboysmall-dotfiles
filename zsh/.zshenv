@@ -18,4 +18,4 @@ export ANDROID_HOME=$HOME/Apps/Android/Sdk
 
 export PATH=$HOME/.local/bin:/usr/local/bin:$GOPATH/bin:$NPM_PREFIX/bin:$FLUTTER_HOME/bin:$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$PATH
 
-source $HOME/.cargo/env
+. "$HOME/.cargo/env"
