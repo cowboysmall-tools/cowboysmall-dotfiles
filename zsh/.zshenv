@@ -13,9 +13,10 @@ export NLTK_DATA=$HOME/.local/share/nltk_data
 
 export GOPATH=$HOME/.go
 export NPM_PREFIX=$HOME/.npm-global
+export QUARTO_HOME=$HOME/Apps/quarto
 export FLUTTER_HOME=$HOME/Apps/flutter
 export ANDROID_HOME=$HOME/Apps/Android/Sdk
 
-export PATH=$HOME/.local/bin:/usr/local/bin:$GOPATH/bin:$NPM_PREFIX/bin:$FLUTTER_HOME/bin:$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$PATH
+export PATH=$HOME/.local/bin:/usr/local/bin:$GOPATH/bin:$NPM_PREFIX/bin:$QUARTO_HOME/bin:$FLUTTER_HOME/bin:$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$PATH
 
 . "$HOME/.cargo/env"
